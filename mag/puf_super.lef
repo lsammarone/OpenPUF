@@ -1,0 +1,118 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO puf_super
+  CLASS BLOCK ;
+  FOREIGN puf_super ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 599.840 BY 1700.000 ;
+  PIN reset
+    PORT
+      LAYER met3 ;
+        RECT 0.000 0.520 13.890 0.820 ;
+    END
+  END reset
+  PIN clk
+    PORT
+      LAYER met3 ;
+        RECT 0.000 944.190 76.450 944.490 ;
+    END
+  END clk
+  PIN si
+    PORT
+      LAYER met3 ;
+        RECT 0.000 1132.680 24.470 1132.980 ;
+    END
+  END si
+  PIN rstn
+    PORT
+      LAYER met3 ;
+        RECT 0.000 1321.780 41.030 1322.080 ;
+    END
+  END rstn
+  PIN puf_sel[1]
+    PORT
+      LAYER met3 ;
+        RECT 0.000 755.090 1.010 755.390 ;
+    END
+  END puf_sel[1]
+  PIN puf_sel[0]
+    PORT
+      LAYER met3 ;
+        RECT 0.000 566.600 1.010 566.900 ;
+    END
+  END puf_sel[0]
+  PIN length[1]
+    PORT
+      LAYER met3 ;
+        RECT 0.000 1698.760 68.630 1699.060 ;
+    END
+  END length[1]
+  PIN length[0]
+    PORT
+      LAYER met3 ;
+        RECT 0.000 1510.270 127.510 1510.570 ;
+    END
+  END length[0]
+  PIN out
+    PORT
+      LAYER met3 ;
+        RECT 0.000 189.010 30.910 189.310 ;
+    END
+  END out
+  PIN so
+    PORT
+      LAYER met3 ;
+        RECT 0.000 377.500 82.890 377.800 ;
+    END
+  END so
+  PIN vssd1
+    PORT
+      LAYER met5 ;
+        RECT 0.000 19.260 19.380 22.360 ;
+    END
+  END vssd1
+  PIN vccd1
+    PORT
+      LAYER met5 ;
+        RECT 0.000 25.460 25.580 28.560 ;
+    END
+  END vccd1
+  OBS
+      LAYER li1 ;
+        RECT 28.520 28.475 571.320 1671.525 ;
+      LAYER met1 ;
+        RECT 0.530 28.320 571.320 1671.680 ;
+      LAYER met2 ;
+        RECT 0.160 0.485 570.000 1699.095 ;
+      LAYER met3 ;
+        RECT 69.030 1698.360 570.000 1699.075 ;
+        RECT 0.985 1510.970 570.000 1698.360 ;
+        RECT 127.910 1509.870 570.000 1510.970 ;
+        RECT 0.985 1322.480 570.000 1509.870 ;
+        RECT 41.430 1321.380 570.000 1322.480 ;
+        RECT 0.985 1133.380 570.000 1321.380 ;
+        RECT 24.870 1132.280 570.000 1133.380 ;
+        RECT 0.985 944.890 570.000 1132.280 ;
+        RECT 76.850 943.790 570.000 944.890 ;
+        RECT 0.985 755.790 570.000 943.790 ;
+        RECT 1.410 754.690 570.000 755.790 ;
+        RECT 0.985 567.300 570.000 754.690 ;
+        RECT 1.410 566.200 570.000 567.300 ;
+        RECT 0.985 378.200 570.000 566.200 ;
+        RECT 83.290 377.100 570.000 378.200 ;
+        RECT 0.985 189.710 570.000 377.100 ;
+        RECT 31.310 188.610 570.000 189.710 ;
+        RECT 0.985 1.220 570.000 188.610 ;
+        RECT 14.290 0.505 570.000 1.220 ;
+      LAYER met4 ;
+        RECT 14.095 0.000 580.620 1700.000 ;
+      LAYER met5 ;
+        RECT 0.000 30.160 599.840 1680.740 ;
+        RECT 27.180 23.860 599.840 30.160 ;
+        RECT 20.980 19.260 599.840 23.860 ;
+  END
+END puf_super
+END LIBRARY
+

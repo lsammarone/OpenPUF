@@ -15,7 +15,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 CARAVEL_ROOT?=$(PWD)/caravel
-PRECHECK_ROOT?=${HOME}/mpw_precheck
+PRECHECK_ROOT?=${PWD}/mpw_precheck
 SIM ?= RTL
 
 export OPEN_PDKS_COMMIT?=7519dfb04400f224f140749cda44ee7de6f5e095

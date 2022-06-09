@@ -1,0 +1,16 @@
+magic
+tech sky130A
+timestamp 1654736712
+<< metal3 >>
+rect -272 76 272 90
+rect -272 -76 -256 76
+rect 256 -76 272 76
+rect -272 -90 272 -76
+<< via3 >>
+rect -256 -76 256 76
+<< metal4 >>
+rect -272 76 272 90
+rect -272 -76 -256 76
+rect 256 -76 272 76
+rect -272 -90 272 -76
+<< end >>
