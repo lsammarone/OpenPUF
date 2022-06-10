@@ -1,17 +1,18 @@
 magic
 tech sky130A
-magscale 1 2
-timestamp 1654736712
+timestamp 1483428465
+<< checkpaint >>
+rect -720 -675 720 675
+<< metal3 >>
+rect -90 36 90 45
+rect -90 -36 -76 36
+rect 76 -36 90 36
+rect -90 -45 90 -36
+<< via3 >>
+rect -76 -36 76 36
 << metal4 >>
-rect -403 918 403 952
-rect -403 -918 -278 918
-rect 278 -918 403 918
-rect -403 -952 403 -918
-<< via4 >>
-rect -278 -918 278 918
-<< metal5 >>
-rect -403 918 403 952
-rect -403 -918 -278 918
-rect 278 -918 403 918
-rect -403 -952 403 -918
+rect -90 36 90 45
+rect -90 -36 -76 36
+rect 76 -36 90 36
+rect -90 -45 90 -36
 << end >>

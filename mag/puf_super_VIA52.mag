@@ -1,0 +1,19 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1483428465
+<< checkpaint >>
+rect -1663 -2213 1663 2212
+<< metal4 >>
+rect -403 918 403 952
+rect -403 -918 -278 918
+rect 278 -918 403 918
+rect -403 -953 403 -918
+<< via4 >>
+rect -278 -918 278 918
+<< metal5 >>
+rect -403 918 403 952
+rect -403 -918 -278 918
+rect 278 -918 403 918
+rect -403 -953 403 -918
+<< end >>

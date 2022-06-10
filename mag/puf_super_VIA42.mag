@@ -1,0 +1,18 @@
+magic
+tech sky130A
+timestamp 1483428465
+<< checkpaint >>
+rect -1179 -720 1179 720
+<< metal3 >>
+rect -549 76 549 90
+rect -549 -76 -536 76
+rect 536 -76 549 76
+rect -549 -90 549 -76
+<< via3 >>
+rect -536 -76 536 76
+<< metal4 >>
+rect -549 76 549 90
+rect -549 -76 -536 76
+rect 536 -76 549 76
+rect -549 -90 549 -76
+<< end >>

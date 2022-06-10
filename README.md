@@ -8,7 +8,8 @@
 |-----------------------------------------|
 
 ## Please fill in your project documentation in this README.md file 
-openPUF
+openPUF - This design contains contains a bistable ring PUF fabricated in 130-nm through Skywater's 130-nm open source pdk. The design features 3 challenge lengths: 32, 64, and 128-bit with 4 instantiations for measurement of on-chip variation.
+The digital flow was used to route challenge bits from a shift register to all of the PUFs.
 
 :warning: | Use this sample project for analog user projects. 
 :---: | :---

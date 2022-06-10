@@ -1,7 +1,9 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1654736712
+timestamp 1483428465
+<< checkpaint >>
+rect 7716 5626 14532 8788
 << nwell >>
 rect 10784 7195 10824 7516
 rect 11708 7195 11748 7516
@@ -58,19 +60,19 @@ rect 10604 7146 11048 7153
 rect 10632 6886 10942 6982
 rect 11542 6886 11832 6982
 use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_0
-timestamp 1654736712
+timestamp 1483428465
 transform 1 0 10496 0 1 6934
 box -38 -48 314 592
 use sky130_fd_sc_hd__inv_8  sky130_fd_sc_hd__inv_8_0
-timestamp 1654736712
+timestamp 1483428465
 transform 1 0 10852 0 1 6934
 box -38 -48 866 592
 use sky130_fd_sc_hd__inv_16  sky130_fd_sc_hd__inv_16_0
-timestamp 1654736712
+timestamp 1483428465
 transform 1 0 11762 0 1 6934
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_16  sky130_fd_sc_hd__inv_16_1
-timestamp 1654736712
+timestamp 1483428465
 transform 1 0 9030 0 1 6934
 box -38 -48 1510 592
 << end >>
