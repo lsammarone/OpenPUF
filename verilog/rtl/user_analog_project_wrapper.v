@@ -15,6 +15,12 @@
 
 `default_nettype none
 
+`include "puf_top.v"
+`include "design.lvs.v"
+`include "BR128.v"
+`include "BR64.v"
+`include "BR32.v"
+
 /*
  *-------------------------------------------------------------
  *
@@ -122,60 +128,34 @@ module user_analog_project_wrapper (
 /*--------------------------------------*/
 /* User project is instantiated  here   */
 /*--------------------------------------*/
+    wire [`MPRJ_IO_PADS-`ANALOG_PADS-1:0] io_in;
+    wire [`MPRJ_IO_PADS-`ANALOG_PADS-1:0] io_in_3v3;
+    wire [`MPRJ_IO_PADS-`ANALOG_PADS-1:0] io_out;
+    wire [127:0] la_data_out;
 
-user_analog_proj_example mprj (
-    `ifdef USE_POWER_PINS
-        .vdda1(vdda1),  // User area 1 3.3V power
-        .vdda2(vdda2),  // User area 2 3.3V power
-        .vssa1(vssa1),  // User area 1 analog ground
-        .vssa2(vssa2),  // User area 2 analog ground
-        .vccd1(vccd1),  // User area 1 1.8V power
-        .vccd2(vccd2),  // User area 2 1.8V power
-        .vssd1(vssd1),  // User area 1 digital ground
-        .vssd2(vssd2),  // User area 2 digital ground
-    `endif
+    wire out_top;
+    wire so_top;
+    
+    assign io_out[25] = out_top;
+    assign la_data_out[0] = out_top;
+    assign la_data_out[1] = so_top;
 
-    .wb_clk_i(wb_clk_i),
-    .wb_rst_i(wb_rst_i),
+    puf_top puf_top_0 (
+        `ifdef USE_POWER_PINS
+            .vccd2(vccd2),  // User area 2 1.8V power
+            .vssd2(vssd2),  // User area 2 digital ground
+        `endif
+        .reset(io_in[26]),
+        .puf_sel(io_in[22:23]),
+        .clk(io_in[21]),
+        .si(io_in[20]),
+        .rstn(io_in[19]),
+        .length(io_in[17:18]),
+        .out(out_top),
+        .so(so_top)
+    );
 
-    // MGMT SoC Wishbone Slave
-
-    .wbs_cyc_i(wbs_cyc_i),
-    .wbs_stb_i(wbs_stb_i),
-    .wbs_we_i(wbs_we_i),
-    .wbs_sel_i(wbs_sel_i),
-    .wbs_adr_i(wbs_adr_i),
-    .wbs_dat_i(wbs_dat_i),
-    .wbs_ack_o(wbs_ack_o),
-    .wbs_dat_o(wbs_dat_o),
-
-    // Logic Analyzer
-
-    .la_data_in(la_data_in),
-    .la_data_out(la_data_out),
-    .la_oenb (la_oenb),
-
-    // IO Pads
-    .io_in (io_in),
-    .io_in_3v3 (io_in_3v3),
-    .io_out(io_out),
-    .io_oeb(io_oeb),
-
-    // GPIO-analog
-    .gpio_analog(gpio_analog),
-    .gpio_noesd(gpio_noesd),
-
-    // Dedicated analog
-    .io_analog(io_analog),
-    .io_clamp_high(io_clamp_high),
-    .io_clamp_low(io_clamp_low),
-
-    // Clock
-    .user_clock2(user_clock2),
-
-    // IRQ
-    .irq(user_irq)
-);
+    
 
 endmodule	// user_analog_project_wrapper
 
