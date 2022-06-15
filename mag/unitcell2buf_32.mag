@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1483428465
-<< checkpaint >>
-rect -1834 -2445 2582 2452
+timestamp 1655322987
 << nwell >>
 rect -404 1020 772 1034
 rect -396 706 772 1020
@@ -436,39 +434,39 @@ rect 1183 -1090 1207 -1034
 rect 1263 -1090 1322 -1034
 rect -566 -1185 1322 -1090
 use sky130_fd_pr__pfet_01v8_hvt_UUWA33  1
-timestamp 1483428465
+timestamp 1655322987
 transform 1 0 -125 0 1 -222
 box -109 -200 109 200
 use sky130_fd_pr__pfet_01v8_hvt_UUWA33  2
-timestamp 1483428465
+timestamp 1655322987
 transform 1 0 521 0 1 -222
 box -109 -200 109 200
 use demux  demux_0
-timestamp 1483428465
+timestamp 1655322987
 transform 1 0 36 0 1 156
 box -76 -122 336 878
 use mux  mux_0
-timestamp 1483428465
+timestamp 1655322987
 transform 1 0 34 0 1 -900
 box -54 -122 366 878
 use sky130_fd_sc_hd__buf_1  sky130_fd_sc_hd__buf_1_0
-timestamp 1483428465
+timestamp 1655322987
 transform 1 0 1008 0 1 -606
 box -38 -48 314 592
 use sky130_fd_sc_hd__inv_1#0  sky130_fd_sc_hd__inv_1_0
-timestamp 1483428465
+timestamp 1655322987
 transform 1 0 662 0 1 -604
 box -38 -48 314 592
 use sky130_fd_sc_hd__inv_1#0  sky130_fd_sc_hd__inv_1_1
-timestamp 1483428465
+timestamp 1655322987
 transform 1 0 -534 0 1 -612
 box -38 -48 314 592
 use sky130_fd_sc_hd__nor2_1  sky130_fd_sc_hd__nor2_1_0
-timestamp 1483428465
+timestamp 1655322987
 transform 1 0 -366 0 1 442
 box -38 -48 314 592
 use sky130_fd_sc_hd__nor2_1  sky130_fd_sc_hd__nor2_1_1
-timestamp 1483428465
+timestamp 1655322987
 transform 1 0 458 0 1 442
 box -38 -48 314 592
 << labels >>

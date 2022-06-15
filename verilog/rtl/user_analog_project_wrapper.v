@@ -17,9 +17,6 @@
 
 `include "puf_top.v"
 `include "design.lvs.v"
-`include "BR128.v"
-`include "BR64.v"
-`include "BR32.v"
 
 /*
  *-------------------------------------------------------------

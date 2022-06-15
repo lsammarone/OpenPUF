@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1654844760
+timestamp 1655322987
 << metal2 >>
 rect 524 -800 636 480
 rect 1706 -800 1818 480
@@ -702,7 +702,7 @@ rect -100 0 0 704000
 rect 584000 0 584100 704000
 rect -100 -100 584100 0
 use puf_top  puf_top_0
-timestamp 1654844760
+timestamp 1655322987
 transform 1 0 -837 0 1 -869
 box 1147 1188 167671 649511
 << labels >>
