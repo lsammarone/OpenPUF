@@ -4267,6 +4267,326 @@ Xsky130_fd_pr__res_generic_m1_DBNWX4_0 puf_super_0/so m1_40740_16650# sky130_fd_
 Xsky130_fd_pr__res_generic_m1_DBNWX4_1 puf_super_0/out m1_44147_10052# sky130_fd_pr__res_generic_m1_DBNWX4
 .ends
 
+.subckt sky130_asc_res_xhigh_po_2p85_1 Rin Rout VPWR VGND
+X0 Rin a_2148_115# VGND sky130_fd_pr__res_xhigh_po w=2.85e+06u l=7.88e+06u
+X1 Rout a_2148_115# VGND sky130_fd_pr__res_xhigh_po w=2.85e+06u l=7.88e+06u
+.ends
+
+.subckt sky130_asc_pfet_01v8_lvt_60 GATE SOURCE DRAIN VGND VPWR
+X0 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X1 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X2 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X3 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X4 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X5 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X6 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X7 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X8 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X9 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X10 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X11 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X12 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X13 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X14 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X15 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X16 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X17 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X18 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X19 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X20 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X21 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X22 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X23 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X24 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X25 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X26 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X27 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X28 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X29 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X30 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X31 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X32 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X33 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X34 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X35 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X36 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X37 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X38 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X39 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X40 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X41 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X42 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X43 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X44 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X45 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X46 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X47 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X48 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X49 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X50 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X51 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X52 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X53 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X54 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X55 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X56 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X57 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X58 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X59 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+.ends
+
+.subckt sky130_asc_pnp_05v5_W3p40L3p40_7 Emitter Base Collector VPWR VGND
+X0 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+X1 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+X2 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+X3 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+X4 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+X5 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+X6 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+.ends
+
+.subckt sky130_asc_res_xhigh_po_2p85_2 Rin Rout VPWR VGND
+X0 Rout a_2723_115# VGND sky130_fd_pr__res_xhigh_po w=2.85e+06u l=1.075e+07u
+X1 Rin a_2723_115# VGND sky130_fd_pr__res_xhigh_po w=2.85e+06u l=1.075e+07u
+.ends
+
+.subckt sky130_asc_pfet_01v8_lvt_12 GATE SOURCE DRAIN VGND VPWR
+X0 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X1 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X2 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X3 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X4 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X5 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X6 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X7 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X8 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X9 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X10 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X11 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+.ends
+
+.subckt sky130_asc_nfet_01v8_lvt_9 GATE SOURCE DRAIN VPWR VGND
+X0 SOURCE GATE DRAIN VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=2e+06u
+X1 DRAIN GATE SOURCE VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=2e+06u
+X2 SOURCE GATE DRAIN VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=2e+06u
+X3 DRAIN GATE SOURCE VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=2e+06u
+X4 SOURCE GATE DRAIN VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=2e+06u
+X5 DRAIN GATE SOURCE VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=2e+06u
+X6 SOURCE GATE DRAIN VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=2e+06u
+X7 SOURCE GATE DRAIN VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=2e+06u
+X8 DRAIN GATE SOURCE VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=2e+06u
+.ends
+
+.subckt sky130_asc_pfet_01v8_lvt_6 GATE SOURCE DRAIN VGND VPWR
+X0 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X1 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X2 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X3 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X4 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+X5 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6.45e+06u l=2e+06u
+.ends
+
+.subckt sky130_asc_pnp_05v5_W3p40L3p40_1 Emitter Base Collector VPWR VGND
+X0 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+.ends
+
+.subckt sky130_asc_cap_mim_m3_1 Cin Cout VPWR VGND
+X0 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X1 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X2 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X3 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X4 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X5 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X6 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X7 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X8 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X9 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X10 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X11 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X12 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X13 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X14 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X15 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X16 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X17 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X18 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+X19 Cout Cin sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2e+06u
+.ends
+
+.subckt sky130_asc_pnp_05v5_W3p40L3p40_8 Emitter Base Collector VPWR VGND
+X0 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+X1 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+X2 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+X3 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+X4 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+X5 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+X6 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+X7 Collector Base Emitter sky130_fd_pr__pnp_05v5 area=0p
+.ends
+
+.subckt sky130_asc_nfet_01v8_lvt_1 GATE SOURCE DRAIN VPWR VGND
+X0 SOURCE GATE DRAIN VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=2e+06u
+.ends
+
+.subckt bgr_final porst va vb vbg VSS VDD
+Xsky130_asc_res_xhigh_po_2p85_1_7 sky130_asc_res_xhigh_po_2p85_1_7/Rin sky130_asc_res_xhigh_po_2p85_1_6/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_res_xhigh_po_2p85_1_8 va sky130_asc_res_xhigh_po_2p85_1_0/Rin VDD VSS
++ sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_res_xhigh_po_2p85_1_9 sky130_asc_res_xhigh_po_2p85_1_9/Rin sky130_asc_res_xhigh_po_2p85_1_9/Rout
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_pfet_01v8_lvt_60_0 sky130_asc_cap_mim_m3_1_9/Cout VDD vb VSS VDD sky130_asc_pfet_01v8_lvt_60
+Xsky130_asc_pfet_01v8_lvt_60_1 sky130_asc_cap_mim_m3_1_9/Cout VDD va VSS VDD sky130_asc_pfet_01v8_lvt_60
+Xsky130_asc_pfet_01v8_lvt_60_2 sky130_asc_cap_mim_m3_1_9/Cout VDD vbg VSS VDD sky130_asc_pfet_01v8_lvt_60
+Xsky130_asc_res_xhigh_po_2p85_1_30 sky130_asc_res_xhigh_po_2p85_1_30/Rin sky130_asc_res_xhigh_po_2p85_1_29/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_res_xhigh_po_2p85_1_20 sky130_asc_res_xhigh_po_2p85_1_20/Rin sky130_asc_res_xhigh_po_2p85_1_5/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_pnp_05v5_W3p40L3p40_7_0 sky130_asc_res_xhigh_po_2p85_1_9/Rout VSS VSS
++ VDD VSS sky130_asc_pnp_05v5_W3p40L3p40_7
+Xsky130_asc_res_xhigh_po_2p85_1_21 sky130_asc_res_xhigh_po_2p85_1_21/Rin sky130_asc_res_xhigh_po_2p85_1_7/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_res_xhigh_po_2p85_1_10 sky130_asc_res_xhigh_po_2p85_1_10/Rin vb VDD VSS
++ sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_res_xhigh_po_2p85_2_0 sky130_asc_res_xhigh_po_2p85_2_0/Rin VSS VDD VSS
++ sky130_asc_res_xhigh_po_2p85_2
+Xsky130_asc_res_xhigh_po_2p85_1_22 sky130_asc_res_xhigh_po_2p85_1_22/Rin sky130_asc_res_xhigh_po_2p85_1_28/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_res_xhigh_po_2p85_1_11 sky130_asc_res_xhigh_po_2p85_1_18/Rin sky130_asc_res_xhigh_po_2p85_1_17/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_res_xhigh_po_2p85_2_1 sky130_asc_res_xhigh_po_2p85_2_1/Rin VSS VDD VSS
++ sky130_asc_res_xhigh_po_2p85_2
+Xsky130_asc_res_xhigh_po_2p85_1_23 sky130_asc_res_xhigh_po_2p85_1_23/Rin sky130_asc_res_xhigh_po_2p85_1_25/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_res_xhigh_po_2p85_1_12 sky130_asc_res_xhigh_po_2p85_1_12/Rin sky130_asc_res_xhigh_po_2p85_1_13/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_res_xhigh_po_2p85_1_24 sky130_asc_res_xhigh_po_2p85_1_24/Rin sky130_asc_res_xhigh_po_2p85_1_22/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_res_xhigh_po_2p85_1_13 sky130_asc_res_xhigh_po_2p85_1_13/Rin sky130_asc_res_xhigh_po_2p85_1_15/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_pfet_01v8_lvt_12_0 sky130_asc_cap_mim_m3_1_9/Cout VDD sky130_asc_nfet_01v8_lvt_1_1/GATE
++ VSS VDD sky130_asc_pfet_01v8_lvt_12
+Xsky130_asc_res_xhigh_po_2p85_1_25 sky130_asc_res_xhigh_po_2p85_1_25/Rin sky130_asc_res_xhigh_po_2p85_1_24/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_res_xhigh_po_2p85_1_14 sky130_asc_res_xhigh_po_2p85_1_3/Rout sky130_asc_res_xhigh_po_2p85_1_21/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_pfet_01v8_lvt_12_1 VDD VDD va VSS VDD sky130_asc_pfet_01v8_lvt_12
+Xsky130_asc_res_xhigh_po_2p85_1_26 sky130_asc_res_xhigh_po_2p85_1_26/Rin sky130_asc_res_xhigh_po_2p85_1_23/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_res_xhigh_po_2p85_1_15 sky130_asc_res_xhigh_po_2p85_1_15/Rin sky130_asc_res_xhigh_po_2p85_1_20/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_res_xhigh_po_2p85_1_27 vbg sky130_asc_res_xhigh_po_2p85_1_30/Rin VDD VSS
++ sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_res_xhigh_po_2p85_1_16 sky130_asc_res_xhigh_po_2p85_1_16/Rin sky130_asc_res_xhigh_po_2p85_1_12/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_res_xhigh_po_2p85_1_28 sky130_asc_res_xhigh_po_2p85_1_28/Rin VSS VDD VSS
++ sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_res_xhigh_po_2p85_1_17 sky130_asc_res_xhigh_po_2p85_1_17/Rin sky130_asc_res_xhigh_po_2p85_1_16/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_nfet_01v8_lvt_9_0 vb sky130_asc_nfet_01v8_lvt_1_1/DRAIN sky130_asc_pfet_01v8_lvt_6_1/GATE
++ VDD VSS sky130_asc_nfet_01v8_lvt_9
+Xsky130_asc_res_xhigh_po_2p85_1_29 sky130_asc_res_xhigh_po_2p85_1_29/Rin sky130_asc_res_xhigh_po_2p85_1_26/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_res_xhigh_po_2p85_1_18 sky130_asc_res_xhigh_po_2p85_1_18/Rin sky130_asc_res_xhigh_po_2p85_1_10/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_pfet_01v8_lvt_6_0 sky130_asc_pfet_01v8_lvt_6_1/GATE VDD sky130_asc_cap_mim_m3_1_9/Cout
++ VSS VDD sky130_asc_pfet_01v8_lvt_6
+Xsky130_asc_nfet_01v8_lvt_9_1 va sky130_asc_nfet_01v8_lvt_1_1/DRAIN sky130_asc_cap_mim_m3_1_9/Cout
++ VDD VSS sky130_asc_nfet_01v8_lvt_9
+Xsky130_asc_res_xhigh_po_2p85_1_19 vb sky130_asc_res_xhigh_po_2p85_1_9/Rin VDD VSS
++ sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_pfet_01v8_lvt_6_1 sky130_asc_pfet_01v8_lvt_6_1/GATE VDD sky130_asc_pfet_01v8_lvt_6_1/GATE
++ VSS VDD sky130_asc_pfet_01v8_lvt_6
+Xsky130_asc_pnp_05v5_W3p40L3p40_1_0 va VSS VSS VDD VSS sky130_asc_pnp_05v5_W3p40L3p40_1
+Xsky130_asc_nfet_01v8_lvt_9_2 porst VSS sky130_asc_cap_mim_m3_1_9/Cout VDD VSS sky130_asc_nfet_01v8_lvt_9
+Xsky130_asc_cap_mim_m3_1_0 va VSS VDD VSS sky130_asc_cap_mim_m3_1
+Xsky130_asc_cap_mim_m3_1_1 va VSS VDD VSS sky130_asc_cap_mim_m3_1
+Xsky130_asc_pnp_05v5_W3p40L3p40_8_0 sky130_asc_res_xhigh_po_2p85_1_9/Rout VSS VSS
++ VDD VSS sky130_asc_pnp_05v5_W3p40L3p40_8
+Xsky130_asc_cap_mim_m3_1_2 va VSS VDD VSS sky130_asc_cap_mim_m3_1
+Xsky130_asc_pnp_05v5_W3p40L3p40_8_1 sky130_asc_res_xhigh_po_2p85_1_9/Rout VSS VSS
++ VDD VSS sky130_asc_pnp_05v5_W3p40L3p40_8
+Xsky130_asc_cap_mim_m3_1_3 va VSS VDD VSS sky130_asc_cap_mim_m3_1
+Xsky130_asc_pnp_05v5_W3p40L3p40_8_2 sky130_asc_res_xhigh_po_2p85_1_9/Rout VSS VSS
++ VDD VSS sky130_asc_pnp_05v5_W3p40L3p40_8
+Xsky130_asc_cap_mim_m3_1_4 va VSS VDD VSS sky130_asc_cap_mim_m3_1
+Xsky130_asc_pnp_05v5_W3p40L3p40_8_3 sky130_asc_res_xhigh_po_2p85_1_9/Rout VSS VSS
++ VDD VSS sky130_asc_pnp_05v5_W3p40L3p40_8
+Xsky130_asc_cap_mim_m3_1_5 VDD sky130_asc_cap_mim_m3_1_9/Cout VDD VSS sky130_asc_cap_mim_m3_1
+Xsky130_asc_res_xhigh_po_2p85_1_0 sky130_asc_res_xhigh_po_2p85_1_0/Rin sky130_asc_res_xhigh_po_2p85_1_4/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_cap_mim_m3_1_6 VDD sky130_asc_cap_mim_m3_1_9/Cout VDD VSS sky130_asc_cap_mim_m3_1
+Xsky130_asc_nfet_01v8_lvt_1_0 sky130_asc_nfet_01v8_lvt_1_1/GATE VSS sky130_asc_nfet_01v8_lvt_1_1/GATE
++ VDD VSS sky130_asc_nfet_01v8_lvt_1
+Xsky130_asc_res_xhigh_po_2p85_1_1 sky130_asc_res_xhigh_po_2p85_1_1/Rin sky130_asc_res_xhigh_po_2p85_2_0/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_cap_mim_m3_1_7 VDD sky130_asc_cap_mim_m3_1_9/Cout VDD VSS sky130_asc_cap_mim_m3_1
+Xsky130_asc_nfet_01v8_lvt_1_1 sky130_asc_nfet_01v8_lvt_1_1/GATE VSS sky130_asc_nfet_01v8_lvt_1_1/DRAIN
++ VDD VSS sky130_asc_nfet_01v8_lvt_1
+Xsky130_asc_res_xhigh_po_2p85_1_2 sky130_asc_res_xhigh_po_2p85_1_2/Rin sky130_asc_res_xhigh_po_2p85_1_3/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_cap_mim_m3_1_8 VDD sky130_asc_cap_mim_m3_1_9/Cout VDD VSS sky130_asc_cap_mim_m3_1
+Xsky130_asc_res_xhigh_po_2p85_1_3 sky130_asc_res_xhigh_po_2p85_1_3/Rin sky130_asc_res_xhigh_po_2p85_1_3/Rout
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_cap_mim_m3_1_9 VDD sky130_asc_cap_mim_m3_1_9/Cout VDD VSS sky130_asc_cap_mim_m3_1
+Xsky130_asc_res_xhigh_po_2p85_1_4 sky130_asc_res_xhigh_po_2p85_1_4/Rin sky130_asc_res_xhigh_po_2p85_1_2/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_res_xhigh_po_2p85_1_5 sky130_asc_res_xhigh_po_2p85_1_5/Rin sky130_asc_res_xhigh_po_2p85_2_1/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+Xsky130_asc_res_xhigh_po_2p85_1_6 sky130_asc_res_xhigh_po_2p85_1_6/Rin sky130_asc_res_xhigh_po_2p85_1_1/Rin
++ VDD VSS sky130_asc_res_xhigh_po_2p85_1
+.ends
+
+.subckt nmos_flat DRAIN VPWR SOURCE GATE VGND
+X0 DRAIN GATE SOURCE VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X1 SOURCE GATE DRAIN VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X2 DRAIN GATE SOURCE VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X3 DRAIN GATE SOURCE VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X4 SOURCE GATE DRAIN VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X5 SOURCE GATE DRAIN VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X6 SOURCE GATE DRAIN VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X7 SOURCE GATE DRAIN VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X8 DRAIN GATE SOURCE VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X9 SOURCE GATE DRAIN VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X10 DRAIN GATE SOURCE VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X11 SOURCE GATE DRAIN VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X12 DRAIN GATE SOURCE VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X13 DRAIN GATE SOURCE VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X14 SOURCE GATE DRAIN VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X15 SOURCE GATE DRAIN VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X16 SOURCE GATE DRAIN VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X17 DRAIN GATE SOURCE VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X18 DRAIN GATE SOURCE VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X19 DRAIN GATE SOURCE VGND sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+.ends
+
+.subckt sky130_fd_pr__res_generic_m4_LS59QM m4_n4500_n3057# m4_n4500_3000#
+R0 m4_n4500_n3057# m4_n4500_3000# sky130_fd_pr__res_generic_m4 w=4.5e+07u l=3e+07u
+.ends
+
+.subckt pmos_flat DRAIN VPWR SOURCE GATE VGND
+X0 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X1 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X2 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X3 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X4 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X5 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X6 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X7 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X8 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X9 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X10 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X11 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X12 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X13 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X14 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X15 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X16 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X17 SOURCE GATE DRAIN VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X18 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X19 DRAIN GATE SOURCE VPWR sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+.ends
+
 .subckt user_analog_project_wrapper gpio_analog[0] gpio_analog[10] gpio_analog[11]
 + gpio_analog[12] gpio_analog[13] gpio_analog[14] gpio_analog[15] gpio_analog[16]
 + gpio_analog[17] gpio_analog[1] gpio_analog[2] gpio_analog[3] gpio_analog[4] gpio_analog[5]
@@ -4274,8 +4594,8 @@ Xsky130_fd_pr__res_generic_m1_DBNWX4_1 puf_super_0/out m1_44147_10052# sky130_fd
 + gpio_noesd[11] gpio_noesd[12] gpio_noesd[13] gpio_noesd[14] gpio_noesd[15] gpio_noesd[16]
 + gpio_noesd[17] gpio_noesd[1] gpio_noesd[2] gpio_noesd[3] gpio_noesd[4] gpio_noesd[5]
 + gpio_noesd[6] gpio_noesd[7] gpio_noesd[8] gpio_noesd[9] io_analog[0] io_analog[10]
-+ io_analog[1] io_analog[2] io_analog[3] io_analog[7] io_analog[8] io_analog[9] io_analog[4]
-+ io_analog[5] io_analog[6] io_clamp_high[0] io_clamp_high[1] io_clamp_high[2] io_clamp_low[0]
++ io_analog[1] io_analog[2] io_analog[3] io_analog[4] io_analog[5] io_analog[6] io_analog[7]
++ io_analog[8] io_analog[9] io_clamp_high[0] io_clamp_high[1] io_clamp_high[2] io_clamp_low[0]
 + io_clamp_low[1] io_clamp_low[2] io_in[0] io_in[10] io_in[11] io_in[12] io_in[13]
 + io_in[14] io_in[15] io_in[16] io_in[17] io_in[18] io_in[19] io_in[1] io_in[20] io_in[21]
 + io_in[22] io_in[23] io_in[24] io_in[25] io_in[26] io_in[2] io_in[3] io_in[4] io_in[5]
@@ -4375,5 +4695,16 @@ Xsky130_fd_pr__res_generic_m1_DBNWX4_1 puf_super_0/out m1_44147_10052# sky130_fd
 + wbs_stb_i wbs_we_i
 Xpuf_top_0 la_data_out[0] io_in[20] io_in[18] io_out[25] io_in[21] io_in[26] io_in[23]
 + io_in[17] io_in[22] vccd2 io_out[24] la_data_out[1] vssd2 io_in[19] puf_top
+Xbgr_final_0 gpio_analog[3] gpio_analog[5] gpio_analog[1] gpio_analog[2] vssd2 vccd1
++ bgr_final
+Xnmos_flat_0 gpio_analog[2] vccd1 vssd2 vssd2 vssd2 nmos_flat
+Xsky130_fd_pr__res_generic_m4_LS59QM_0 vssd2 vssa1 sky130_fd_pr__res_generic_m4_LS59QM
+Xnmos_flat_1 gpio_analog[1] vccd1 vssd2 vssd2 vssd2 nmos_flat
+Xnmos_flat_3 gpio_analog[5] vccd1 vssd2 vssd2 vssd2 nmos_flat
+Xnmos_flat_2 gpio_analog[3] vccd1 vssd2 vssd2 vssd2 nmos_flat
+Xpmos_flat_0 gpio_analog[5] vccd1 vccd1 vccd1 vssd2 pmos_flat
+Xpmos_flat_1 gpio_analog[3] vccd1 vccd1 vccd1 vssd2 pmos_flat
+Xpmos_flat_2 gpio_analog[2] vccd1 vccd1 vccd1 vssd2 pmos_flat
+Xpmos_flat_3 gpio_analog[1] vccd1 vccd1 vccd1 vssd2 pmos_flat
 .ends
 
