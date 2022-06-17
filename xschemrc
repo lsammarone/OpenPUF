@@ -1,0 +1,54 @@
+# xschemrc system configuration file
+set PDK_ROOT /farmshare/home/classes/ee/372/PDKs/open_pdks_1.0.310/sky130
+set PDK sky130A
+set XSCHEM_SHAREDIR /cad/xschem/3.0/share/xschem
+#set XSCHEM_SHAREDIR /home/users/lyt1314/share/xschem
+set USER_CONF_DIR ~/.xschem
+set XSCHEM_SKY130_PATH /farmshare/home/classes/ee/372/PDKs/open_pdks_1.0.310/sources/xschem_sky130
+puts "Using PDK_ROOT $PDK_ROOT"
+###########################################################################
+#### XSCHEM INSTALLATION DIRECTORY: XSCHEM_SHAREDIR
+###########################################################################
+#### Normally there is no reason to set this variable if using standard
+#### installation. Location of files is set at compile time but may be overridden
+#### with following line:
+# set XSCHEM_SHAREDIR $env(HOME)/share/xschem
+###########################################################################
+#### XSCHEM SYSTEM-WIDE DESIGN LIBRARY PATHS: XSCHEM_LIBRARY_PATH
+###########################################################################
+#### Flush any previous definition
+set XSCHEM_LIBRARY_PATH {}
+append XSCHEM_LIBRARY_PATH ${XSCHEM_SHAREDIR}/xschem_library
+append XSCHEM_LIBRARY_PATH :$env(PWD)
+append XSCHEM_LIBRARY_PATH :$USER_CONF_DIR/xschem_library
+###########################################################################
+#### SET CUSTOM COLORS FOR XSCHEM LIBRARIES MATCHING CERTAIN PATTERNS
+###########################################################################
+#### each line contains a dircolor(pattern) followed by a color
+#### color can be an ordinary name (grey, brown, blue) or a hex code {#77AAFF}
+#### hex code must be enclosed in braces
+array unset dircolor
+set dircolor(sky130_fd_pr$) blue
+set dircolor(sky130_tests$) blue
+set dircolor(xschem_sky130$) blue
+set dircolor(xschem_library$) red
+set dircolor(devices$) red
+set XSCHEM_START_WINDOW {}
+set netlist_dir $env(PWD)/sims
+set netlist_type spice
+set to_pdf {ps2pdf -dAutoRotatePages=/None}
+### editor selection
+set editor { xterm -geometry 100x40 -e nano }
+# set editor { xterm -geometry 100x40 -e nano }
+# set editor { xterm -geometry 100x40 -e pico }
+set bespice_listen_port 2022
+lappend tcl_files ${XSCHEM_SHAREDIR}/ngspice_backannotate.tcl
+lappend tcl_files ${XSCHEM_SKY130_PATH}/scripts/sky130_models.tcl
+# set toolbar_visible 1
+# set tabbed_interface 1
+append XSCHEM_LIBRARY_PATH :${PDK_ROOT}/${PDK}/libs.tech/xschem
+set SKYWATER_MODELS ${PDK_ROOT}/${PDK}/libs.tech/ngspice
+set SKYWATER_STDCELLS ${PDK_ROOT}/${PDK}/libs.ref/sky130_fd_sc_hd/spice
+puts stderr "open_pdks installation: using $PDK_ROOT"
+puts stderr "SKYWATER_MODELS: $SKYWATER_MODELS"
+puts stderr "SKYWATER_STDCELLS: $SKYWATER_STDCELLS"

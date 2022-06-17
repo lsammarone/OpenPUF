@@ -1,47 +1,51 @@
-v {xschem version=3.0.0 file_version=1.2}
+v {xschem version=3.0.0 file_version=1.2 }
+G {}
 K {type=subcircuit
 format="@name @pinlist @symname"
 template="name=x1"
 }
-T {@symname} -58.5 -6 0 0 0.3 0.3 {}
-T {@name} 135 -132 0 0 0.2 0.2 {}
+V {}
+S {}
+E {}
 L 4 -130 -120 130 -120 {}
 L 4 -130 120 130 120 {}
 L 4 -130 -120 -130 120 {}
 L 4 130 -120 130 120 {}
-B 5 147.5 -112.5 152.5 -107.5 {name=reset dir=inout }
 L 7 130 -110 150 -110 {}
-T {reset} 125 -114 0 1 0.2 0.2 {}
-B 5 147.5 -92.5 152.5 -87.5 {name=clk dir=inout }
 L 7 130 -90 150 -90 {}
-T {clk} 125 -94 0 1 0.2 0.2 {}
-B 5 147.5 -72.5 152.5 -67.5 {name=puf_sel[1] dir=inout }
 L 7 130 -70 150 -70 {}
-T {puf_sel[1]} 125 -74 0 1 0.2 0.2 {}
-B 5 147.5 -52.5 152.5 -47.5 {name=puf_sel[0] dir=inout }
 L 7 130 -50 150 -50 {}
-T {puf_sel[0]} 125 -54 0 1 0.2 0.2 {}
-B 5 147.5 -32.5 152.5 -27.5 {name=length[1] dir=inout }
 L 7 130 -30 150 -30 {}
-T {length[1]} 125 -34 0 1 0.2 0.2 {}
-B 5 147.5 -12.5 152.5 -7.5 {name=length[0] dir=inout }
 L 7 130 -10 150 -10 {}
-T {length[0]} 125 -14 0 1 0.2 0.2 {}
-B 5 147.5 7.5 152.5 12.5 {name=out dir=inout }
 L 7 130 10 150 10 {}
-T {out} 125 6 0 1 0.2 0.2 {}
-B 5 147.5 27.5 152.5 32.5 {name=so dir=inout }
 L 7 130 30 150 30 {}
-T {so} 125 26 0 1 0.2 0.2 {}
-B 5 147.5 47.5 152.5 52.5 {name=vccd1 dir=inout }
 L 7 130 50 150 50 {}
-T {vccd1} 125 46 0 1 0.2 0.2 {}
-B 5 147.5 67.5 152.5 72.5 {name=rstn dir=inout }
 L 7 130 70 150 70 {}
-T {rstn} 125 66 0 1 0.2 0.2 {}
-B 5 147.5 87.5 152.5 92.5 {name=vssd1 dir=inout }
 L 7 130 90 150 90 {}
-T {vssd1} 125 86 0 1 0.2 0.2 {}
-B 5 147.5 107.5 152.5 112.5 {name=si dir=inout }
 L 7 130 110 150 110 {}
+B 5 147.5 -112.5 152.5 -107.5 {name=reset dir=inout }
+B 5 147.5 -92.5 152.5 -87.5 {name=clk dir=inout }
+B 5 147.5 -72.5 152.5 -67.5 {name=puf_sel1 dir=inout }
+B 5 147.5 -52.5 152.5 -47.5 {name=puf_sel0 dir=inout }
+B 5 147.5 -32.5 152.5 -27.5 {name=length1 dir=inout }
+B 5 147.5 -12.5 152.5 -7.5 {name=length0 dir=inout }
+B 5 147.5 7.5 152.5 12.5 {name=out dir=inout }
+B 5 147.5 27.5 152.5 32.5 {name=so dir=inout }
+B 5 147.5 47.5 152.5 52.5 {name=vccd1 dir=inout }
+B 5 147.5 67.5 152.5 72.5 {name=rstn dir=inout }
+B 5 147.5 87.5 152.5 92.5 {name=vssd1 dir=inout }
+B 5 147.5 107.5 152.5 112.5 {name=si dir=inout }
+T {@symname} -58.5 -6 0 0 0.3 0.3 {}
+T {@name} 135 -132 0 0 0.2 0.2 {}
+T {reset} 125 -114 0 1 0.2 0.2 {}
+T {clk} 125 -94 0 1 0.2 0.2 {}
+T {puf_sel1} 125 -74 0 1 0.2 0.2 {}
+T {puf_sel0} 125 -54 0 1 0.2 0.2 {}
+T {length1} 125 -34 0 1 0.2 0.2 {}
+T {length0} 125 -14 0 1 0.2 0.2 {}
+T {out} 125 6 0 1 0.2 0.2 {}
+T {so} 125 26 0 1 0.2 0.2 {}
+T {vccd1} 125 46 0 1 0.2 0.2 {}
+T {rstn} 125 66 0 1 0.2 0.2 {}
+T {vssd1} 125 86 0 1 0.2 0.2 {}
 T {si} 125 106 0 1 0.2 0.2 {}

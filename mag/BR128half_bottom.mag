@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1655322987
+timestamp 1655348380
 << nwell >>
 rect 14749 3456 15131 3777
 rect 44891 3616 45273 3937
@@ -1407,19 +1407,19 @@ rect 53554 49 53619 113
 rect 53683 49 53736 113
 rect 53311 -44 53736 49
 use brbufhalf  brbufhalf_0
-timestamp 1655322987
+timestamp 1655348380
 transform -1 0 26228 0 -1 9968
 box -3552 2527 26658 5446
 use brbufhalf  brbufhalf_1
-timestamp 1655322987
+timestamp 1655348380
 transform 1 0 33754 0 1 -2528
 box -3552 2527 26658 5446
 use brbufhalf  brbufhalf_2
-timestamp 1655322987
+timestamp 1655348380
 transform 1 0 3552 0 1 -2528
 box -3552 2527 26658 5446
 use brbufhalf_128  brbufhalf_128_0
-timestamp 1655322987
+timestamp 1655348380
 transform -1 0 56430 0 -1 9968
 box -3546 2527 26658 5446
 use sky130_fd_sc_hd__inv_16  sky130_fd_sc_hd__inv_16_0
