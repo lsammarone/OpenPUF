@@ -1,0 +1,66 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1656729169
+<< metal3 >>
+rect -662 32 662 33
+rect -662 -32 -632 32
+rect -568 -32 -552 32
+rect -488 -32 -472 32
+rect -408 -32 -392 32
+rect -328 -32 -312 32
+rect -248 -32 -232 32
+rect -168 -32 -152 32
+rect -88 -32 -72 32
+rect -8 -32 8 32
+rect 72 -32 88 32
+rect 152 -32 168 32
+rect 232 -32 248 32
+rect 312 -32 328 32
+rect 392 -32 408 32
+rect 472 -32 488 32
+rect 552 -32 568 32
+rect 632 -32 662 32
+rect -662 -33 662 -32
+<< via3 >>
+rect -632 -32 -568 32
+rect -552 -32 -488 32
+rect -472 -32 -408 32
+rect -392 -32 -328 32
+rect -312 -32 -248 32
+rect -232 -32 -168 32
+rect -152 -32 -88 32
+rect -72 -32 -8 32
+rect 8 -32 72 32
+rect 88 -32 152 32
+rect 168 -32 232 32
+rect 248 -32 312 32
+rect 328 -32 392 32
+rect 408 -32 472 32
+rect 488 -32 552 32
+rect 568 -32 632 32
+<< metal4 >>
+rect -662 32 662 33
+rect -662 -32 -632 32
+rect -568 -32 -552 32
+rect -488 -32 -472 32
+rect -408 -32 -392 32
+rect -328 -32 -312 32
+rect -248 -32 -232 32
+rect -168 -32 -152 32
+rect -88 -32 -72 32
+rect -8 -32 8 32
+rect 72 -32 88 32
+rect 152 -32 168 32
+rect 232 -32 248 32
+rect 312 -32 328 32
+rect 392 -32 408 32
+rect 472 -32 488 32
+rect 552 -32 568 32
+rect 632 -32 662 32
+rect -662 -33 662 -32
+<< properties >>
+string GDS_END 9358598
+string GDS_FILE /scratch/users/lsammaro/OpenPUF/mag/merge/design_merged.gds
+string GDS_START 9357442
+<< end >>

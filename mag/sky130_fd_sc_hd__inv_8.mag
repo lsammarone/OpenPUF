@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1655322987
+timestamp 1656715967
 << error_p >>
 rect -38 261 866 582
 rect 60 47 112 177
@@ -478,6 +478,54 @@ flabel metal1 s 46 0 46 0 0 FreeSans 390 0 0 0 VGND
 port 5 nsew
 flabel metal1 s 46 544 46 544 0 FreeSans 390 0 0 0 VPWR
 port 6 nsew
+flabel locali s 230 238 230 238 0 FreeSans 487 0 0 0 A
+port 1 nsew
+flabel locali s 322 238 322 238 0 FreeSans 487 0 0 0 A
+port 1 nsew
+flabel locali s 414 238 414 238 0 FreeSans 487 0 0 0 A
+port 1 nsew
+flabel locali s 506 238 506 238 0 FreeSans 487 0 0 0 A
+port 1 nsew
+flabel locali s 598 238 598 238 0 FreeSans 487 0 0 0 A
+port 1 nsew
+flabel locali s 690 238 690 238 0 FreeSans 487 0 0 0 A
+port 1 nsew
+flabel locali s 782 238 782 238 0 FreeSans 487 0 0 0 Y
+port 2 nsew
+flabel locali s 46 238 46 238 0 FreeSans 487 0 0 0 Y
+port 2 nsew
+flabel pwell s 46 0 46 0 0 FreeSans 390 0 0 0 VNB
+port 3 nsew
+flabel nwell s 46 544 46 544 0 FreeSans 390 0 0 0 VPB
+port 4 nsew
+flabel metal1 s 46 0 46 0 0 FreeSans 390 0 0 0 VGND
+port 5 nsew
+flabel metal1 s 46 544 46 544 0 FreeSans 390 0 0 0 VPWR
+port 6 nsew
+flabel locali s 230 238 230 238 0 FreeSans 487 0 0 0 A
+port 1 nsew
+flabel locali s 322 238 322 238 0 FreeSans 487 0 0 0 A
+port 1 nsew
+flabel locali s 414 238 414 238 0 FreeSans 487 0 0 0 A
+port 1 nsew
+flabel locali s 506 238 506 238 0 FreeSans 487 0 0 0 A
+port 1 nsew
+flabel locali s 598 238 598 238 0 FreeSans 487 0 0 0 A
+port 1 nsew
+flabel locali s 690 238 690 238 0 FreeSans 487 0 0 0 A
+port 1 nsew
+flabel locali s 782 238 782 238 0 FreeSans 487 0 0 0 Y
+port 2 nsew
+flabel locali s 46 238 46 238 0 FreeSans 487 0 0 0 Y
+port 2 nsew
+flabel pwell s 46 0 46 0 0 FreeSans 390 0 0 0 VNB
+port 3 nsew
+flabel nwell s 46 544 46 544 0 FreeSans 390 0 0 0 VPB
+port 4 nsew
+flabel metal1 s 46 0 46 0 0 FreeSans 390 0 0 0 VGND
+port 5 nsew
+flabel metal1 s 46 544 46 544 0 FreeSans 390 0 0 0 VPWR
+port 6 nsew
 flabel locali s 230 238 230 238 0 FreeSans 250 0 0 0 A
 port 1 nsew
 flabel locali s 322 238 322 238 0 FreeSans 250 0 0 0 A
@@ -505,5 +553,8 @@ port 6 nsew
 rlabel comment s 0 0 0 0 4 inv_8
 << properties >>
 string FIXED_BBOX 0 0 828 544
+string GDS_END 9627510
+string GDS_FILE /scratch/users/lsammaro/OpenPUF/mag/design_merged.gds
+string GDS_START 9585002
 string path 0.000 0.000 20.700 0.000 
 << end >>

@@ -1,0 +1,55 @@
+magic
+tech sky130A
+timestamp 1656729169
+<< metal4 >>
+rect -90 459 90 500
+rect -90 341 -59 459
+rect 59 341 90 459
+rect -90 299 90 341
+rect -90 181 -59 299
+rect 59 181 90 299
+rect -90 139 90 181
+rect -90 21 -59 139
+rect 59 21 90 139
+rect -90 -21 90 21
+rect -90 -139 -59 -21
+rect 59 -139 90 -21
+rect -90 -181 90 -139
+rect -90 -299 -59 -181
+rect 59 -299 90 -181
+rect -90 -341 90 -299
+rect -90 -459 -59 -341
+rect 59 -459 90 -341
+rect -90 -500 90 -459
+<< via4 >>
+rect -59 341 59 459
+rect -59 181 59 299
+rect -59 21 59 139
+rect -59 -139 59 -21
+rect -59 -299 59 -181
+rect -59 -459 59 -341
+<< metal5 >>
+rect -90 459 90 500
+rect -90 341 -59 459
+rect 59 341 90 459
+rect -90 299 90 341
+rect -90 181 -59 299
+rect 59 181 90 299
+rect -90 139 90 181
+rect -90 21 -59 139
+rect 59 21 90 139
+rect -90 -21 90 21
+rect -90 -139 -59 -21
+rect 59 -139 90 -21
+rect -90 -181 90 -139
+rect -90 -299 -59 -181
+rect 59 -299 90 -181
+rect -90 -341 90 -299
+rect -90 -459 -59 -341
+rect 59 -459 90 -341
+rect -90 -500 90 -459
+<< properties >>
+string GDS_END 9313962
+string GDS_FILE /scratch/users/lsammaro/OpenPUF/mag/merge/design_merged.gds
+string GDS_START 9313446
+<< end >>

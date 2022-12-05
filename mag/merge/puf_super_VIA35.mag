@@ -1,0 +1,35 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1656729169
+<< metal4 >>
+rect -180 438 180 609
+rect -180 202 -118 438
+rect 118 202 180 438
+rect -180 118 180 202
+rect -180 -118 -118 118
+rect 118 -118 180 118
+rect -180 -202 180 -118
+rect -180 -438 -118 -202
+rect 118 -438 180 -202
+rect -180 -609 180 -438
+<< via4 >>
+rect -118 202 118 438
+rect -118 -118 118 118
+rect -118 -438 118 -202
+<< metal5 >>
+rect -180 438 180 609
+rect -180 202 -118 438
+rect 118 202 180 438
+rect -180 118 180 202
+rect -180 -118 -118 118
+rect 118 -118 180 118
+rect -180 -202 180 -118
+rect -180 -438 -118 -202
+rect 118 -438 180 -202
+rect -180 -609 180 -438
+<< properties >>
+string GDS_END 9361942
+string GDS_FILE /scratch/users/lsammaro/OpenPUF/mag/merge/design_merged.gds
+string GDS_START 9361618
+<< end >>

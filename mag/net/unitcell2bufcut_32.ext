@@ -1,14 +1,14 @@
-timestamp 1655435843
+timestamp 1655762910
 version 8.3
 tech sky130A
 style ngspice()
 scale 1000 1 500000
 resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
-use sky130_fd_sc_hd__nor2_1 sky130_fd_sc_hd__nor2_1_1 1 0 458 0 1 442
+use sky130_fd_sc_hd__buf_1 sky130_fd_sc_hd__buf_1_0 1 0 1008 0 1 -606
 use sky130_fd_sc_hd__nor2_1 sky130_fd_sc_hd__nor2_1_0 1 0 -366 0 1 442
+use sky130_fd_sc_hd__nor2_1 sky130_fd_sc_hd__nor2_1_1 1 0 458 0 1 442
 use sky130_fd_sc_hd__inv_1#0 sky130_fd_sc_hd__inv_1_1 1 0 -534 0 1 -612
 use sky130_fd_sc_hd__inv_1#0 sky130_fd_sc_hd__inv_1_0 1 0 662 0 1 -604
-use sky130_fd_sc_hd__buf_1 sky130_fd_sc_hd__buf_1_0 1 0 1008 0 1 -606
 use mux mux_0 1 0 34 0 1 -900
 use demux demux_0 1 0 36 0 1 156
 use sky130_fd_pr__pfet_01v8_hvt_UUWA33 2 1 0 521 0 1 -222
@@ -64,8 +64,8 @@ node "a_24_n198#" 0 0 24 -198 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 node "w_258_n422#" 0 0 258 -422 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "w_n404_700#" 0 0 -404 700 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "sky130_fd_sc_hd__nor2_1_0/VNB" "sky130_fd_sc_hd__nor2_1_1/VNB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "sky130_fd_sc_hd__nor2_1_1/VNB" "sky130_fd_sc_hd__buf_1_0/VNB"
+merge "sky130_fd_sc_hd__nor2_1_1/VNB" "sky130_fd_sc_hd__nor2_1_0/VNB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_sc_hd__nor2_1_0/VNB" "sky130_fd_sc_hd__buf_1_0/VNB"
 merge "sky130_fd_sc_hd__buf_1_0/VNB" "1/VSUBS"
 merge "1/VSUBS" "2/VSUBS"
 merge "2/VSUBS" "demux_0/VSUBS"
@@ -73,15 +73,15 @@ merge "demux_0/VSUBS" "mux_0/VSUBS"
 merge "mux_0/VSUBS" "sky130_fd_sc_hd__inv_1_0/VSUBS"
 merge "sky130_fd_sc_hd__inv_1_0/VSUBS" "sky130_fd_sc_hd__inv_1_1/VSUBS"
 merge "sky130_fd_sc_hd__inv_1_1/VSUBS" "VSUBS"
-merge "demux_0/w_n54_614#" "sky130_fd_sc_hd__nor2_1_0/VPB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "sky130_fd_sc_hd__nor2_1_0/VPB" "sky130_fd_sc_hd__nor2_1_1/VPB"
-merge "sky130_fd_sc_hd__nor2_1_1/VPB" "w_n404_700#"
-merge "w_n404_700#" "sky130_fd_sc_hd__nor2_1_0/VPWR"
+merge "demux_0/w_n54_614#" "sky130_fd_sc_hd__nor2_1_1/VPB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_sc_hd__nor2_1_1/VPB" "sky130_fd_sc_hd__nor2_1_0/VPB"
+merge "sky130_fd_sc_hd__nor2_1_0/VPB" "w_n404_700#"
+merge "w_n404_700#" "sky130_fd_sc_hd__nor2_1_1/VPWR"
+merge "sky130_fd_sc_hd__nor2_1_1/VPWR" "li_180_1002#"
+merge "li_180_1002#" "sky130_fd_sc_hd__nor2_1_0/VPWR"
 merge "sky130_fd_sc_hd__nor2_1_0/VPWR" "li_n114_998#"
 merge "li_n114_998#" "li_n398_970#"
-merge "li_n398_970#" "sky130_fd_sc_hd__nor2_1_1/VPWR"
-merge "sky130_fd_sc_hd__nor2_1_1/VPWR" "li_180_1002#"
-merge "li_180_1002#" "sky130_fd_sc_hd__buf_1_0/VPWR"
+merge "li_n398_970#" "sky130_fd_sc_hd__buf_1_0/VPWR"
 merge "sky130_fd_sc_hd__buf_1_0/VPWR" "sky130_fd_sc_hd__buf_1_0/VPB"
 merge "sky130_fd_sc_hd__buf_1_0/VPB" "1/a_15_n100#"
 merge "1/a_15_n100#" "sky130_fd_sc_hd__inv_1_1/a_68_297#"
@@ -105,11 +105,8 @@ merge "sky130_fd_sc_hd__nor2_1_1/B" "li_480_658#"
 merge "li_480_658#" "li_224_658#"
 merge "li_224_658#" "2/a_15_n100#"
 merge "2/a_15_n100#" "li_240_240#"
-merge "sky130_fd_sc_hd__nor2_1_0/Y" "mux_0/sky130_fd_pr__nfet_01v8_PX9ZJG_1/a_n125_n65#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "mux_0/sky130_fd_pr__nfet_01v8_PX9ZJG_1/a_n125_n65#" "m1_n36_n602#"
-merge "m1_n36_n602#" "li_n258_n824#"
-merge "sky130_fd_sc_hd__nor2_1_0/VGND" "sky130_fd_sc_hd__nor2_1_1/VGND" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "sky130_fd_sc_hd__nor2_1_1/VGND" "demux_0/w_18_n122#"
+merge "sky130_fd_sc_hd__nor2_1_1/VGND" "sky130_fd_sc_hd__nor2_1_0/VGND" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_sc_hd__nor2_1_0/VGND" "demux_0/w_18_n122#"
 merge "demux_0/w_18_n122#" "li_10_44#"
 merge "li_10_44#" "li_242_44#"
 merge "li_242_44#" "m1_4_52#"
@@ -121,9 +118,9 @@ merge "li_214_n978#" "sky130_fd_sc_hd__inv_1_0/a_68_47#"
 merge "sky130_fd_sc_hd__inv_1_0/a_68_47#" "sky130_fd_sc_hd__inv_1_1/a_68_47#"
 merge "sky130_fd_sc_hd__inv_1_1/a_68_47#" "m1_n296_n654#"
 merge "m1_n296_n654#" "VSS"
-merge "sky130_fd_sc_hd__nor2_1_0/A" "sky130_fd_sc_hd__nor2_1_1/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "sky130_fd_sc_hd__nor2_1_1/A" "li_n150_662#"
-merge "demux_0/sky130_fd_pr__nfet_01v8_PX9ZJG_1/a_15_87#" "2/a_n33_n197#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_sc_hd__nor2_1_1/A" "sky130_fd_sc_hd__nor2_1_0/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_sc_hd__nor2_1_0/A" "li_n150_662#"
+merge "demux_0/1/a_15_87#" "2/a_n33_n197#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "2/a_n33_n197#" "m1_488_n412#"
 merge "m1_488_n412#" "m1_488_n86#"
 merge "m1_488_n86#" "sky130_fd_sc_hd__inv_1_0/a_64_199#"
@@ -148,6 +145,9 @@ merge "m2_136_462#" "IN"
 merge "sky130_fd_sc_hd__nor2_1_1/Y" "mux_0/sky130_fd_pr__pfet_01v8_hvt_SH6FHF_1/a_63_n100#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "mux_0/sky130_fd_pr__pfet_01v8_hvt_SH6FHF_1/a_63_n100#" "li_222_n484#"
 merge "demux_0/sky130_fd_pr__pfet_01v8_hvt_SH6FHF_1/a_15_131#" "li_160_818#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_sc_hd__nor2_1_0/Y" "mux_0/1/a_n125_n65#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "mux_0/1/a_n125_n65#" "m1_n36_n602#"
+merge "m1_n36_n602#" "li_n258_n824#"
 merge "sky130_fd_sc_hd__buf_1_0/X" "buf_out" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "sky130_fd_sc_hd__buf_1_0/A" "mux_0/m1_76_558#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "mux_0/m1_76_558#" "m2_138_n572#"

@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1655322987
+timestamp 1656715967
 << error_p >>
 rect -38 261 222 582
 << nwell >>
@@ -43,5 +43,8 @@ port 4 nsew
 rlabel comment s 0 0 0 0 4 fill_2
 << properties >>
 string FIXED_BBOX 0 0 184 544
+string GDS_END 9295124
+string GDS_FILE /scratch/users/lsammaro/OpenPUF/mag/design_merged.gds
+string GDS_START 9293768
 string path 0.000 0.000 4.600 0.000 
 << end >>

@@ -1,0 +1,37 @@
+timestamp 1655502738
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__nfet_01v8_lvt l=l w=w a1=as p1=ps a2=ad p2=pd
+port "VPWR" 1 -2608 850 -2548 910 m1
+port "SOURCE" 3 2548 690 2608 750 li
+port "DRAIN" 4 2548 -630 2608 -570 li
+port "GATE" 5 2548 -796 2608 -736 li
+port "VGND" 2 -2608 -1030 -2548 -970 m1
+node "VPWR" 0 0 -2608 850 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "SOURCE" 0 0 2548 690 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DRAIN" 0 0 2548 -630 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "GATE" 0 0 2548 -796 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VGND" 0 0 -2608 -1030 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2351 -500 2352 -499 l=200 w=1000 "VGND" "GATE" 400 0 "SOURCE" 1000 0 "DRAIN" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2093 -500 2094 -499 l=200 w=1000 "VGND" "GATE" 400 0 "DRAIN" 1000 0 "SOURCE" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1835 -500 1836 -499 l=200 w=1000 "VGND" "GATE" 400 0 "SOURCE" 1000 0 "DRAIN" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1577 -500 1578 -499 l=200 w=1000 "VGND" "GATE" 400 0 "DRAIN" 1000 0 "SOURCE" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1319 -500 1320 -499 l=200 w=1000 "VGND" "GATE" 400 0 "SOURCE" 1000 0 "DRAIN" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1061 -500 1062 -499 l=200 w=1000 "VGND" "GATE" 400 0 "DRAIN" 1000 0 "SOURCE" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 803 -500 804 -499 l=200 w=1000 "VGND" "GATE" 400 0 "SOURCE" 1000 0 "DRAIN" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 545 -500 546 -499 l=200 w=1000 "VGND" "GATE" 400 0 "DRAIN" 1000 0 "SOURCE" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 287 -500 288 -499 l=200 w=1000 "VGND" "GATE" 400 0 "SOURCE" 1000 0 "DRAIN" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 29 -500 30 -499 l=200 w=1000 "VGND" "GATE" 400 0 "DRAIN" 1000 0 "SOURCE" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -229 -500 -228 -499 l=200 w=1000 "VGND" "GATE" 400 0 "SOURCE" 1000 0 "DRAIN" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -487 -500 -486 -499 l=200 w=1000 "VGND" "GATE" 400 0 "DRAIN" 1000 0 "SOURCE" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -745 -500 -744 -499 l=200 w=1000 "VGND" "GATE" 400 0 "SOURCE" 1000 0 "DRAIN" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -1003 -500 -1002 -499 l=200 w=1000 "VGND" "GATE" 400 0 "DRAIN" 1000 0 "SOURCE" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -1261 -500 -1260 -499 l=200 w=1000 "VGND" "GATE" 400 0 "SOURCE" 1000 0 "DRAIN" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -1519 -500 -1518 -499 l=200 w=1000 "VGND" "GATE" 400 0 "DRAIN" 1000 0 "SOURCE" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -1777 -500 -1776 -499 l=200 w=1000 "VGND" "GATE" 400 0 "SOURCE" 1000 0 "DRAIN" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -2035 -500 -2034 -499 l=200 w=1000 "VGND" "GATE" 400 0 "DRAIN" 1000 0 "SOURCE" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -2293 -500 -2292 -499 l=200 w=1000 "VGND" "GATE" 400 0 "SOURCE" 1000 0 "DRAIN" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -2551 -500 -2550 -499 l=200 w=1000 "VGND" "GATE" 400 0 "DRAIN" 1000 0 "SOURCE" 1000 0

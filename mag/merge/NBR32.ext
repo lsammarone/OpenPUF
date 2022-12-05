@@ -1,0 +1,246 @@
+timestamp 1656729169
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use invcell invcell_0 1 0 6097 0 1 -4063
+use unitcell_nbr unitcell_nbr_1 1 0 2855 0 1 1185
+use unitcell_nbr unitcell_nbr_0 1 0 967 0 1 1185
+use sky130_fd_sc_hd__tapvpwrvgnd_1 sky130_fd_sc_hd__tapvpwrvgnd_1_0 1 0 19407 0 1 2871
+use nbrhalf_32 nbrhalf_32_1 1 0 5833 0 1 -2527
+use nbrhalf_32 nbrhalf_32_0 -1 0 28562 0 -1 8785
+port "VDD" 34 26463 1 26801 6257 m4
+port "VDD" 34 22667 1 23005 6257 m4
+port "VDD" 34 11359 1 11697 6257 m4
+port "VDD" 34 7589 1 7927 6257 m4
+port "VDD" 34 3813 1 4151 6257 m4
+port "VSS" 33 28349 0 28687 6258 m4
+port "VSS" 33 20791 1 21129 6259 m4
+port "VSS" 33 13251 1 13589 6259 m4
+port "VSS" 33 5699 0 6037 6258 m4
+port "VSS" 33 1915 1 2253 6259 m4
+port "C[31]" 1 30621 1 30665 793 m2
+port "C[30]" 2 28733 1 28777 793 m2
+port "C[29]" 3 26845 1 26889 793 m2
+port "C[28]" 4 24957 1 25001 793 m2
+port "C[27]" 5 23069 1 23113 793 m2
+port "C[26]" 6 21181 1 21225 793 m2
+port "C[25]" 7 19293 1 19337 793 m2
+port "C[24]" 8 17405 1 17449 793 m2
+port "C[23]" 9 15517 1 15561 793 m2
+port "C[22]" 10 13629 1 13673 793 m2
+port "C[21]" 11 11741 1 11785 793 m2
+port "C[20]" 12 9853 1 9897 793 m2
+port "C[19]" 13 7965 1 8009 793 m2
+port "C[18]" 14 6077 1 6121 793 m2
+port "C[17]" 15 4189 1 4233 793 m2
+port "C[16]" 16 2301 1 2345 793 m2
+port "C[15]" 17 413 1 457 793 m2
+port "C[0]" 32 30162 5465 30206 6257 m2
+port "C[1]" 31 28274 5465 28318 6257 m2
+port "C[2]" 30 26386 5465 26430 6257 m2
+port "C[3]" 29 24498 5465 24542 6257 m2
+port "C[4]" 28 22610 5465 22654 6257 m2
+port "C[5]" 27 20722 5465 20766 6257 m2
+port "C[6]" 26 18834 5465 18878 6257 m2
+port "C[7]" 25 16946 5465 16990 6257 m2
+port "C[8]" 24 15058 5465 15102 6257 m2
+port "C[9]" 23 13170 5465 13214 6257 m2
+port "C[10]" 22 11282 5465 11326 6257 m2
+port "C[11]" 21 9394 5465 9438 6257 m2
+port "C[12]" 20 7506 5465 7550 6257 m2
+port "C[13]" 19 5618 5465 5662 6257 m2
+port "C[14]" 18 3730 5465 3774 6257 m2
+port "OUT" 36 32393 782 32622 859 m1
+port "VSS" 33 24561 1 24899 6259 m4
+port "VSS" 33 17019 1 17357 6259 m4
+port "VDD" 34 18899 1 19237 6257 m4
+port "VDD" 34 15127 1 15465 6257 m4
+port "VSS" 33 9473 1 9811 6259 m4
+port "RESET" 35 18 3036 554 3129 m3
+node "VDD" 0 0 26463 1 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDD" 0 0 22667 1 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDD" 0 0 11359 1 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDD" 0 0 7589 1 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDD" 0 0 3813 1 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VSS" 0 0 28349 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VSS" 0 0 20791 1 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VSS" 0 0 13251 1 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VSS" 0 0 5699 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VSS" 0 0 1915 1 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[31]" 0 0 30621 1 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[30]" 0 0 28733 1 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[29]" 0 0 26845 1 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[28]" 0 0 24957 1 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[27]" 0 0 23069 1 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[26]" 0 0 21181 1 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[25]" 0 0 19293 1 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[24]" 0 0 17405 1 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[23]" 0 0 15517 1 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[22]" 0 0 13629 1 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[21]" 0 0 11741 1 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[20]" 0 0 9853 1 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[19]" 0 0 7965 1 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[18]" 0 0 6077 1 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[17]" 0 0 4189 1 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[16]" 0 0 2301 1 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[15]" 0 0 413 1 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_393_2001#" 0 0 393 2001 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_30177_4747#" 0 0 30177 4747 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_169_1475#" 0 0 169 1475 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_30088_5224#" 0 0 30088 5224 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_0_1000#" 0 0 0 1000 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[0]" 0 0 30162 5465 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[1]" 0 0 28274 5465 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[2]" 0 0 26386 5465 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[3]" 0 0 24498 5465 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[4]" 0 0 22610 5465 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[5]" 0 0 20722 5465 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[6]" 0 0 18834 5465 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[7]" 0 0 16946 5465 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[8]" 0 0 15058 5465 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[9]" 0 0 13170 5465 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[10]" 0 0 11282 5465 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[11]" 0 0 9394 5465 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[12]" 0 0 7506 5465 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[13]" 0 0 5618 5465 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "C[14]" 0 0 3730 5465 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "OUT" 0 0 32393 782 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VSS" 0 0 24561 1 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_19219_2823#" 0 0 19219 2823 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VSS" 0 0 17019 1 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_19213_3367#" 0 0 19213 3367 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDD" 0 0 18899 1 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDD" 0 0 15127 1 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VSS" 0 0 9473 1 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_19160_3088#" 0 0 19160 3088 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "RESET" 0 0 18 3036 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_15259_3175#" 0 0 15259 3175 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_15089_3413#" 0 0 15089 3413 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "a_9553_3467#" 0 0 9553 3467 ppd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_1/unitcell_nbr_2/li_n384_n810#" "C[28]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_0/unitcell_nbr_11/m1_n574_938#" "nbrhalf_32_0/sky130_fd_sc_hd__inv_16_3/VPB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_0/sky130_fd_sc_hd__inv_16_3/VPB" "nbrhalf_32_0/unitcell_nbr_9/m1_n574_938#"
+merge "nbrhalf_32_0/unitcell_nbr_9/m1_n574_938#" "nbrhalf_32_0/unitcell_nbr_7/m1_n574_938#"
+merge "nbrhalf_32_0/unitcell_nbr_7/m1_n574_938#" "sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "invcell_0/sky130_fd_sc_hd__inv_16_2/VPB"
+merge "invcell_0/sky130_fd_sc_hd__inv_16_2/VPB" "invcell_0/sky130_fd_sc_hd__inv_16_2/VPWR"
+merge "invcell_0/sky130_fd_sc_hd__inv_16_2/VPWR" "m1_19213_3367#"
+merge "m1_19213_3367#" "invcell_0/sky130_fd_sc_hd__inv_2_1/VPWR"
+merge "invcell_0/sky130_fd_sc_hd__inv_2_1/VPWR" "invcell_0/sky130_fd_sc_hd__inv_2_1/VPB"
+merge "invcell_0/sky130_fd_sc_hd__inv_2_1/VPB" "nbrhalf_32_0/unitcell_nbr_6/m1_n574_938#"
+merge "nbrhalf_32_0/unitcell_nbr_6/m1_n574_938#" "invcell_0/sky130_fd_sc_hd__inv_16_3/VPWR"
+merge "invcell_0/sky130_fd_sc_hd__inv_16_3/VPWR" "invcell_0/sky130_fd_sc_hd__inv_16_3/VPB"
+merge "invcell_0/sky130_fd_sc_hd__inv_16_3/VPB" "w_15089_3413#"
+merge "w_15089_3413#" "nbrhalf_32_0/sky130_fd_sc_hd__inv_16_1/VPWR"
+merge "nbrhalf_32_0/sky130_fd_sc_hd__inv_16_1/VPWR" "nbrhalf_32_0/unitcell_nbr_2/m1_n574_938#"
+merge "nbrhalf_32_0/unitcell_nbr_2/m1_n574_938#" "nbrhalf_32_0/unitcell_nbr_0/m1_n574_938#"
+merge "nbrhalf_32_0/unitcell_nbr_0/m1_n574_938#" "nbrhalf_32_1/unitcell_nbr_2/m1_n574_938#"
+merge "nbrhalf_32_1/unitcell_nbr_2/m1_n574_938#" "nbrhalf_32_1/sky130_fd_sc_hd__inv_16_1/VPWR"
+merge "nbrhalf_32_1/sky130_fd_sc_hd__inv_16_1/VPWR" "nbrhalf_32_1/unitcell_nbr_6/m1_n574_938#"
+merge "nbrhalf_32_1/unitcell_nbr_6/m1_n574_938#" "nbrhalf_32_1/unitcell_nbr_7/m1_n574_938#"
+merge "nbrhalf_32_1/unitcell_nbr_7/m1_n574_938#" "nbrhalf_32_1/unitcell_nbr_9/m1_n574_938#"
+merge "nbrhalf_32_1/unitcell_nbr_9/m1_n574_938#" "nbrhalf_32_1/unitcell_nbr_11/m1_n574_938#"
+merge "nbrhalf_32_1/unitcell_nbr_11/m1_n574_938#" "nbrhalf_32_1/unitcell_nbr_12/m1_n574_938#"
+merge "nbrhalf_32_1/unitcell_nbr_12/m1_n574_938#" "unitcell_nbr_0/m1_n574_938#"
+merge "unitcell_nbr_0/m1_n574_938#" "VDD"
+merge "VDD" "unitcell_nbr_1/m1_n574_938#"
+merge "unitcell_nbr_1/m1_n574_938#" "unitcell_nbr_1/sky130_fd_sc_hd__nor2_1_0/VPWR"
+merge "nbrhalf_32_0/unitcell_nbr_12/sky130_fd_sc_hd__buf_1_0/VGND" "nbrhalf_32_0/unitcell_nbr_10/sky130_fd_sc_hd__buf_1_0/VGND" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_0/unitcell_nbr_10/sky130_fd_sc_hd__buf_1_0/VGND" "nbrhalf_32_0/unitcell_nbr_8/sky130_fd_sc_hd__buf_1_0/VGND"
+merge "nbrhalf_32_0/unitcell_nbr_8/sky130_fd_sc_hd__buf_1_0/VGND" "nbrhalf_32_0/unitcell_nbr_8/m1_n566_n1184#"
+merge "nbrhalf_32_0/unitcell_nbr_8/m1_n566_n1184#" "nbrhalf_32_0/unitcell_nbr_cut_1/sky130_fd_sc_hd__buf_1_0/VGND"
+merge "nbrhalf_32_0/unitcell_nbr_cut_1/sky130_fd_sc_hd__buf_1_0/VGND" "nbrhalf_32_0/unitcell_nbr_5/sky130_fd_sc_hd__buf_1_0/VGND"
+merge "nbrhalf_32_0/unitcell_nbr_5/sky130_fd_sc_hd__buf_1_0/VGND" "nbrhalf_32_0/unitcell_nbr_3/m1_n566_n1184#"
+merge "nbrhalf_32_0/unitcell_nbr_3/m1_n566_n1184#" "nbrhalf_32_0/unitcell_nbr_3/sky130_fd_sc_hd__buf_1_0/VGND"
+merge "nbrhalf_32_0/unitcell_nbr_3/sky130_fd_sc_hd__buf_1_0/VGND" "nbrhalf_32_0/unitcell_nbr_1/sky130_fd_sc_hd__buf_1_0/VGND"
+merge "nbrhalf_32_0/unitcell_nbr_1/sky130_fd_sc_hd__buf_1_0/VGND" "nbrhalf_32_0/unitcell_nbr_cut_0/sky130_fd_sc_hd__buf_1_0/VGND"
+merge "nbrhalf_32_0/unitcell_nbr_cut_0/sky130_fd_sc_hd__buf_1_0/VGND" "nbrhalf_32_0/sky130_fd_sc_hd__inv_16_3/VGND"
+merge "nbrhalf_32_0/sky130_fd_sc_hd__inv_16_3/VGND" "nbrhalf_32_0/sky130_fd_sc_hd__inv_16_2/VGND"
+merge "nbrhalf_32_0/sky130_fd_sc_hd__inv_16_2/VGND" "nbrhalf_32_1/sky130_fd_sc_hd__inv_16_0/VGND"
+merge "nbrhalf_32_1/sky130_fd_sc_hd__inv_16_0/VGND" "sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "invcell_0/sky130_fd_sc_hd__inv_16_2/VGND"
+merge "invcell_0/sky130_fd_sc_hd__inv_16_2/VGND" "m1_19219_2823#"
+merge "m1_19219_2823#" "invcell_0/VSUBS"
+merge "invcell_0/VSUBS" "nbrhalf_32_0/sky130_fd_sc_hd__inv_16_1/VGND"
+merge "nbrhalf_32_0/sky130_fd_sc_hd__inv_16_1/VGND" "nbrhalf_32_1/sky130_fd_sc_hd__inv_16_2/VGND"
+merge "nbrhalf_32_1/sky130_fd_sc_hd__inv_16_2/VGND" "nbrhalf_32_0/sky130_fd_sc_hd__inv_16_0/VGND"
+merge "nbrhalf_32_0/sky130_fd_sc_hd__inv_16_0/VGND" "nbrhalf_32_0/VSUBS"
+merge "nbrhalf_32_0/VSUBS" "nbrhalf_32_1/VSUBS"
+merge "nbrhalf_32_1/VSUBS" "unitcell_nbr_1/VSUBS"
+merge "unitcell_nbr_1/VSUBS" "unitcell_nbr_0/VSUBS"
+merge "unitcell_nbr_0/VSUBS" "a_9553_3467#"
+merge "a_9553_3467#" "nbrhalf_32_1/sky130_fd_sc_hd__inv_16_3/VGND"
+merge "nbrhalf_32_1/sky130_fd_sc_hd__inv_16_3/VGND" "nbrhalf_32_1/unitcell_nbr_1/sky130_fd_sc_hd__buf_1_0/VGND"
+merge "nbrhalf_32_1/unitcell_nbr_1/sky130_fd_sc_hd__buf_1_0/VGND" "nbrhalf_32_1/unitcell_nbr_3/sky130_fd_sc_hd__buf_1_0/VGND"
+merge "nbrhalf_32_1/unitcell_nbr_3/sky130_fd_sc_hd__buf_1_0/VGND" "nbrhalf_32_1/unitcell_nbr_5/m1_n566_n1184#"
+merge "nbrhalf_32_1/unitcell_nbr_5/m1_n566_n1184#" "nbrhalf_32_1/unitcell_nbr_5/sky130_fd_sc_hd__buf_1_0/VGND"
+merge "nbrhalf_32_1/unitcell_nbr_5/sky130_fd_sc_hd__buf_1_0/VGND" "nbrhalf_32_1/unitcell_nbr_cut_1/sky130_fd_sc_hd__buf_1_0/VGND"
+merge "nbrhalf_32_1/unitcell_nbr_cut_1/sky130_fd_sc_hd__buf_1_0/VGND" "nbrhalf_32_1/unitcell_nbr_8/sky130_fd_sc_hd__buf_1_0/VGND"
+merge "nbrhalf_32_1/unitcell_nbr_8/sky130_fd_sc_hd__buf_1_0/VGND" "nbrhalf_32_1/unitcell_nbr_10/sky130_fd_sc_hd__buf_1_0/VGND"
+merge "nbrhalf_32_1/unitcell_nbr_10/sky130_fd_sc_hd__buf_1_0/VGND" "nbrhalf_32_1/unitcell_nbr_12/sky130_fd_sc_hd__buf_1_0/VGND"
+merge "nbrhalf_32_1/unitcell_nbr_12/sky130_fd_sc_hd__buf_1_0/VGND" "unitcell_nbr_0/sky130_fd_sc_hd__buf_1_0/VGND"
+merge "unitcell_nbr_0/sky130_fd_sc_hd__buf_1_0/VGND" "VSS"
+merge "VSS" "unitcell_nbr_1/m1_n566_n1184#"
+merge "nbrhalf_32_0/unitcell_nbr_cut_0/sky130_fd_sc_hd__buf_1_1/A" "unitcell_nbr_0/sky130_fd_sc_hd__nor2_1_0/B" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "unitcell_nbr_0/sky130_fd_sc_hd__nor2_1_0/B" "m2_169_1475#"
+merge "nbrhalf_32_0/unitcell_nbr_4/li_n384_n810#" "C[9]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_1/unitcell_nbr_12/m1_n566_n1184#" "unitcell_nbr_1/sky130_fd_sc_hd__buf_1_0/VGND" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_0/unitcell_nbr_12/li_n384_n810#" "C[0]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "unitcell_nbr_0/sky130_fd_sc_hd__buf_1_0/A" "unitcell_nbr_1/li_n342_n198#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "invcell_0/sky130_fd_sc_hd__inv_16_3/Y" "nbrhalf_32_0/sky130_fd_sc_hd__inv_16_1/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_0/sky130_fd_sc_hd__inv_16_1/A" "nbrhalf_32_0/li_17606_5144#"
+merge "nbrhalf_32_0/li_17606_5144#" "nbrhalf_32_1/sky130_fd_sc_hd__inv_16_2/A"
+merge "nbrhalf_32_1/sky130_fd_sc_hd__inv_16_2/A" "li_15259_3175#"
+merge "nbrhalf_32_0/unitcell_nbr_12/li_n342_n198#" "nbrhalf_32_1/unitcell_nbr_cut_0/li_1040_n818#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_1/unitcell_nbr_cut_0/li_1040_n818#" "m2_30088_5224#"
+merge "nbrhalf_32_1/unitcell_nbr_cut_1/li_n384_n810#" "C[23]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_1/unitcell_nbr_1/li_n384_n810#" "C[29]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "unitcell_nbr_1/li_n384_n810#" "C[16]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_1/unitcell_nbr_12/w_n574_n766#" "unitcell_nbr_1/sky130_fd_sc_hd__buf_1_0/VPB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_1/unitcell_nbr_7/li_n384_n810#" "C[22]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_0/unitcell_nbr_1/li_n384_n810#" "C[12]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_1/unitcell_nbr_3/li_n384_n810#" "C[27]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_1/unitcell_nbr_4/li_n384_n810#" "C[26]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_0/unitcell_nbr_9/li_n384_n810#" "C[3]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_1/li_2245_4973#" "unitcell_nbr_1/li_n164_n198#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "unitcell_nbr_1/li_n164_n198#" "unitcell_nbr_0/li_n164_n198#"
+merge "unitcell_nbr_0/li_n164_n198#" "unitcell_nbr_1/sky130_fd_sc_hd__nor2_1_0/A"
+merge "unitcell_nbr_1/sky130_fd_sc_hd__nor2_1_0/A" "unitcell_nbr_0/sky130_fd_sc_hd__nor2_1_0/A"
+merge "unitcell_nbr_0/sky130_fd_sc_hd__nor2_1_0/A" "m2_393_2001#"
+merge "nbrhalf_32_1/unitcell_nbr_5/li_n384_n810#" "C[25]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_0/unitcell_nbr_12/li_n342_282#" "nbrhalf_32_1/unitcell_nbr_cut_0/li_1044_n202#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_1/unitcell_nbr_cut_0/li_1044_n202#" "m2_30177_4747#"
+merge "nbrhalf_32_0/unitcell_nbr_5/li_n384_n810#" "C[8]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_0/unitcell_nbr_cut_0/li_n384_n810#" "C[14]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_1/unitcell_nbr_6/li_n384_n810#" "C[24]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_0/unitcell_nbr_6/li_n384_n810#" "C[7]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "unitcell_nbr_0/li_1044_n202#" "unitcell_nbr_1/sky130_fd_sc_hd__nor2_1_0/B" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_0/unitcell_nbr_cut_0/li_1040_n818#" "unitcell_nbr_0/li_n342_n198#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "unitcell_nbr_0/li_n342_n198#" "m2_0_1000#"
+merge "nbrhalf_32_0/unitcell_nbr_cut_1/li_n384_n810#" "C[6]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "unitcell_nbr_0/sky130_fd_sc_hd__buf_1_0/VPB" "unitcell_nbr_1/w_n574_n766#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_0/unitcell_nbr_7/li_n384_n810#" "C[5]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_1/unitcell_nbr_11/li_n384_n810#" "C[18]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_0/sky130_fd_sc_hd__inv_16_2/A" "nbrhalf_32_0/li_2552_5144#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_0/li_2552_5144#" "invcell_0/sky130_fd_sc_hd__inv_16_2/Y"
+merge "invcell_0/sky130_fd_sc_hd__inv_16_2/Y" "nbrhalf_32_1/sky130_fd_sc_hd__inv_16_1/A"
+merge "nbrhalf_32_1/sky130_fd_sc_hd__inv_16_1/A" "li_19160_3088#"
+merge "nbrhalf_32_1/unitcell_nbr_8/li_n384_n810#" "C[21]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_0/unitcell_nbr_8/li_n384_n810#" "C[4]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_1/unitcell_nbr_12/li_n342_n198#" "unitcell_nbr_1/sky130_fd_sc_hd__buf_1_0/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_1/unitcell_nbr_9/li_n384_n810#" "C[20]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_0/unitcell_nbr_10/li_n384_n810#" "C[2]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_0/unitcell_nbr_3/li_n384_n810#" "C[10]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_0/unitcell_nbr_11/li_n384_n810#" "C[1]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_1/unitcell_nbr_cut_0/li_n384_n810#" "C[31]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "invcell_0/sky130_fd_sc_hd__inv_2_1/A" "RESET" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "unitcell_nbr_0/li_n384_n810#" "C[15]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_0/unitcell_nbr_0/li_n384_n810#" "C[13]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_1/unitcell_nbr_10/li_n384_n810#" "C[19]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_1/unitcell_nbr_12/li_n384_n810#" "C[17]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_1/unitcell_nbr_12/li_n342_282#" "unitcell_nbr_1/li_1044_n202#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_1/unitcell_nbr_0/li_n384_n810#" "C[30]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_0/unitcell_nbr_2/li_n384_n810#" "C[11]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nbrhalf_32_1/unitcell_nbr_cut_0/sky130_fd_sc_hd__buf_1_1/X" "OUT" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

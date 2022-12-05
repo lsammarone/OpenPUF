@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1655322987
+timestamp 1656715967
 << error_p >>
 rect 19 137 77 143
 rect 19 103 31 137
@@ -121,4 +121,8 @@ rect -77 -103 -19 -97
 rect -77 -137 -65 -103
 rect -31 -137 -19 -103
 rect -77 -143 -19 -137
+<< properties >>
+string GDS_END 10065864
+string GDS_FILE /scratch/users/lsammaro/OpenPUF/mag/design_merged.gds
+string GDS_START 10052804
 << end >>

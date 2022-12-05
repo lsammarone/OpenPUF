@@ -1,23 +1,66 @@
 magic
 tech sky130A
-timestamp 1655323538
+magscale 1 2
+timestamp 1656715967
+<< metal3 >>
+rect -662 32 662 33
+rect -662 -32 -632 32
+rect -568 -32 -552 32
+rect -488 -32 -472 32
+rect -408 -32 -392 32
+rect -328 -32 -312 32
+rect -248 -32 -232 32
+rect -168 -32 -152 32
+rect -88 -32 -72 32
+rect -8 -32 8 32
+rect 72 -32 88 32
+rect 152 -32 168 32
+rect 232 -32 248 32
+rect 312 -32 328 32
+rect 392 -32 408 32
+rect 472 -32 488 32
+rect 552 -32 568 32
+rect 632 -32 662 32
+rect -662 -33 662 -32
+<< via3 >>
+rect -632 -32 -568 32
+rect -552 -32 -488 32
+rect -472 -32 -408 32
+rect -392 -32 -328 32
+rect -312 -32 -248 32
+rect -232 -32 -168 32
+rect -152 -32 -88 32
+rect -72 -32 -8 32
+rect 8 -32 72 32
+rect 88 -32 152 32
+rect 168 -32 232 32
+rect 248 -32 312 32
+rect 328 -32 392 32
+rect 408 -32 472 32
+rect 488 -32 552 32
+rect 568 -32 632 32
 << metal4 >>
-rect -90 139 90 226
-rect -90 21 -59 139
-rect 59 21 90 139
-rect -90 -21 90 21
-rect -90 -139 -59 -21
-rect 59 -139 90 -21
-rect -90 -226 90 -139
-<< via4 >>
-rect -59 21 59 139
-rect -59 -139 59 -21
-<< metal5 >>
-rect -90 139 90 226
-rect -90 21 -59 139
-rect 59 21 90 139
-rect -90 -21 90 21
-rect -90 -139 -59 -21
-rect 59 -139 90 -21
-rect -90 -226 90 -139
+rect -662 32 662 33
+rect -662 -32 -632 32
+rect -568 -32 -552 32
+rect -488 -32 -472 32
+rect -408 -32 -392 32
+rect -328 -32 -312 32
+rect -248 -32 -232 32
+rect -168 -32 -152 32
+rect -88 -32 -72 32
+rect -8 -32 8 32
+rect 72 -32 88 32
+rect 152 -32 168 32
+rect 232 -32 248 32
+rect 312 -32 328 32
+rect 392 -32 408 32
+rect 472 -32 488 32
+rect 552 -32 568 32
+rect 632 -32 662 32
+rect -662 -33 662 -32
+<< properties >>
+string GDS_END 9358598
+string GDS_FILE /scratch/users/lsammaro/OpenPUF/mag/design_merged.gds
+string GDS_START 9357442
 << end >>

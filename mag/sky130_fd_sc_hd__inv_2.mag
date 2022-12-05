@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1655322987
+timestamp 1656715967
 << error_p >>
 rect -38 261 314 582
 rect 29 47 81 177
@@ -194,6 +194,22 @@ flabel metal1 s 29 527 63 561 0 FreeSans 312 0 0 0 VPWR
 port 5 nsew
 flabel metal1 s 29 -17 63 17 0 FreeSans 312 0 0 0 VGND
 port 6 nsew
+flabel locali s 46 238 46 238 0 FreeSans 531 0 0 0 A
+port 1 nsew
+flabel locali s 138 170 138 170 0 FreeSans 531 0 0 0 Y
+port 2 nsew
+flabel locali s 138 306 138 306 0 FreeSans 531 0 0 0 Y
+port 2 nsew
+flabel locali s 138 238 138 238 0 FreeSans 531 0 0 0 Y
+port 2 nsew
+flabel nwell s 46 544 46 544 0 FreeSans 312 0 0 0 VPB
+port 3 nsew
+flabel pwell s 46 0 46 0 0 FreeSans 312 0 0 0 VNB
+port 4 nsew
+flabel metal1 s 46 544 46 544 0 FreeSans 312 0 0 0 VPWR
+port 5 nsew
+flabel metal1 s 46 0 46 0 0 FreeSans 312 0 0 0 VGND
+port 6 nsew
 flabel locali s 46 238 46 238 0 FreeSans 340 0 0 0 A
 port 1 nsew
 flabel locali s 138 170 138 170 0 FreeSans 340 0 0 0 Y
@@ -213,5 +229,8 @@ port 6 nsew
 rlabel comment s 0 0 0 0 4 inv_2
 << properties >>
 string FIXED_BBOX 0 0 276 544
+string GDS_END 9932344
+string GDS_FILE /scratch/users/lsammaro/OpenPUF/mag/design_merged.gds
+string GDS_START 9920420
 string path 0.000 0.000 6.900 0.000 
 << end >>

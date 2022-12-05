@@ -1,0 +1,78 @@
+timestamp 1656304247
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__pfet_01v8_lvt l=l w=w a1=as p1=ps a2=ad p2=pd
+port "VGND" 5 120 -30 278 30 m1
+port "SOURCE" 2 27766 1690 27826 1730 li
+port "DRAIN" 3 27766 210 27826 270 li
+port "GATE" 1 27766 104 27826 164 li
+port "VPWR" 4 120 1850 180 1910 nw
+node "VGND" 0 0 120 -30 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "SOURCE" 0 0 27766 1690 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "DRAIN" 0 0 27766 210 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "GATE" 0 0 27766 104 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VPWR" 0 0 120 1850 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 27333 355 27334 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 26875 355 26876 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 26417 355 26418 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 25959 355 25960 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 25501 355 25502 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 25043 355 25044 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 24585 355 24586 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 24127 355 24128 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 23669 355 23670 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 23211 355 23212 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 22753 355 22754 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 22295 355 22296 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 21837 355 21838 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 21379 355 21380 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 20921 355 20922 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 20463 355 20464 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 20005 355 20006 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 19547 355 19548 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 19089 355 19090 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 18631 355 18632 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 18173 355 18174 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 17715 355 17716 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 17257 355 17258 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 16799 355 16800 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 16341 355 16342 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 15883 355 15884 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 15425 355 15426 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 14967 355 14968 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 14509 355 14510 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 14051 355 14052 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 13593 355 13594 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 13135 355 13136 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 12677 355 12678 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 12219 355 12220 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 11761 355 11762 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 11303 355 11304 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 10845 355 10846 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 10387 355 10388 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 9929 355 9930 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 9471 355 9472 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 9013 355 9014 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 8555 355 8556 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 8097 355 8098 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 7639 355 7640 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 7181 355 7182 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 6723 355 6724 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 6265 355 6266 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 5807 355 5808 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 5349 355 5350 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 4891 355 4892 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 4433 355 4434 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 3975 355 3976 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 3517 355 3518 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 3059 355 3060 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 2601 355 2602 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 2143 355 2144 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 1685 355 1686 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 1227 355 1228 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 769 355 770 356 l=400 w=1290 "VPWR" "GATE" 800 0 "SOURCE" 1290 0 "DRAIN" 1290 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 311 355 312 356 l=400 w=1290 "VPWR" "GATE" 800 0 "DRAIN" 1290 0 "SOURCE" 1290 0

@@ -1,0 +1,1994 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1656304949
+<< metal1 >>
+rect 900 50772 57536 50892
+rect 3348 48892 55088 49012
+rect 20659 48776 20746 48804
+rect 25332 48654 25360 48892
+rect 20291 47416 20378 47444
+rect 24320 47240 24348 47580
+rect 35747 47280 35834 47308
+rect 24320 47212 25360 47240
+rect 900 47012 57536 47132
+rect 3348 45132 55088 45252
+rect 14568 44900 18998 44928
+rect 14568 44832 14596 44900
+rect 21468 44424 21758 44452
+rect 49620 44316 49648 44438
+rect 49528 44288 49648 44316
+rect 19366 43948 20852 43976
+rect 49344 43472 49634 43500
+rect 900 43252 57536 43372
+rect 46952 43132 49372 43160
+rect 11348 42996 21864 43024
+rect 3348 41372 55088 41492
+rect 18156 41228 18184 41372
+rect 25148 41296 26188 41324
+rect 25148 40916 25176 41296
+rect 25884 41228 26096 41256
+rect 30116 41228 33180 41256
+rect 25884 40916 25912 41228
+rect 46952 41174 46980 41324
+rect 25070 40888 25176 40916
+rect 25530 40888 25912 40916
+rect 33152 40412 45494 40440
+rect 45848 40208 45954 40236
+rect 24799 39868 24886 39896
+rect 26068 39828 26096 40066
+rect 30116 40004 30144 40066
+rect 28111 39868 28198 39896
+rect 20640 39800 26096 39828
+rect 20824 39664 20852 39800
+rect 45848 39612 45876 40208
+rect 45940 39732 46152 39760
+rect 47058 39732 48636 39760
+rect 49804 39612 49832 39678
+rect 900 39492 57536 39612
+rect 3348 37612 55088 37732
+rect 15856 37488 16712 37516
+rect 15856 37380 15884 37488
+rect 25976 37380 26004 37612
+rect 14306 37352 15884 37380
+rect 25898 37352 26004 37380
+rect 16500 36876 16790 36904
+rect 51276 36672 51566 36700
+rect 14306 36400 15884 36428
+rect 51566 36400 51672 36428
+rect 24518 36196 24808 36224
+rect 16776 35852 16804 35938
+rect 26087 35924 26174 35952
+rect 51644 35924 51672 36400
+rect 51920 36400 52026 36428
+rect 51920 35852 51948 36400
+rect 900 35732 57536 35852
+rect 46952 34428 49648 34456
+rect 3348 33852 55088 33972
+rect 24872 33626 24900 33776
+rect 28092 33626 28120 33852
+rect 22402 33204 23980 33232
+rect 14122 33136 14320 33164
+rect 16882 33136 18460 33164
+rect 14292 32932 14320 33136
+rect 14122 32660 15700 32688
+rect 19076 32660 19366 32688
+rect 21836 32388 22034 32416
+rect 28460 32388 28566 32416
+rect 11362 32184 11652 32212
+rect 26160 32150 26188 32212
+rect 29564 32150 29592 32212
+rect 45572 32150 45600 32212
+rect 900 31972 57536 32092
+rect 11624 30416 24164 30444
+rect 24136 30348 24164 30416
+rect 3348 30092 55088 30212
+rect 15212 30008 16896 30036
+rect 15212 29900 15240 30008
+rect 30852 29900 30880 30092
+rect 13662 29872 15240 29900
+rect 24136 29872 24334 29900
+rect 30852 29872 30958 29900
+rect 47412 29872 47794 29900
+rect 18524 29396 18814 29424
+rect 24044 28920 24334 28948
+rect 28000 28608 28028 28812
+rect 27816 28580 28028 28608
+rect 13662 28444 14320 28472
+rect 16422 28444 16528 28472
+rect 21376 28444 21574 28472
+rect 27816 28332 27844 28580
+rect 30392 28512 47794 28540
+rect 30392 28444 30420 28512
+rect 30043 28376 30130 28404
+rect 900 28212 57536 28332
+rect 16500 28104 18552 28132
+rect 14292 27968 21588 27996
+rect 16316 27832 21404 27860
+rect 3348 26332 55088 26452
+rect 41800 26200 41828 26332
+rect 45664 26200 45692 26332
+rect 47044 26200 49096 26228
+rect 49068 26146 49096 26200
+rect 23768 25874 23796 26078
+rect 48884 25112 49082 25140
+rect 40880 24704 40908 24766
+rect 43640 24738 43668 24800
+rect 18984 24572 19012 24650
+rect 45591 24636 45678 24664
+rect 900 24452 57536 24572
+rect 20088 23480 30420 23508
+rect 20088 23412 20116 23480
+rect 15948 22936 24808 22964
+rect 3348 22572 55088 22692
+rect 42444 22352 42472 22572
+rect 44284 22460 46152 22488
+rect 44284 22352 44312 22460
+rect 14766 22324 15976 22352
+rect 42444 22324 42550 22352
+rect 43930 22324 44312 22352
+rect 48976 22352 49004 22420
+rect 48976 22324 49266 22352
+rect 26160 22134 26188 22270
+rect 17526 21848 19012 21876
+rect 16868 21372 17158 21400
+rect 19628 21372 19918 21400
+rect 45499 20896 45586 20924
+rect 900 20692 57536 20812
+rect 3348 18812 55088 18932
+rect 49252 18612 49280 18680
+rect 49252 18584 49542 18612
+rect 23492 18394 23520 18530
+rect 17328 17972 17356 18122
+rect 19628 18108 19918 18136
+rect 47058 18108 48636 18136
+rect 17526 17632 19012 17660
+rect 49252 17632 49542 17660
+rect 900 16932 57536 17052
+rect 17420 15388 34284 15416
+rect 3348 15052 55088 15172
+rect 35820 14872 35848 14940
+rect 34638 14844 35848 14872
+rect 23584 14586 23612 14790
+rect 22388 13892 23690 13920
+rect 20194 13756 21772 13784
+rect 900 13172 57536 13292
+rect 3348 11292 55088 11412
+rect 23492 10846 23520 10982
+rect 22388 10628 23690 10656
+rect 900 9412 57536 9532
+rect 3348 7532 55088 7652
+rect 900 5652 57536 5772
+<< metal2 >>
+rect 20364 47416 20392 56576
+rect 20732 47076 20760 48804
+rect 35820 47280 35848 56576
+rect 25332 47166 25360 47226
+rect 41984 45138 42012 45200
+rect 46860 44900 46888 47444
+rect 11256 42996 11376 43024
+rect 11256 33612 11284 42996
+rect 14292 32450 14320 32960
+rect 11624 30416 11652 32212
+rect 14292 27968 14320 28472
+rect 14568 21372 14596 44860
+rect 21468 43976 21496 44452
+rect 20824 43948 21496 43976
+rect 21836 42996 21864 43500
+rect 15856 36876 16528 36904
+rect 15856 36400 15884 36876
+rect 15856 32688 15884 32966
+rect 15672 32660 15884 32688
+rect 16684 32660 16712 37516
+rect 23952 33204 24072 33232
+rect 18432 32688 18460 33164
+rect 19628 32938 19656 33164
+rect 18432 32660 19104 32688
+rect 21836 32388 21864 32478
+rect 16040 25112 16068 29424
+rect 16500 28104 16528 28472
+rect 16316 26132 16344 27860
+rect 15948 22324 15976 22964
+rect 16868 21372 16896 30036
+rect 18524 28104 18552 29424
+rect 18800 26132 18828 28472
+rect 21376 27832 21404 28472
+rect 21560 27968 21588 29424
+rect 24044 28920 24072 33204
+rect 24136 29872 24164 30376
+rect 23768 24500 23796 25888
+rect 18984 21400 19012 21876
+rect 18984 21372 19656 21400
+rect 18984 18108 19656 18136
+rect 17328 15416 17356 18000
+rect 18984 17632 19012 18108
+rect 19904 17632 19932 21876
+rect 17328 15388 17448 15416
+rect 20088 14844 20116 23440
+rect 22940 20760 22968 22148
+rect 23952 21984 23980 25208
+rect 24780 22936 24808 36224
+rect 24872 33748 24900 39896
+rect 26160 32184 26188 41506
+rect 44376 41432 44404 41506
+rect 46952 41296 46980 43160
+rect 33152 40412 33180 41256
+rect 28184 37420 28212 39896
+rect 28460 29464 28488 32416
+rect 29564 29872 29592 32212
+rect 30116 28376 30144 40032
+rect 43180 32084 43208 32416
+rect 30392 23480 30420 28472
+rect 40880 24704 40908 24792
+rect 43640 24772 43668 30160
+rect 40328 24474 40356 24548
+rect 23676 18176 23704 21400
+rect 45572 20896 45600 32212
+rect 45664 24636 45692 26228
+rect 46124 22460 46152 39760
+rect 34256 20760 34284 20888
+rect 21928 13892 22416 13920
+rect 21928 13784 21956 13892
+rect 21744 13756 21956 13784
+rect 22388 10628 22416 13892
+rect 23584 13212 23612 14600
+rect 23676 14436 23704 17660
+rect 33152 16952 33180 18408
+rect 34256 16910 34284 16984
+rect 34256 13892 34284 15416
+rect 35820 14912 35848 18814
+rect 46952 17632 46980 34456
+rect 47044 26200 47072 43500
+rect 49344 43132 49372 43500
+rect 48608 39732 49280 39760
+rect 47412 29872 47440 36224
+rect 48884 25112 48912 36904
+rect 48976 22392 49004 35952
+rect 49252 18652 49280 39732
+rect 49528 21372 49556 44316
+rect 49620 34428 49648 40712
+rect 51276 36672 51304 36748
+rect 48608 18108 49280 18136
+rect 49252 17632 49280 18108
+rect 23492 9472 23520 10860
+<< metal3 >>
+rect 25313 47193 25476 47259
+rect 41968 45122 42166 45182
+rect 26047 41462 26204 41522
+rect 44263 41462 44420 41522
+rect 46108 36704 51320 36764
+rect 15840 32922 19672 32982
+rect 14276 32434 21880 32494
+rect 43064 32065 43227 32131
+rect 43072 30116 43684 30176
+rect 40588 24748 40924 24808
+rect 40220 24504 40342 24564
+rect 34148 20844 34270 20904
+rect 35804 18770 36370 18830
+rect 34148 16940 34270 17000
+<< metal4 >>
+rect 900 0 2532 56576
+rect 3348 0 4980 56576
+rect 25408 44786 25468 47256
+rect 32032 45244 32506 45304
+rect 32032 45060 32092 45244
+rect 31894 45000 32092 45060
+rect 31894 44816 31954 45000
+rect 32446 44938 32506 45244
+rect 39346 45244 39958 45304
+rect 32446 44878 32545 44938
+rect 39346 44816 39406 45244
+rect 39898 44938 39958 45244
+rect 39898 44878 39997 44938
+rect 42106 44908 42166 45182
+rect 31544 44756 31954 44816
+rect 38996 44756 39406 44816
+rect 31514 43536 31954 43596
+rect 31514 43444 31574 43536
+rect 31894 43444 31954 43536
+rect 26098 41462 26158 43444
+rect 31480 43352 31540 43444
+rect 38932 43352 38992 43444
+rect 39346 43352 39406 43444
+rect 31480 43292 31678 43352
+rect 38932 43292 39406 43352
+rect 31618 41004 31678 43292
+rect 37966 41340 38578 41400
+rect 37966 41156 38026 41340
+rect 37651 41096 38026 41156
+rect 38518 41156 38578 41340
+rect 38518 41096 38617 41156
+rect 44314 41126 44374 41522
+rect 37621 39692 37681 39784
+rect 37966 39692 38026 39784
+rect 37621 39632 38026 39692
+rect 40312 30116 40993 30176
+rect 40312 29688 40372 30116
+rect 40933 29902 40993 30116
+rect 43072 29902 43132 32128
+rect 39997 29628 40372 29688
+rect 34378 25998 34438 28438
+rect 39997 28408 40342 28468
+rect 40376 24992 40648 25052
+rect 40312 24504 40372 24656
+rect 40588 22368 40648 24992
+rect 40588 22308 40652 22368
+rect 40687 21332 41338 21392
+rect 34240 20844 34300 20996
+rect 36310 18556 36370 18830
+rect 41278 18586 41338 21332
+rect 41278 18526 41342 18586
+rect 34240 16940 34300 17214
+rect 53456 0 55088 56576
+rect 55904 0 57536 56576
+<< metal5 >>
+rect 0 54096 58512 55728
+rect 0 51648 58512 53280
+rect 0 3264 58512 4896
+rect 0 816 58512 2448
+use L1M1_PR#0  L1M1_PR_0
+timestamp 1655503347
+transform 1 0 35834 0 1 47294
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_1
+timestamp 1655503347
+transform 1 0 24334 0 1 47566
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_2
+timestamp 1655503347
+transform 1 0 24886 0 1 47226
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_3
+timestamp 1655503347
+transform 1 0 20378 0 1 47430
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_4
+timestamp 1655503347
+transform 1 0 20746 0 1 48790
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_5
+timestamp 1655503347
+transform 1 0 30130 0 1 41242
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_6
+timestamp 1655503347
+transform 1 0 26082 0 1 41242
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_7
+timestamp 1655503347
+transform 1 0 18170 0 1 41242
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_8
+timestamp 1655503347
+transform 1 0 45954 0 1 39746
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_9
+timestamp 1655503347
+transform 1 0 30130 0 1 40052
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_10
+timestamp 1655503347
+transform 1 0 28198 0 1 39882
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_11
+timestamp 1655503347
+transform 1 0 26082 0 1 40052
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_12
+timestamp 1655503347
+transform 1 0 24886 0 1 39882
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_13
+timestamp 1655503347
+transform 1 0 20838 0 1 39678
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_14
+timestamp 1655503347
+transform 1 0 20654 0 1 39814
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_15
+timestamp 1655503347
+transform 1 0 51658 0 1 35938
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_16
+timestamp 1655503347
+transform 1 0 26174 0 1 35938
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_17
+timestamp 1655503347
+transform 1 0 45586 0 1 32164
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_18
+timestamp 1655503347
+transform 1 0 29578 0 1 32164
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_19
+timestamp 1655503347
+transform 1 0 26174 0 1 32164
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_20
+timestamp 1655503347
+transform 1 0 30130 0 1 28390
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_21
+timestamp 1655503347
+transform 1 0 28014 0 1 28798
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_22
+timestamp 1655503347
+transform 1 0 27830 0 1 28594
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_23
+timestamp 1655503347
+transform 1 0 41814 0 1 26214
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_24
+timestamp 1655503347
+transform 1 0 45678 0 1 24650
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_25
+timestamp 1655503347
+transform 1 0 43654 0 1 24752
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_26
+timestamp 1655503347
+transform 1 0 40894 0 1 24752
+box -29 -23 29 23
+use L1M1_PR#0  L1M1_PR_27
+timestamp 1655503347
+transform 1 0 45586 0 1 20910
+box -29 -23 29 23
+use M1M2_PR#0  M1M2_PR_0
+timestamp 1655503347
+transform 1 0 35834 0 1 47294
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_1
+timestamp 1655503347
+transform 1 0 46874 0 1 47430
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_2
+timestamp 1655503347
+transform 1 0 25346 0 1 47226
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_3
+timestamp 1655503347
+transform 1 0 20378 0 1 47430
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_4
+timestamp 1655503347
+transform 1 0 20746 0 1 47090
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_5
+timestamp 1655503347
+transform 1 0 20746 0 1 48790
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_6
+timestamp 1655503347
+transform 1 0 46874 0 1 44914
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_7
+timestamp 1655503347
+transform 1 0 41998 0 1 45186
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_8
+timestamp 1655503347
+transform 1 0 49358 0 1 43486
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_9
+timestamp 1655503347
+transform 1 0 49358 0 1 43146
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_10
+timestamp 1655503347
+transform 1 0 46966 0 1 43146
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_11
+timestamp 1655503347
+transform 1 0 47058 0 1 43486
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_12
+timestamp 1655503347
+transform 1 0 49542 0 1 44302
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_13
+timestamp 1655503347
+transform 1 0 21850 0 1 43486
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_14
+timestamp 1655503347
+transform 1 0 21850 0 1 43010
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_15
+timestamp 1655503347
+transform 1 0 21482 0 1 44438
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_16
+timestamp 1655503347
+transform 1 0 20838 0 1 43962
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_17
+timestamp 1655503347
+transform 1 0 11362 0 1 43010
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_18
+timestamp 1655503347
+transform 1 0 14582 0 1 44846
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_19
+timestamp 1655503347
+transform 1 0 33166 0 1 41242
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_20
+timestamp 1655503347
+transform 1 0 46966 0 1 41310
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_21
+timestamp 1655503347
+transform 1 0 44390 0 1 41446
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_22
+timestamp 1655503347
+transform 1 0 26174 0 1 41310
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_23
+timestamp 1655503347
+transform 1 0 46138 0 1 39746
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_24
+timestamp 1655503347
+transform 1 0 49634 0 1 40698
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_25
+timestamp 1655503347
+transform 1 0 48622 0 1 39746
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_26
+timestamp 1655503347
+transform 1 0 33166 0 1 40426
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_27
+timestamp 1655503347
+transform 1 0 30130 0 1 40018
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_28
+timestamp 1655503347
+transform 1 0 28198 0 1 39882
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_29
+timestamp 1655503347
+transform 1 0 24886 0 1 39882
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_30
+timestamp 1655503347
+transform 1 0 48898 0 1 36890
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_31
+timestamp 1655503347
+transform 1 0 28198 0 1 37434
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_32
+timestamp 1655503347
+transform 1 0 16514 0 1 36890
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_33
+timestamp 1655503347
+transform 1 0 16698 0 1 37502
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_34
+timestamp 1655503347
+transform 1 0 48990 0 1 35938
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_35
+timestamp 1655503347
+transform 1 0 51290 0 1 36686
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_36
+timestamp 1655503347
+transform 1 0 47426 0 1 36210
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_37
+timestamp 1655503347
+transform 1 0 15870 0 1 36414
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_38
+timestamp 1655503347
+transform 1 0 26174 0 1 35938
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_39
+timestamp 1655503347
+transform 1 0 24794 0 1 36210
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_40
+timestamp 1655503347
+transform 1 0 46966 0 1 34442
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_41
+timestamp 1655503347
+transform 1 0 49634 0 1 34442
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_42
+timestamp 1655503347
+transform 1 0 23966 0 1 33218
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_43
+timestamp 1655503347
+transform 1 0 24886 0 1 33762
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_44
+timestamp 1655503347
+transform 1 0 19642 0 1 33150
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_45
+timestamp 1655503347
+transform 1 0 18446 0 1 33150
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_46
+timestamp 1655503347
+transform 1 0 14306 0 1 32946
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_47
+timestamp 1655503347
+transform 1 0 11270 0 1 33626
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_48
+timestamp 1655503347
+transform 1 0 45586 0 1 32198
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_49
+timestamp 1655503347
+transform 1 0 43194 0 1 32402
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_50
+timestamp 1655503347
+transform 1 0 29578 0 1 32198
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_51
+timestamp 1655503347
+transform 1 0 28474 0 1 32402
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_52
+timestamp 1655503347
+transform 1 0 26174 0 1 32198
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_53
+timestamp 1655503347
+transform 1 0 21850 0 1 32402
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_54
+timestamp 1655503347
+transform 1 0 19090 0 1 32674
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_55
+timestamp 1655503347
+transform 1 0 15686 0 1 32674
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_56
+timestamp 1655503347
+transform 1 0 16698 0 1 32674
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_57
+timestamp 1655503347
+transform 1 0 11638 0 1 32198
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_58
+timestamp 1655503347
+transform 1 0 47426 0 1 29886
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_59
+timestamp 1655503347
+transform 1 0 29578 0 1 29886
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_60
+timestamp 1655503347
+transform 1 0 28474 0 1 29478
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_61
+timestamp 1655503347
+transform 1 0 24058 0 1 28934
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_62
+timestamp 1655503347
+transform 1 0 24150 0 1 30362
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_63
+timestamp 1655503347
+transform 1 0 24150 0 1 29886
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_64
+timestamp 1655503347
+transform 1 0 21574 0 1 29410
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_65
+timestamp 1655503347
+transform 1 0 18538 0 1 29410
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_66
+timestamp 1655503347
+transform 1 0 16882 0 1 30022
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_67
+timestamp 1655503347
+transform 1 0 16054 0 1 29410
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_68
+timestamp 1655503347
+transform 1 0 11638 0 1 30430
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_69
+timestamp 1655503347
+transform 1 0 30406 0 1 28458
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_70
+timestamp 1655503347
+transform 1 0 30130 0 1 28390
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_71
+timestamp 1655503347
+transform 1 0 21390 0 1 28458
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_72
+timestamp 1655503347
+transform 1 0 21390 0 1 27846
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_73
+timestamp 1655503347
+transform 1 0 21574 0 1 27982
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_74
+timestamp 1655503347
+transform 1 0 18538 0 1 28118
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_75
+timestamp 1655503347
+transform 1 0 18814 0 1 28458
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_76
+timestamp 1655503347
+transform 1 0 16514 0 1 28458
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_77
+timestamp 1655503347
+transform 1 0 16514 0 1 28118
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_78
+timestamp 1655503347
+transform 1 0 16330 0 1 27846
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_79
+timestamp 1655503347
+transform 1 0 14306 0 1 28458
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_80
+timestamp 1655503347
+transform 1 0 14306 0 1 27982
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_81
+timestamp 1655503347
+transform 1 0 48898 0 1 25126
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_82
+timestamp 1655503347
+transform 1 0 47058 0 1 26214
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_83
+timestamp 1655503347
+transform 1 0 45678 0 1 26214
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_84
+timestamp 1655503347
+transform 1 0 23966 0 1 25194
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_85
+timestamp 1655503347
+transform 1 0 16054 0 1 25126
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_86
+timestamp 1655503347
+transform 1 0 18814 0 1 26146
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_87
+timestamp 1655503347
+transform 1 0 16330 0 1 26146
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_88
+timestamp 1655503347
+transform 1 0 23782 0 1 25874
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_89
+timestamp 1655503347
+transform 1 0 45678 0 1 24650
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_90
+timestamp 1655503347
+transform 1 0 43654 0 1 24786
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_91
+timestamp 1655503347
+transform 1 0 40342 0 1 24514
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_92
+timestamp 1655503347
+transform 1 0 40894 0 1 24718
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_93
+timestamp 1655503347
+transform 1 0 30406 0 1 23494
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_94
+timestamp 1655503347
+transform 1 0 23782 0 1 24514
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_95
+timestamp 1655503347
+transform 1 0 20102 0 1 23426
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_96
+timestamp 1655503347
+transform 1 0 24794 0 1 22950
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_97
+timestamp 1655503347
+transform 1 0 15962 0 1 22950
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_98
+timestamp 1655503347
+transform 1 0 48990 0 1 22406
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_99
+timestamp 1655503347
+transform 1 0 49542 0 1 21386
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_100
+timestamp 1655503347
+transform 1 0 46138 0 1 22474
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_101
+timestamp 1655503347
+transform 1 0 45586 0 1 20910
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_102
+timestamp 1655503347
+transform 1 0 22954 0 1 22134
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_103
+timestamp 1655503347
+transform 1 0 23966 0 1 21998
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_104
+timestamp 1655503347
+transform 1 0 23690 0 1 21386
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_105
+timestamp 1655503347
+transform 1 0 19918 0 1 21862
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_106
+timestamp 1655503347
+transform 1 0 19642 0 1 21386
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_107
+timestamp 1655503347
+transform 1 0 18998 0 1 21862
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_108
+timestamp 1655503347
+transform 1 0 16882 0 1 21386
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_109
+timestamp 1655503347
+transform 1 0 15962 0 1 22338
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_110
+timestamp 1655503347
+transform 1 0 14582 0 1 21386
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_111
+timestamp 1655503347
+transform 1 0 34270 0 1 20774
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_112
+timestamp 1655503347
+transform 1 0 22954 0 1 20774
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_113
+timestamp 1655503347
+transform 1 0 49266 0 1 17646
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_114
+timestamp 1655503347
+transform 1 0 48622 0 1 18122
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_115
+timestamp 1655503347
+transform 1 0 46966 0 1 17646
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_116
+timestamp 1655503347
+transform 1 0 49266 0 1 18666
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_117
+timestamp 1655503347
+transform 1 0 34270 0 1 16966
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_118
+timestamp 1655503347
+transform 1 0 33166 0 1 18394
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_119
+timestamp 1655503347
+transform 1 0 33166 0 1 16966
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_120
+timestamp 1655503347
+transform 1 0 23690 0 1 18190
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_121
+timestamp 1655503347
+transform 1 0 23690 0 1 17646
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_122
+timestamp 1655503347
+transform 1 0 19918 0 1 17646
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_123
+timestamp 1655503347
+transform 1 0 17342 0 1 17986
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_124
+timestamp 1655503347
+transform 1 0 19642 0 1 18122
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_125
+timestamp 1655503347
+transform 1 0 18998 0 1 17646
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_126
+timestamp 1655503347
+transform 1 0 35834 0 1 14926
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_127
+timestamp 1655503347
+transform 1 0 34270 0 1 15402
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_128
+timestamp 1655503347
+transform 1 0 17434 0 1 15402
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_129
+timestamp 1655503347
+transform 1 0 20102 0 1 14858
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_130
+timestamp 1655503347
+transform 1 0 34270 0 1 13906
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_131
+timestamp 1655503347
+transform 1 0 23598 0 1 14586
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_132
+timestamp 1655503347
+transform 1 0 23598 0 1 13226
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_133
+timestamp 1655503347
+transform 1 0 23690 0 1 14450
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_134
+timestamp 1655503347
+transform 1 0 22402 0 1 13906
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_135
+timestamp 1655503347
+transform 1 0 21758 0 1 13770
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_136
+timestamp 1655503347
+transform 1 0 22402 0 1 10642
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_137
+timestamp 1655503347
+transform 1 0 23506 0 1 9486
+box -32 -32 32 32
+use M1M2_PR#0  M1M2_PR_138
+timestamp 1655503347
+transform 1 0 23506 0 1 10846
+box -32 -32 32 32
+use M2M3_PR#0  M2M3_PR_0
+timestamp 1655503347
+transform 1 0 25346 0 1 47226
+box -33 -37 33 37
+use M2M3_PR#0  M2M3_PR_1
+timestamp 1655503347
+transform 1 0 41998 0 1 45152
+box -33 -37 33 37
+use M2M3_PR#0  M2M3_PR_2
+timestamp 1655503347
+transform 1 0 44390 0 1 41492
+box -33 -37 33 37
+use M2M3_PR#0  M2M3_PR_3
+timestamp 1655503347
+transform 1 0 26174 0 1 41492
+box -33 -37 33 37
+use M2M3_PR#0  M2M3_PR_4
+timestamp 1655503347
+transform 1 0 51290 0 1 36734
+box -33 -37 33 37
+use M2M3_PR#0  M2M3_PR_5
+timestamp 1655503347
+transform 1 0 46138 0 1 36734
+box -33 -37 33 37
+use M2M3_PR#0  M2M3_PR_6
+timestamp 1655503347
+transform 1 0 19642 0 1 32952
+box -33 -37 33 37
+use M2M3_PR#0  M2M3_PR_7
+timestamp 1655503347
+transform 1 0 15870 0 1 32952
+box -33 -37 33 37
+use M2M3_PR#0  M2M3_PR_8
+timestamp 1655503347
+transform 1 0 43194 0 1 32098
+box -33 -37 33 37
+use M2M3_PR#0  M2M3_PR_9
+timestamp 1655503347
+transform 1 0 21850 0 1 32464
+box -33 -37 33 37
+use M2M3_PR#0  M2M3_PR_10
+timestamp 1655503347
+transform 1 0 14306 0 1 32464
+box -33 -37 33 37
+use M2M3_PR#0  M2M3_PR_11
+timestamp 1655503347
+transform 1 0 43654 0 1 30146
+box -33 -37 33 37
+use M2M3_PR#0  M2M3_PR_12
+timestamp 1655503347
+transform 1 0 40342 0 1 24534
+box -33 -37 33 37
+use M2M3_PR#0  M2M3_PR_13
+timestamp 1655503347
+transform 1 0 40894 0 1 24778
+box -33 -37 33 37
+use M2M3_PR#0  M2M3_PR_14
+timestamp 1655503347
+transform 1 0 34270 0 1 20874
+box -33 -37 33 37
+use M2M3_PR#0  M2M3_PR_15
+timestamp 1655503347
+transform 1 0 35834 0 1 18800
+box -33 -37 33 37
+use M2M3_PR#0  M2M3_PR_16
+timestamp 1655503347
+transform 1 0 34270 0 1 16970
+box -33 -37 33 37
+use M3M4_PR#0  M3M4_PR_0
+timestamp 1655503347
+transform 1 0 25438 0 1 47226
+box -38 -33 38 33
+use M3M4_PR#0  M3M4_PR_1
+timestamp 1655503347
+transform 1 0 42136 0 1 45152
+box -38 -33 38 33
+use M3M4_PR#0  M3M4_PR_2
+timestamp 1655503347
+transform 1 0 44344 0 1 41492
+box -38 -33 38 33
+use M3M4_PR#0  M3M4_PR_3
+timestamp 1655503347
+transform 1 0 26128 0 1 41492
+box -38 -33 38 33
+use M3M4_PR#0  M3M4_PR_4
+timestamp 1655503347
+transform 1 0 43102 0 1 32098
+box -38 -33 38 33
+use M3M4_PR#0  M3M4_PR_5
+timestamp 1655503347
+transform 1 0 43102 0 1 30146
+box -38 -33 38 33
+use M3M4_PR#0  M3M4_PR_6
+timestamp 1655503347
+transform 1 0 40342 0 1 24534
+box -38 -33 38 33
+use M3M4_PR#0  M3M4_PR_7
+timestamp 1655503347
+transform 1 0 40618 0 1 24778
+box -38 -33 38 33
+use M3M4_PR#0  M3M4_PR_8
+timestamp 1655503347
+transform 1 0 34270 0 1 20874
+box -38 -33 38 33
+use M3M4_PR#0  M3M4_PR_9
+timestamp 1655503347
+transform 1 0 36340 0 1 18800
+box -38 -33 38 33
+use M3M4_PR#0  M3M4_PR_10
+timestamp 1655503347
+transform 1 0 34270 0 1 16970
+box -38 -33 38 33
+use bgr_top_VIA0#0  bgr_top_VIA0_0
+timestamp 1655503347
+transform 1 0 56720 0 1 54912
+box -816 -816 816 816
+use bgr_top_VIA0#0  bgr_top_VIA0_1
+timestamp 1655503347
+transform 1 0 1716 0 1 54912
+box -816 -816 816 816
+use bgr_top_VIA0#0  bgr_top_VIA0_2
+timestamp 1655503347
+transform 1 0 56720 0 1 1632
+box -816 -816 816 816
+use bgr_top_VIA0#0  bgr_top_VIA0_3
+timestamp 1655503347
+transform 1 0 1716 0 1 1632
+box -816 -816 816 816
+use bgr_top_VIA1#0  bgr_top_VIA1_0
+timestamp 1655503347
+transform 1 0 56720 0 1 50832
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_1
+timestamp 1655503347
+transform 1 0 54272 0 1 48952
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_2
+timestamp 1655503347
+transform 1 0 1716 0 1 50832
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_3
+timestamp 1655503347
+transform 1 0 4164 0 1 48952
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_4
+timestamp 1655503347
+transform 1 0 56720 0 1 47072
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_5
+timestamp 1655503347
+transform 1 0 1716 0 1 47072
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_6
+timestamp 1655503347
+transform 1 0 54272 0 1 45192
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_7
+timestamp 1655503347
+transform 1 0 4164 0 1 45192
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_8
+timestamp 1655503347
+transform 1 0 56720 0 1 43312
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_9
+timestamp 1655503347
+transform 1 0 1716 0 1 43312
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_10
+timestamp 1655503347
+transform 1 0 54272 0 1 41432
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_11
+timestamp 1655503347
+transform 1 0 4164 0 1 41432
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_12
+timestamp 1655503347
+transform 1 0 56720 0 1 39552
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_13
+timestamp 1655503347
+transform 1 0 1716 0 1 39552
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_14
+timestamp 1655503347
+transform 1 0 54272 0 1 37672
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_15
+timestamp 1655503347
+transform 1 0 4164 0 1 37672
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_16
+timestamp 1655503347
+transform 1 0 56720 0 1 35792
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_17
+timestamp 1655503347
+transform 1 0 1716 0 1 35792
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_18
+timestamp 1655503347
+transform 1 0 54272 0 1 33912
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_19
+timestamp 1655503347
+transform 1 0 4164 0 1 33912
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_20
+timestamp 1655503347
+transform 1 0 56720 0 1 32032
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_21
+timestamp 1655503347
+transform 1 0 1716 0 1 32032
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_22
+timestamp 1655503347
+transform 1 0 54272 0 1 30152
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_23
+timestamp 1655503347
+transform 1 0 4164 0 1 30152
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_24
+timestamp 1655503347
+transform 1 0 56720 0 1 28272
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_25
+timestamp 1655503347
+transform 1 0 1716 0 1 28272
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_26
+timestamp 1655503347
+transform 1 0 54272 0 1 26392
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_27
+timestamp 1655503347
+transform 1 0 4164 0 1 26392
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_28
+timestamp 1655503347
+transform 1 0 56720 0 1 24512
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_29
+timestamp 1655503347
+transform 1 0 1716 0 1 24512
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_30
+timestamp 1655503347
+transform 1 0 54272 0 1 22632
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_31
+timestamp 1655503347
+transform 1 0 4164 0 1 22632
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_32
+timestamp 1655503347
+transform 1 0 56720 0 1 20752
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_33
+timestamp 1655503347
+transform 1 0 1716 0 1 20752
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_34
+timestamp 1655503347
+transform 1 0 54272 0 1 18872
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_35
+timestamp 1655503347
+transform 1 0 56720 0 1 16992
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_36
+timestamp 1655503347
+transform 1 0 4164 0 1 18872
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_37
+timestamp 1655503347
+transform 1 0 1716 0 1 16992
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_38
+timestamp 1655503347
+transform 1 0 54272 0 1 15112
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_39
+timestamp 1655503347
+transform 1 0 4164 0 1 15112
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_40
+timestamp 1655503347
+transform 1 0 56720 0 1 13232
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_41
+timestamp 1655503347
+transform 1 0 1716 0 1 13232
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_42
+timestamp 1655503347
+transform 1 0 54272 0 1 11352
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_43
+timestamp 1655503347
+transform 1 0 4164 0 1 11352
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_44
+timestamp 1655503347
+transform 1 0 56720 0 1 9472
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_45
+timestamp 1655503347
+transform 1 0 1716 0 1 9472
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_46
+timestamp 1655503347
+transform 1 0 54272 0 1 7592
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_47
+timestamp 1655503347
+transform 1 0 4164 0 1 7592
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_48
+timestamp 1655503347
+transform 1 0 56720 0 1 5712
+box -816 -60 816 60
+use bgr_top_VIA1#0  bgr_top_VIA1_49
+timestamp 1655503347
+transform 1 0 1716 0 1 5712
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_0
+timestamp 1655503347
+transform 1 0 56720 0 1 50832
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_1
+timestamp 1655503347
+transform 1 0 54272 0 1 48952
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_2
+timestamp 1655503347
+transform 1 0 1716 0 1 50832
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_3
+timestamp 1655503347
+transform 1 0 4164 0 1 48952
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_4
+timestamp 1655503347
+transform 1 0 56720 0 1 47072
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_5
+timestamp 1655503347
+transform 1 0 1716 0 1 47072
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_6
+timestamp 1655503347
+transform 1 0 54272 0 1 45192
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_7
+timestamp 1655503347
+transform 1 0 4164 0 1 45192
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_8
+timestamp 1655503347
+transform 1 0 56720 0 1 43312
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_9
+timestamp 1655503347
+transform 1 0 1716 0 1 43312
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_10
+timestamp 1655503347
+transform 1 0 54272 0 1 41432
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_11
+timestamp 1655503347
+transform 1 0 4164 0 1 41432
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_12
+timestamp 1655503347
+transform 1 0 56720 0 1 39552
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_13
+timestamp 1655503347
+transform 1 0 1716 0 1 39552
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_14
+timestamp 1655503347
+transform 1 0 54272 0 1 37672
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_15
+timestamp 1655503347
+transform 1 0 4164 0 1 37672
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_16
+timestamp 1655503347
+transform 1 0 56720 0 1 35792
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_17
+timestamp 1655503347
+transform 1 0 1716 0 1 35792
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_18
+timestamp 1655503347
+transform 1 0 54272 0 1 33912
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_19
+timestamp 1655503347
+transform 1 0 4164 0 1 33912
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_20
+timestamp 1655503347
+transform 1 0 56720 0 1 32032
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_21
+timestamp 1655503347
+transform 1 0 1716 0 1 32032
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_22
+timestamp 1655503347
+transform 1 0 54272 0 1 30152
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_23
+timestamp 1655503347
+transform 1 0 4164 0 1 30152
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_24
+timestamp 1655503347
+transform 1 0 56720 0 1 28272
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_25
+timestamp 1655503347
+transform 1 0 1716 0 1 28272
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_26
+timestamp 1655503347
+transform 1 0 54272 0 1 26392
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_27
+timestamp 1655503347
+transform 1 0 4164 0 1 26392
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_28
+timestamp 1655503347
+transform 1 0 56720 0 1 24512
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_29
+timestamp 1655503347
+transform 1 0 1716 0 1 24512
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_30
+timestamp 1655503347
+transform 1 0 54272 0 1 22632
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_31
+timestamp 1655503347
+transform 1 0 4164 0 1 22632
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_32
+timestamp 1655503347
+transform 1 0 56720 0 1 20752
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_33
+timestamp 1655503347
+transform 1 0 1716 0 1 20752
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_34
+timestamp 1655503347
+transform 1 0 54272 0 1 18872
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_35
+timestamp 1655503347
+transform 1 0 56720 0 1 16992
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_36
+timestamp 1655503347
+transform 1 0 4164 0 1 18872
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_37
+timestamp 1655503347
+transform 1 0 1716 0 1 16992
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_38
+timestamp 1655503347
+transform 1 0 54272 0 1 15112
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_39
+timestamp 1655503347
+transform 1 0 4164 0 1 15112
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_40
+timestamp 1655503347
+transform 1 0 56720 0 1 13232
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_41
+timestamp 1655503347
+transform 1 0 1716 0 1 13232
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_42
+timestamp 1655503347
+transform 1 0 54272 0 1 11352
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_43
+timestamp 1655503347
+transform 1 0 4164 0 1 11352
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_44
+timestamp 1655503347
+transform 1 0 56720 0 1 9472
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_45
+timestamp 1655503347
+transform 1 0 1716 0 1 9472
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_46
+timestamp 1655503347
+transform 1 0 54272 0 1 7592
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_47
+timestamp 1655503347
+transform 1 0 4164 0 1 7592
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_48
+timestamp 1655503347
+transform 1 0 56720 0 1 5712
+box -816 -60 816 60
+use bgr_top_VIA2#0  bgr_top_VIA2_49
+timestamp 1655503347
+transform 1 0 1716 0 1 5712
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_0
+timestamp 1655503347
+transform 1 0 56720 0 1 50832
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_1
+timestamp 1655503347
+transform 1 0 54272 0 1 48952
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_2
+timestamp 1655503347
+transform 1 0 1716 0 1 50832
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_3
+timestamp 1655503347
+transform 1 0 4164 0 1 48952
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_4
+timestamp 1655503347
+transform 1 0 56720 0 1 47072
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_5
+timestamp 1655503347
+transform 1 0 1716 0 1 47072
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_6
+timestamp 1655503347
+transform 1 0 54272 0 1 45192
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_7
+timestamp 1655503347
+transform 1 0 4164 0 1 45192
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_8
+timestamp 1655503347
+transform 1 0 56720 0 1 43312
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_9
+timestamp 1655503347
+transform 1 0 1716 0 1 43312
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_10
+timestamp 1655503347
+transform 1 0 54272 0 1 41432
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_11
+timestamp 1655503347
+transform 1 0 4164 0 1 41432
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_12
+timestamp 1655503347
+transform 1 0 56720 0 1 39552
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_13
+timestamp 1655503347
+transform 1 0 1716 0 1 39552
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_14
+timestamp 1655503347
+transform 1 0 54272 0 1 37672
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_15
+timestamp 1655503347
+transform 1 0 4164 0 1 37672
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_16
+timestamp 1655503347
+transform 1 0 56720 0 1 35792
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_17
+timestamp 1655503347
+transform 1 0 1716 0 1 35792
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_18
+timestamp 1655503347
+transform 1 0 54272 0 1 33912
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_19
+timestamp 1655503347
+transform 1 0 4164 0 1 33912
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_20
+timestamp 1655503347
+transform 1 0 56720 0 1 32032
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_21
+timestamp 1655503347
+transform 1 0 1716 0 1 32032
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_22
+timestamp 1655503347
+transform 1 0 54272 0 1 30152
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_23
+timestamp 1655503347
+transform 1 0 4164 0 1 30152
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_24
+timestamp 1655503347
+transform 1 0 56720 0 1 28272
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_25
+timestamp 1655503347
+transform 1 0 1716 0 1 28272
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_26
+timestamp 1655503347
+transform 1 0 54272 0 1 26392
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_27
+timestamp 1655503347
+transform 1 0 4164 0 1 26392
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_28
+timestamp 1655503347
+transform 1 0 56720 0 1 24512
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_29
+timestamp 1655503347
+transform 1 0 1716 0 1 24512
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_30
+timestamp 1655503347
+transform 1 0 54272 0 1 22632
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_31
+timestamp 1655503347
+transform 1 0 4164 0 1 22632
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_32
+timestamp 1655503347
+transform 1 0 56720 0 1 20752
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_33
+timestamp 1655503347
+transform 1 0 1716 0 1 20752
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_34
+timestamp 1655503347
+transform 1 0 54272 0 1 18872
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_35
+timestamp 1655503347
+transform 1 0 56720 0 1 16992
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_36
+timestamp 1655503347
+transform 1 0 4164 0 1 18872
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_37
+timestamp 1655503347
+transform 1 0 1716 0 1 16992
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_38
+timestamp 1655503347
+transform 1 0 54272 0 1 15112
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_39
+timestamp 1655503347
+transform 1 0 4164 0 1 15112
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_40
+timestamp 1655503347
+transform 1 0 56720 0 1 13232
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_41
+timestamp 1655503347
+transform 1 0 1716 0 1 13232
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_42
+timestamp 1655503347
+transform 1 0 54272 0 1 11352
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_43
+timestamp 1655503347
+transform 1 0 4164 0 1 11352
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_44
+timestamp 1655503347
+transform 1 0 56720 0 1 9472
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_45
+timestamp 1655503347
+transform 1 0 1716 0 1 9472
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_46
+timestamp 1655503347
+transform 1 0 54272 0 1 7592
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_47
+timestamp 1655503347
+transform 1 0 4164 0 1 7592
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_48
+timestamp 1655503347
+transform 1 0 56720 0 1 5712
+box -816 -60 816 60
+use bgr_top_VIA3#0  bgr_top_VIA3_49
+timestamp 1655503347
+transform 1 0 1716 0 1 5712
+box -816 -60 816 60
+use bgr_top_VIA4  bgr_top_VIA4_0
+timestamp 1655503347
+transform 1 0 54272 0 1 52464
+box -782 -782 782 782
+use bgr_top_VIA4  bgr_top_VIA4_1
+timestamp 1655503347
+transform 1 0 4164 0 1 52464
+box -782 -782 782 782
+use bgr_top_VIA4  bgr_top_VIA4_2
+timestamp 1655503347
+transform 1 0 54272 0 1 4080
+box -782 -782 782 782
+use bgr_top_VIA4  bgr_top_VIA4_3
+timestamp 1655503347
+transform 1 0 4164 0 1 4080
+box -782 -782 782 782
+use sky130_asc_cap_mim_m3_1#0  sky130_asc_cap_mim_m3_1_0
+timestamp 1655503347
+transform 1 0 39214 0 1 43312
+box 120 -60 7292 1940
+use sky130_asc_cap_mim_m3_1#0  sky130_asc_cap_mim_m3_1_1
+timestamp 1655503347
+transform 1 0 31766 0 1 43312
+box 120 -60 7292 1940
+use sky130_asc_cap_mim_m3_1#0  sky130_asc_cap_mim_m3_1_2
+timestamp 1655503347
+transform 1 0 24318 0 1 43312
+box 120 -60 7292 1940
+use sky130_asc_cap_mim_m3_1#0  sky130_asc_cap_mim_m3_1_3
+timestamp 1655503347
+transform 1 0 37842 0 1 39552
+box 120 -60 7292 1940
+use sky130_asc_cap_mim_m3_1#0  sky130_asc_cap_mim_m3_1_4
+timestamp 1655503347
+transform 1 0 30394 0 1 39552
+box 120 -60 7292 1940
+use sky130_asc_cap_mim_m3_1#0  sky130_asc_cap_mim_m3_1_5
+timestamp 1655503347
+transform 1 0 40194 0 1 28272
+box 120 -60 7292 1940
+use sky130_asc_cap_mim_m3_1#0  sky130_asc_cap_mim_m3_1_6
+timestamp 1655503347
+transform 1 0 32746 0 1 28272
+box 120 -60 7292 1940
+use sky130_asc_cap_mim_m3_1#0  sky130_asc_cap_mim_m3_1_7
+timestamp 1655503347
+transform 1 0 33138 0 1 24512
+box 120 -60 7292 1940
+use sky130_asc_cap_mim_m3_1#0  sky130_asc_cap_mim_m3_1_8
+timestamp 1655503347
+transform 1 0 33432 0 1 20752
+box 120 -60 7292 1940
+use sky130_asc_cap_mim_m3_1#0  sky130_asc_cap_mim_m3_1_9
+timestamp 1655503347
+transform 1 0 34118 0 1 16992
+box 120 -60 7292 1940
+use sky130_asc_nfet_01v8_lvt_1#0  sky130_asc_nfet_01v8_lvt_1_0
+timestamp 1655784973
+transform 1 0 45290 0 1 39552
+box 86 -60 730 1940
+use sky130_asc_nfet_01v8_lvt_1#0  sky130_asc_nfet_01v8_lvt_1_1
+timestamp 1655784973
+transform 1 0 51366 0 1 35792
+box 86 -60 730 1940
+use sky130_asc_nfet_01v8_lvt_9#0  sky130_asc_nfet_01v8_lvt_9_0
+timestamp 1655770899
+transform 1 0 20006 0 1 47072
+box 120 -60 4424 1940
+use sky130_asc_nfet_01v8_lvt_9#0  sky130_asc_nfet_01v8_lvt_9_1
+timestamp 1655770899
+transform 1 0 25788 0 1 39552
+box 120 -60 4424 1940
+use sky130_asc_nfet_01v8_lvt_9#0  sky130_asc_nfet_01v8_lvt_9_2
+timestamp 1655770899
+transform 1 0 21182 0 1 39552
+box 120 -60 4424 1940
+use sky130_asc_pfet_01v8_lvt_6#0  sky130_asc_pfet_01v8_lvt_6_0
+timestamp 1655503347
+transform 1 0 17752 0 1 39552
+box 120 -60 3095 1940
+use sky130_asc_pfet_01v8_lvt_6#0  sky130_asc_pfet_01v8_lvt_6_1
+timestamp 1655503347
+transform 1 0 29316 0 1 28272
+box 120 -60 3095 1940
+use sky130_asc_pfet_01v8_lvt_12#0  sky130_asc_pfet_01v8_lvt_12_0
+timestamp 1655503347
+transform 1 0 40586 0 1 24512
+box 120 -60 5843 1940
+use sky130_asc_pfet_01v8_lvt_12#0  sky130_asc_pfet_01v8_lvt_12_1
+timestamp 1655503347
+transform 1 0 40880 0 1 20752
+box 120 -60 5843 1940
+use sky130_asc_pfet_01v8_lvt_60#0  sky130_asc_pfet_01v8_lvt_60_0
+timestamp 1655503347
+transform 1 0 24612 0 1 47072
+box 120 -60 27827 1940
+use sky130_asc_pfet_01v8_lvt_60#0  sky130_asc_pfet_01v8_lvt_60_1
+timestamp 1655503347
+transform 1 0 20594 0 1 35792
+box 120 -60 27827 1940
+use sky130_asc_pfet_01v8_lvt_60#0  sky130_asc_pfet_01v8_lvt_60_2
+timestamp 1655503347
+transform 1 0 24612 0 1 32032
+box 120 -60 27827 1940
+use sky130_asc_pnp_05v5_W3p40L3p40_1#0  sky130_asc_pnp_05v5_W3p40L3p40_1_0
+timestamp 1654928256
+transform 1 0 27650 0 1 28272
+box 120 -60 1460 1940
+use sky130_asc_pnp_05v5_W3p40L3p40_7#0  sky130_asc_pnp_05v5_W3p40L3p40_7_0
+timestamp 1655784771
+transform 1 0 23436 0 1 24512
+box 108 -60 9500 1940
+use sky130_asc_pnp_05v5_W3p40L3p40_8#0  sky130_asc_pnp_05v5_W3p40L3p40_8_0
+timestamp 1655780923
+transform 1 0 22456 0 1 20752
+box 120 -60 10840 1940
+use sky130_asc_pnp_05v5_W3p40L3p40_8#0  sky130_asc_pnp_05v5_W3p40L3p40_8_1
+timestamp 1655780923
+transform 1 0 23142 0 1 16992
+box 120 -60 10840 1940
+use sky130_asc_pnp_05v5_W3p40L3p40_8#0  sky130_asc_pnp_05v5_W3p40L3p40_8_2
+timestamp 1655780923
+transform 1 0 23142 0 1 13232
+box 120 -60 10840 1940
+use sky130_asc_pnp_05v5_W3p40L3p40_8#0  sky130_asc_pnp_05v5_W3p40L3p40_8_3
+timestamp 1655780923
+transform 1 0 23142 0 1 9472
+box 120 -60 10840 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_0
+timestamp 1655782641
+transform 1 0 49406 0 1 43312
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_1
+timestamp 1655782641
+transform 1 0 46662 0 1 43312
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_2
+timestamp 1655782641
+transform 1 0 21574 0 1 43312
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_3
+timestamp 1655782641
+transform 1 0 18830 0 1 43312
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_4
+timestamp 1655782641
+transform 1 0 49308 0 1 39552
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_5
+timestamp 1655782641
+transform 1 0 46564 0 1 39552
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_6
+timestamp 1655782641
+transform 1 0 48622 0 1 35792
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_7
+timestamp 1655782641
+transform 1 0 13832 0 1 35792
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_8
+timestamp 1655782641
+transform 1 0 21868 0 1 32032
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_9
+timestamp 1655782641
+transform 1 0 19124 0 1 32032
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_10
+timestamp 1655782641
+transform 1 0 16380 0 1 32032
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_11
+timestamp 1655782641
+transform 1 0 13636 0 1 32032
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_12
+timestamp 1655782641
+transform 1 0 10892 0 1 32032
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_13
+timestamp 1655782641
+transform 1 0 47642 0 1 28272
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_14
+timestamp 1655782641
+transform 1 0 24122 0 1 28272
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_15
+timestamp 1655782641
+transform 1 0 21378 0 1 28272
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_16
+timestamp 1655782641
+transform 1 0 18634 0 1 28272
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_17
+timestamp 1655782641
+transform 1 0 15890 0 1 28272
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_18
+timestamp 1655782641
+transform 1 0 13146 0 1 28272
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_19
+timestamp 1655782641
+transform 1 0 48916 0 1 24512
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_20
+timestamp 1655782641
+transform 1 0 15792 0 1 24512
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_21
+timestamp 1655782641
+transform 1 0 49112 0 1 20752
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_22
+timestamp 1655782641
+transform 1 0 14224 0 1 20752
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_23
+timestamp 1655782641
+transform 1 0 16968 0 1 20752
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_24
+timestamp 1655782641
+transform 1 0 19712 0 1 20752
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_25
+timestamp 1655782641
+transform 1 0 46564 0 1 16992
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_26
+timestamp 1655782641
+transform 1 0 49308 0 1 16992
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_27
+timestamp 1655782641
+transform 1 0 19712 0 1 16992
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_28
+timestamp 1655782641
+transform 1 0 16968 0 1 16992
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_29
+timestamp 1655782641
+transform 1 0 34118 0 1 13232
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_1#0  sky130_asc_res_xhigh_po_2p85_1_30
+timestamp 1655782641
+transform 1 0 19712 0 1 13232
+box 138 -60 2580 1940
+use sky130_asc_res_xhigh_po_2p85_2#0  sky130_asc_res_xhigh_po_2p85_2_0
+timestamp 1655784771
+transform 1 0 16576 0 1 35792
+box 138 -60 3155 1940
+use sky130_asc_res_xhigh_po_2p85_2#0  sky130_asc_res_xhigh_po_2p85_2_1
+timestamp 1655784771
+transform 1 0 18536 0 1 24512
+box 138 -60 3155 1940
+<< labels >>
+rlabel metal2 s 20364 56479 20392 56576 4 porst
+port 1 nsew
+rlabel metal2 s 35820 56479 35848 56576 4 vbg
+port 2 nsew
+rlabel metal5 s 0 816 1632 2448 4 VSS
+port 3 nsew
+rlabel metal5 s 0 3264 1632 4896 4 VDD
+port 4 nsew
+<< end >>

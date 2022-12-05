@@ -1,17 +1,21 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1655322987
+timestamp 1656715967
 << metal3 >>
-rect -169 152 169 180
-rect -169 -152 -152 152
-rect 152 -152 169 152
-rect -169 -180 169 -152
+rect -1043 152 1042 180
+rect -1043 -152 -1032 152
+rect 1032 -152 1042 152
+rect -1043 -180 1042 -152
 << via3 >>
-rect -152 -152 152 152
+rect -1032 -152 1032 152
 << metal4 >>
-rect -169 152 169 180
-rect -169 -152 -152 152
-rect 152 -152 169 152
-rect -169 -180 169 -152
+rect -1043 152 1042 180
+rect -1043 -152 -1032 152
+rect 1032 -152 1042 152
+rect -1043 -180 1042 -152
+<< properties >>
+string GDS_END 9338214
+string GDS_FILE /scratch/users/lsammaro/OpenPUF/mag/design_merged.gds
+string GDS_START 9331426
 << end >>

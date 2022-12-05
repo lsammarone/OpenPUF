@@ -1,16 +1,16 @@
-timestamp 1655435843
+timestamp 1655762910
 version 8.3
 tech sky130A
 style ngspice()
 scale 1000 1 500000
 resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_sc_hd__buf_2 sky130_fd_sc_hd__buf_2_0 1 0 28089 0 1 9381
+use sky130_fd_sc_hd__inv_8 sky130_fd_sc_hd__inv_8_0 1 0 28625 0 1 9381
+use sky130_fd_sc_hd__inv_16 sky130_fd_sc_hd__inv_16_0 1 0 31445 0 1 9381
+use sky130_fd_sc_hd__inv_16 sky130_fd_sc_hd__inv_16_1 1 0 29529 0 1 9381
 use unitcell2buf unitcell2buf_0 1 0 62216 0 1 13553
 use sky130_fd_sc_hd__tapvpwrvgnd_1 sky130_fd_sc_hd__tapvpwrvgnd_1_1 1 0 31188 0 1 9381
 use sky130_fd_sc_hd__tapvpwrvgnd_1 sky130_fd_sc_hd__tapvpwrvgnd_1_0 1 0 28457 0 1 9381
-use sky130_fd_sc_hd__inv_16 sky130_fd_sc_hd__inv_16_1 1 0 29529 0 1 9381
-use sky130_fd_sc_hd__inv_16 sky130_fd_sc_hd__inv_16_0 1 0 31445 0 1 9381
-use sky130_fd_sc_hd__inv_8 sky130_fd_sc_hd__inv_8_0 1 0 28625 0 1 9381
-use sky130_fd_sc_hd__buf_2 sky130_fd_sc_hd__buf_2_0 1 0 28089 0 1 9381
 use BR128half_bottom BR128half_bottom_0 -1 0 61449 0 1 138
 use BR128half BR128half_0 1 0 1238 0 1 12369
 port "VDD" 2 2472 38 3090 20087 m4
@@ -324,26 +324,26 @@ merge "BR128half_0/brbufhalf_2/unitcell2buf_11/li_n356_180#" "BR128half_0/brbufh
 merge "BR128half_0/brbufhalf_3/unitcell2buf_4/li_n356_180#" "BR128half_0/m3_2518_7211#"
 merge "BR128half_0/m3_2518_7211#" "BR128half_bottom_0/brbufhalf_0/unitcell2buf_4/li_n356_180#"
 merge "BR128half_bottom_0/brbufhalf_0/unitcell2buf_4/li_n356_180#" "BR128half_bottom_0/brbufhalf_0/unitcell2buf_11/li_n356_180#"
-merge "BR128half_bottom_0/brbufhalf_0/unitcell2buf_11/li_n356_180#" "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_4/sky130_fd_sc_hd__buf_1_0/VGND"
-merge "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_4/sky130_fd_sc_hd__buf_1_0/VGND" "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_4/li_n356_180#"
-merge "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_4/li_n356_180#" "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_11/sky130_fd_sc_hd__buf_1_0/VGND"
-merge "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_11/sky130_fd_sc_hd__buf_1_0/VGND" "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_11/li_n356_180#"
+merge "BR128half_bottom_0/brbufhalf_0/unitcell2buf_11/li_n356_180#" "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_4/sky130_fd_sc_hd__buf_1_1/VGND"
+merge "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_4/sky130_fd_sc_hd__buf_1_1/VGND" "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_4/li_n356_180#"
+merge "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_4/li_n356_180#" "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_11/sky130_fd_sc_hd__buf_1_1/VGND"
+merge "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_11/sky130_fd_sc_hd__buf_1_1/VGND" "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_11/li_n356_180#"
 merge "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_11/li_n356_180#" "BR128half_bottom_0/brbufhalf_2/unitcell2buf_8/li_n356_180#"
-merge "BR128half_bottom_0/brbufhalf_2/unitcell2buf_8/li_n356_180#" "BR128half_bottom_0/brbufhalf_2/unitcell2buf_1/sky130_fd_sc_hd__buf_1_0/VGND"
-merge "BR128half_bottom_0/brbufhalf_2/unitcell2buf_1/sky130_fd_sc_hd__buf_1_0/VGND" "BR128half_bottom_0/brbufhalf_1/unitcell2buf_8/li_n356_180#"
-merge "BR128half_bottom_0/brbufhalf_1/unitcell2buf_8/li_n356_180#" "BR128half_bottom_0/brbufhalf_1/unitcell2buf_8/sky130_fd_sc_hd__buf_1_0/VGND"
-merge "BR128half_bottom_0/brbufhalf_1/unitcell2buf_8/sky130_fd_sc_hd__buf_1_0/VGND" "BR128half_bottom_0/brbufhalf_1/unitcell2buf_0/li_n356_180#"
-merge "BR128half_bottom_0/brbufhalf_1/unitcell2buf_0/li_n356_180#" "BR128half_bottom_0/brbufhalf_1/unitcell2buf_0/sky130_fd_sc_hd__buf_1_0/VGND"
-merge "BR128half_bottom_0/brbufhalf_1/unitcell2buf_0/sky130_fd_sc_hd__buf_1_0/VGND" "VSS"
+merge "BR128half_bottom_0/brbufhalf_2/unitcell2buf_8/li_n356_180#" "BR128half_bottom_0/brbufhalf_2/unitcell2buf_1/sky130_fd_sc_hd__buf_1_1/VGND"
+merge "BR128half_bottom_0/brbufhalf_2/unitcell2buf_1/sky130_fd_sc_hd__buf_1_1/VGND" "BR128half_bottom_0/brbufhalf_1/unitcell2buf_8/li_n356_180#"
+merge "BR128half_bottom_0/brbufhalf_1/unitcell2buf_8/li_n356_180#" "BR128half_bottom_0/brbufhalf_1/unitcell2buf_8/sky130_fd_sc_hd__buf_1_1/VGND"
+merge "BR128half_bottom_0/brbufhalf_1/unitcell2buf_8/sky130_fd_sc_hd__buf_1_1/VGND" "BR128half_bottom_0/brbufhalf_1/unitcell2buf_0/li_n356_180#"
+merge "BR128half_bottom_0/brbufhalf_1/unitcell2buf_0/li_n356_180#" "BR128half_bottom_0/brbufhalf_1/unitcell2buf_0/sky130_fd_sc_hd__buf_1_1/VGND"
+merge "BR128half_bottom_0/brbufhalf_1/unitcell2buf_0/sky130_fd_sc_hd__buf_1_1/VGND" "VSS"
 merge "BR128half_bottom_0/brbufhalf_0/unitcell2bufcut_1/li_n460_n386#" "C[54]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "unitcell2buf_0/VSUBS" "BR128half_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "BR128half_0/VSUBS" "sky130_fd_sc_hd__inv_16_0/VNB"
-merge "sky130_fd_sc_hd__inv_16_0/VNB" "sky130_fd_sc_hd__tapvpwrvgnd_1_1/VSUBS"
-merge "sky130_fd_sc_hd__tapvpwrvgnd_1_1/VSUBS" "sky130_fd_sc_hd__inv_16_1/VNB"
-merge "sky130_fd_sc_hd__inv_16_1/VNB" "sky130_fd_sc_hd__buf_2_0/VNB"
-merge "sky130_fd_sc_hd__buf_2_0/VNB" "sky130_fd_sc_hd__inv_8_0/VNB"
-merge "sky130_fd_sc_hd__inv_8_0/VNB" "sky130_fd_sc_hd__tapvpwrvgnd_1_0/VSUBS"
-merge "sky130_fd_sc_hd__tapvpwrvgnd_1_0/VSUBS" "BR128half_bottom_0/VSUBS"
+merge "BR128half_0/VSUBS" "sky130_fd_sc_hd__tapvpwrvgnd_1_1/VSUBS"
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_1/VSUBS" "sky130_fd_sc_hd__inv_16_0/VNB"
+merge "sky130_fd_sc_hd__inv_16_0/VNB" "sky130_fd_sc_hd__inv_16_1/VNB"
+merge "sky130_fd_sc_hd__inv_16_1/VNB" "sky130_fd_sc_hd__tapvpwrvgnd_1_0/VSUBS"
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_0/VSUBS" "sky130_fd_sc_hd__inv_8_0/VNB"
+merge "sky130_fd_sc_hd__inv_8_0/VNB" "sky130_fd_sc_hd__buf_2_0/VNB"
+merge "sky130_fd_sc_hd__buf_2_0/VNB" "BR128half_bottom_0/VSUBS"
 merge "BR128half_bottom_0/VSUBS" "VSUBS"
 merge "BR128half_bottom_0/brbufhalf_2/unitcell2buf_9/li_n460_n386#" "C[67]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_0/brbufhalf_2/unitcell2buf_5/li_n460_n386#" "C[120]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -352,24 +352,24 @@ merge "unitcell2buf_0/li_1038_n394#" "m2_61020_18299#"
 merge "BR128half_0/brbufhalf_2/unitcell2buf_3/li_n460_n386#" "C[122]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_7/li_n460_n386#" "C[37]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_0/brbufhalf_3/unitcell2buf_4/li_n460_n386#" "C[105]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "BR128half_0/brbufhalf_2/unitcell2buf_12/m1_n574_938#" "BR128half_0/brbufhalf_2/unitcell2buf_12/sky130_fd_sc_hd__nor2_1_1/VPWR" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "BR128half_0/brbufhalf_2/unitcell2buf_12/sky130_fd_sc_hd__nor2_1_1/VPWR" "sky130_fd_sc_hd__inv_16_0/VPWR"
-merge "sky130_fd_sc_hd__inv_16_0/VPWR" "m1_32152_9891#"
-merge "m1_32152_9891#" "sky130_fd_sc_hd__buf_2_0/VPWR"
-merge "sky130_fd_sc_hd__buf_2_0/VPWR" "m1_31280_9877#"
-merge "m1_31280_9877#" "m1_31001_9877#"
-merge "m1_31001_9877#" "sky130_fd_sc_hd__inv_16_1/VPWR"
-merge "sky130_fd_sc_hd__inv_16_1/VPWR" "m1_29453_9877#"
+merge "BR128half_0/brbufhalf_2/unitcell2buf_12/m1_n574_938#" "BR128half_0/brbufhalf_2/unitcell2buf_12/sky130_fd_sc_hd__nor2_1_2/VPWR" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "BR128half_0/brbufhalf_2/unitcell2buf_12/sky130_fd_sc_hd__nor2_1_2/VPWR" "sky130_fd_sc_hd__inv_16_1/VPWR"
+merge "sky130_fd_sc_hd__inv_16_1/VPWR" "sky130_fd_sc_hd__inv_16_0/VPWR"
+merge "sky130_fd_sc_hd__inv_16_0/VPWR" "m1_31280_9877#"
+merge "m1_31280_9877#" "m1_32152_9891#"
+merge "m1_32152_9891#" "m1_31001_9877#"
+merge "m1_31001_9877#" "sky130_fd_sc_hd__tapvpwrvgnd_1_1/VPWR"
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_1/VPWR" "m1_29453_9877#"
 merge "m1_29453_9877#" "sky130_fd_sc_hd__inv_8_0/VPWR"
-merge "sky130_fd_sc_hd__inv_8_0/VPWR" "sky130_fd_sc_hd__inv_16_0/VPB"
-merge "sky130_fd_sc_hd__inv_16_0/VPB" "m1_28549_9877#"
-merge "m1_28549_9877#" "sky130_fd_sc_hd__buf_2_0/VPB"
-merge "sky130_fd_sc_hd__buf_2_0/VPB" "sky130_fd_sc_hd__tapvpwrvgnd_1_1/VPWR"
-merge "sky130_fd_sc_hd__tapvpwrvgnd_1_1/VPWR" "w_31318_9642#"
-merge "w_31318_9642#" "w_31039_9642#"
-merge "w_31039_9642#" "sky130_fd_sc_hd__inv_16_1/VPB"
-merge "sky130_fd_sc_hd__inv_16_1/VPB" "sky130_fd_sc_hd__inv_8_0/VPB"
-merge "sky130_fd_sc_hd__inv_8_0/VPB" "sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "sky130_fd_sc_hd__inv_8_0/VPWR" "m1_28549_9877#"
+merge "m1_28549_9877#" "sky130_fd_sc_hd__buf_2_0/VPWR"
+merge "sky130_fd_sc_hd__buf_2_0/VPWR" "sky130_fd_sc_hd__inv_16_0/VPB"
+merge "sky130_fd_sc_hd__inv_16_0/VPB" "w_31318_9642#"
+merge "w_31318_9642#" "sky130_fd_sc_hd__inv_16_1/VPB"
+merge "sky130_fd_sc_hd__inv_16_1/VPB" "w_31039_9642#"
+merge "w_31039_9642#" "sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "sky130_fd_sc_hd__inv_8_0/VPB"
+merge "sky130_fd_sc_hd__inv_8_0/VPB" "sky130_fd_sc_hd__buf_2_0/VPB"
 merge "BR128half_bottom_0/brbufhalf_1/unitcell2buf_9/li_n460_n386#" "C[83]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_2/unitcell2buf_10/li_n460_n386#" "C[66]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_2/unitcell2buf_11/li_n460_n386#" "C[65]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -379,18 +379,18 @@ merge "BR128half_bottom_0/brbufhalf_0/unitcell2buf_11/li_n460_n386#" "C[49]" 0 0
 merge "BR128half_0/brbufhalf_2/unitcell2buf_4/li_n460_n386#" "C[121]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_0/unitcell2buf_2/li_n460_n386#" "C[59]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_0/brbufhalf_3/unitcell2buf_5/li_n460_n386#" "C[104]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "sky130_fd_sc_hd__inv_16_0/VGND" "BR128half_bottom_0/brbufhalf_0/unitcell2buf_12/mux_0/a_44_n96#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "BR128half_bottom_0/brbufhalf_0/unitcell2buf_12/mux_0/a_44_n96#" "BR128half_bottom_0/brbufhalf_128_0/unitcell2bufcut_0/sky130_fd_sc_hd__buf_1_0/VGND"
-merge "BR128half_bottom_0/brbufhalf_128_0/unitcell2bufcut_0/sky130_fd_sc_hd__buf_1_0/VGND" "m1_32142_7367#"
-merge "m1_32142_7367#" "sky130_fd_sc_hd__buf_2_0/VGND"
-merge "sky130_fd_sc_hd__buf_2_0/VGND" "sky130_fd_sc_hd__tapvpwrvgnd_1_1/VGND"
-merge "sky130_fd_sc_hd__tapvpwrvgnd_1_1/VGND" "m1_31280_9333#"
-merge "m1_31280_9333#" "m1_31001_9333#"
-merge "m1_31001_9333#" "sky130_fd_sc_hd__inv_16_1/VGND"
-merge "sky130_fd_sc_hd__inv_16_1/VGND" "m1_29453_9332#"
-merge "m1_29453_9332#" "sky130_fd_sc_hd__inv_8_0/VGND"
-merge "sky130_fd_sc_hd__inv_8_0/VGND" "sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
-merge "sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "m1_28549_9333#"
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_1/VGND" "sky130_fd_sc_hd__inv_16_0/VGND" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_sc_hd__inv_16_0/VGND" "m1_31280_9333#"
+merge "m1_31280_9333#" "BR128half_bottom_0/brbufhalf_0/unitcell2buf_12/mux_0/a_44_n96#"
+merge "BR128half_bottom_0/brbufhalf_0/unitcell2buf_12/mux_0/a_44_n96#" "BR128half_bottom_0/brbufhalf_128_0/unitcell2bufcut_0/sky130_fd_sc_hd__buf_1_1/VGND"
+merge "BR128half_bottom_0/brbufhalf_128_0/unitcell2bufcut_0/sky130_fd_sc_hd__buf_1_1/VGND" "m1_32142_7367#"
+merge "m1_32142_7367#" "sky130_fd_sc_hd__inv_16_1/VGND"
+merge "sky130_fd_sc_hd__inv_16_1/VGND" "m1_31001_9333#"
+merge "m1_31001_9333#" "sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND"
+merge "sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "m1_29453_9332#"
+merge "m1_29453_9332#" "sky130_fd_sc_hd__buf_2_0/VGND"
+merge "sky130_fd_sc_hd__buf_2_0/VGND" "sky130_fd_sc_hd__inv_8_0/VGND"
+merge "sky130_fd_sc_hd__inv_8_0/VGND" "m1_28549_9333#"
 merge "BR128half_bottom_0/brbufhalf_1/unitcell2buf_10/li_n460_n386#" "C[82]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_0/unitcell2buf_13/li_n460_n386#" "C[48]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_0/brbufhalf_1/unitcell2buf_7/li_n460_n386#" "C[6]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -402,14 +402,14 @@ merge "sky130_fd_sc_hd__inv_8_0/Y" "li_29388_9595#"
 merge "BR128half_0/brbufhalf_3/unitcell2buf_6/li_n460_n386#" "C[103]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_1/unitcell2buf_11/li_n460_n386#" "C[81]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_2/unitcell2buf_13/li_n460_n386#" "C[64]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "BR128half_0/brbufhalf_1/unitcell2buf_7/sky130_fd_sc_hd__nor2_1_1/VPWR" "BR128half_0/brbufhalf_1/unitcell2buf_0/m1_n574_938#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "BR128half_0/brbufhalf_1/unitcell2buf_7/sky130_fd_sc_hd__nor2_1_2/VPWR" "BR128half_0/brbufhalf_1/unitcell2buf_0/m1_n574_938#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_0/brbufhalf_1/unitcell2buf_0/m1_n574_938#" "BR128half_0/brbufhalf_0/unitcell2buf_7/m1_n574_938#"
-merge "BR128half_0/brbufhalf_0/unitcell2buf_7/m1_n574_938#" "BR128half_0/brbufhalf_0/unitcell2buf_0/sky130_fd_sc_hd__nor2_1_0/VPB"
-merge "BR128half_0/brbufhalf_0/unitcell2buf_0/sky130_fd_sc_hd__nor2_1_0/VPB" "BR128half_0/brbufhalf_2/unitcell2buf_5/sky130_fd_sc_hd__nor2_1_0/VPWR"
-merge "BR128half_0/brbufhalf_2/unitcell2buf_5/sky130_fd_sc_hd__nor2_1_0/VPWR" "BR128half_0/brbufhalf_2/unitcell2buf_13/m1_n574_938#"
+merge "BR128half_0/brbufhalf_0/unitcell2buf_7/m1_n574_938#" "BR128half_0/brbufhalf_0/unitcell2buf_0/sky130_fd_sc_hd__nor2_1_3/VPB"
+merge "BR128half_0/brbufhalf_0/unitcell2buf_0/sky130_fd_sc_hd__nor2_1_3/VPB" "BR128half_0/brbufhalf_2/unitcell2buf_5/sky130_fd_sc_hd__nor2_1_3/VPWR"
+merge "BR128half_0/brbufhalf_2/unitcell2buf_5/sky130_fd_sc_hd__nor2_1_3/VPWR" "BR128half_0/brbufhalf_2/unitcell2buf_13/m1_n574_938#"
 merge "BR128half_0/brbufhalf_2/unitcell2buf_13/m1_n574_938#" "BR128half_0/brbufhalf_3/unitcell2buf_5/m1_n574_938#"
-merge "BR128half_0/brbufhalf_3/unitcell2buf_5/m1_n574_938#" "BR128half_0/brbufhalf_3/unitcell2buf_13/sky130_fd_sc_hd__nor2_1_1/VPB"
-merge "BR128half_0/brbufhalf_3/unitcell2buf_13/sky130_fd_sc_hd__nor2_1_1/VPB" "BR128half_0/m3_1284_5093#"
+merge "BR128half_0/brbufhalf_3/unitcell2buf_5/m1_n574_938#" "BR128half_0/brbufhalf_3/unitcell2buf_13/sky130_fd_sc_hd__nor2_1_2/VPB"
+merge "BR128half_0/brbufhalf_3/unitcell2buf_13/sky130_fd_sc_hd__nor2_1_2/VPB" "BR128half_0/m3_1284_5093#"
 merge "BR128half_0/m3_1284_5093#" "BR128half_bottom_0/brbufhalf_0/unitcell2buf_5/m1_n574_938#"
 merge "BR128half_bottom_0/brbufhalf_0/unitcell2buf_5/m1_n574_938#" "BR128half_bottom_0/brbufhalf_0/unitcell2buf_13/m1_n574_938#"
 merge "BR128half_bottom_0/brbufhalf_0/unitcell2buf_13/m1_n574_938#" "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_5/m1_n574_938#"
@@ -417,8 +417,8 @@ merge "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_5/m1_n574_938#" "BR128hal
 merge "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_11/m1_n574_938#" "BR128half_bottom_0/brbufhalf_2/unitcell2buf_7/m1_n574_938#"
 merge "BR128half_bottom_0/brbufhalf_2/unitcell2buf_7/m1_n574_938#" "BR128half_bottom_0/brbufhalf_2/unitcell2buf_0/m1_n574_938#"
 merge "BR128half_bottom_0/brbufhalf_2/unitcell2buf_0/m1_n574_938#" "BR128half_bottom_0/brbufhalf_1/unitcell2buf_7/m1_n574_938#"
-merge "BR128half_bottom_0/brbufhalf_1/unitcell2buf_7/m1_n574_938#" "BR128half_bottom_0/brbufhalf_1/unitcell2buf_0/sky130_fd_sc_hd__nor2_1_0/VPB"
-merge "BR128half_bottom_0/brbufhalf_1/unitcell2buf_0/sky130_fd_sc_hd__nor2_1_0/VPB" "BR128half_bottom_0/brbufhalf_1/unitcell2bufcut_0/m1_n574_938#"
+merge "BR128half_bottom_0/brbufhalf_1/unitcell2buf_7/m1_n574_938#" "BR128half_bottom_0/brbufhalf_1/unitcell2buf_0/sky130_fd_sc_hd__nor2_1_3/VPB"
+merge "BR128half_bottom_0/brbufhalf_1/unitcell2buf_0/sky130_fd_sc_hd__nor2_1_3/VPB" "BR128half_bottom_0/brbufhalf_1/unitcell2bufcut_0/m1_n574_938#"
 merge "BR128half_bottom_0/brbufhalf_1/unitcell2bufcut_0/m1_n574_938#" "VDD"
 merge "BR128half_bottom_0/brbufhalf_0/unitcell2buf_12/li_n460_n386#" "C[47]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_0/li_13572_3418#" "sky130_fd_sc_hd__inv_16_0/Y" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -435,12 +435,14 @@ merge "BR128half_bottom_0/brbufhalf_2/unitcell2buf_12/li_n460_n386#" "C[63]" 0 0
 merge "BR128half_0/brbufhalf_3/unitcell2buf_12/m1_n374_324#" "BR128half_bottom_0/brbufhalf_1/unitcell2bufcut_0/li_1038_n394#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_1/unitcell2bufcut_0/li_1038_n394#" "m1_338_13814#"
 merge "BR128half_0/brbufhalf_2/unitcell2buf_2/li_n460_n386#" "C[123]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "sky130_fd_sc_hd__buf_2_0/X" "sky130_fd_sc_hd__inv_8_0/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "sky130_fd_sc_hd__inv_8_0/A" "li_28312_9722#"
+merge "sky130_fd_sc_hd__inv_8_0/A" "sky130_fd_sc_hd__buf_2_0/X" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_sc_hd__buf_2_0/X" "li_28312_9722#"
 merge "BR128half_bottom_0/brbufhalf_128_0/unitcell2bufcut_0/li_n460_n386#" "C[46]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_4/li_n460_n386#" "C[41]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_0/brbufhalf_3/unitcell2buf_7/li_n460_n386#" "C[101]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_0/unitcell2bufcut_0/li_n460_n386#" "C[62]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "unitcell2buf_0/sky130_fd_sc_hd__nor2_1_2/A" "BR128half_0/brbufhalf_2/li_17343_4967#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "BR128half_0/brbufhalf_2/li_17343_4967#" "m2_61286_14735#"
 merge "unitcell2buf_0/m1_n374_324#" "BR128half_0/brbufhalf_2/unitcell2bufcut_0/li_1038_n394#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_0/brbufhalf_2/unitcell2bufcut_0/li_1038_n394#" "m2_61114_13843#"
 merge "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_0/li_n460_n386#" "C[45]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -449,15 +451,12 @@ merge "BR128half_bottom_0/brbufhalf_1/unitcell2buf_5/li_n460_n386#" "C[88]" 0 0 
 merge "BR128half_0/brbufhalf_0/unitcell2buf_2/li_n460_n386#" "C[28]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_0/brbufhalf_0/unitcell2bufcut_0/li_1038_n394#" "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_11/m1_n374_324#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_11/m1_n374_324#" "m1_622_6034#"
-merge "BR128half_0/brbufhalf_2/unitcell2bufcut_0/sky130_fd_sc_hd__buf_1_0/VPB" "unitcell2buf_0/sky130_fd_sc_hd__inv_1#0_1/w_n38_261#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_0/brbufhalf_1/unitcell2buf_12/li_n460_n386#" "C[0]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_0/brbufhalf_1/unitcell2buf_4/li_n460_n386#" "C[10]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_0/unitcell2buf_0/li_n460_n386#" "C[61]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_0/brbufhalf_0/unitcell2buf_3/li_n460_n386#" "C[27]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_1/li_n460_n386#" "C[44]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_0/brbufhalf_0/unitcell2bufcut_0/li_n460_n386#" "C[31]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "unitcell2buf_0/sky130_fd_sc_hd__nor2_1_1/A" "BR128half_0/brbufhalf_2/li_17343_4967#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "BR128half_0/brbufhalf_2/li_17343_4967#" "m2_61286_14735#"
 merge "BR128half_bottom_0/brbufhalf_0/unitcell2buf_1/li_n460_n386#" "C[60]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_0/unitcell2buf_7/li_n460_n386#" "C[53]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_2/li_n460_n386#" "C[43]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -498,10 +497,11 @@ merge "BR128half_bottom_0/brbufhalf_1/unitcell2buf_12/li_n460_n386#" "C[79]" 0 0
 merge "BR128half_0/brbufhalf_1/unitcell2buf_11/li_n460_n386#" "C[2]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_1/unitcell2buf_7/li_n460_n386#" "C[85]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_0/brbufhalf_3/unitcell2buf_12/li_n460_n386#" "C[95]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "unitcell2buf_0/sky130_fd_sc_hd__buf_1_0/X" "OUT" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_2/unitcell2bufcut_0/li_n460_n386#" "C[78]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_0/brbufhalf_1/unitcell2buf_13/li_n460_n386#" "C[1]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_0/brbufhalf_0/unitcell2buf_0/li_n460_n386#" "C[30]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "BR128half_0/brbufhalf_2/unitcell2bufcut_0/m1_n574_938#" "unitcell2buf_0/m1_n574_938#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "unitcell2buf_0/m1_n574_938#" "unitcell2buf_0/sky130_fd_sc_hd__nor2_1_2/VPB"
 merge "BR128half_0/brbufhalf_2/unitcell2buf_8/li_n460_n386#" "C[116]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_0/unitcell2buf_9/li_n460_n386#" "C[51]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_128_0/unitcell2buf_10/li_n460_n386#" "C[34]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -517,8 +517,6 @@ merge "BR128half_bottom_0/brbufhalf_0/unitcell2buf_3/li_n460_n386#" "C[58]" 0 0 
 merge "BR128half_bottom_0/brbufhalf_1/unitcell2buf_4/li_n460_n386#" "C[89]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_0/brbufhalf_1/unitcell2buf_3/li_n460_n386#" "C[11]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_2/unitcell2bufcut_1/li_n460_n386#" "C[70]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "BR128half_0/brbufhalf_2/unitcell2bufcut_0/m1_n574_938#" "unitcell2buf_0/m1_n574_938#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "unitcell2buf_0/m1_n574_938#" "unitcell2buf_0/sky130_fd_sc_hd__nor2_1_1/VPB"
 merge "unitcell2buf_0/li_n460_n386#" "C[127]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_0/brbufhalf_2/unitcell2buf_13/li_n460_n386#" "C[112]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_0/unitcell2buf_6/li_n460_n386#" "C[55]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -526,6 +524,7 @@ merge "BR128half_bottom_0/brbufhalf_1/unitcell2buf_3/li_n460_n386#" "C[90]" 0 0 
 merge "BR128half_bottom_0/brbufhalf_2/unitcell2buf_4/li_n460_n386#" "C[73]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_0/unitcell2buf_5/li_n460_n386#" "C[56]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_128_0/unitcell2bufcut_1/li_n460_n386#" "C[38]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "BR128half_0/brbufhalf_2/unitcell2bufcut_0/sky130_fd_sc_hd__buf_1_1/VPB" "unitcell2buf_0/sky130_fd_sc_hd__inv_1#0_1/w_n38_261#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_2/unitcell2buf_6/li_n460_n386#" "C[71]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_bottom_0/brbufhalf_2/unitcell2buf_7/li_n460_n386#" "C[69]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_0/brbufhalf_1/unitcell2buf_0/li_n460_n386#" "C[14]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -542,3 +541,4 @@ merge "BR128half_bottom_0/brbufhalf_1/unitcell2buf_6/li_n460_n386#" "C[87]" 0 0 
 merge "BR128half_bottom_0/brbufhalf_1/unitcell2bufcut_1/li_n460_n386#" "C[86]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_0/brbufhalf_1/unitcell2buf_2/li_n460_n386#" "C[12]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "BR128half_0/brbufhalf_2/unitcell2buf_0/li_n460_n386#" "C[125]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "unitcell2buf_0/sky130_fd_sc_hd__buf_1_1/X" "OUT" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

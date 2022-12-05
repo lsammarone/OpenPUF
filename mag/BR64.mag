@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1655348380
+timestamp 1656715967
 << nwell >>
 rect 33027 4847 33405 5966
 rect 32760 4818 33405 4847
@@ -2354,47 +2354,47 @@ rect 60216 734 60368 798
 rect 60432 734 60580 798
 rect 59774 560 60580 734
 use brbufhalf  brbufhalf_0
-timestamp 1655348380
+timestamp 1656715967
 transform -1 0 58721 0 -1 10662
 box -3552 2527 26658 5446
 use brbufhalf  brbufhalf_1
-timestamp 1655348380
+timestamp 1656715967
 transform 1 0 36045 0 1 -1834
 box -3552 2527 26658 5446
 use brbufhalf  brbufhalf_2
-timestamp 1655348380
+timestamp 1656715967
 transform 1 0 5843 0 1 -1834
 box -3552 2527 26658 5446
 use brbufhalf_64  brbufhalf_64_0
-timestamp 1655348380
+timestamp 1656715967
 transform -1 0 28519 0 -1 10662
 box -3552 2527 26308 5446
 use sky130_fd_sc_hd__inv_4  sky130_fd_sc_hd__inv_4_0
-timestamp 1655322987
+timestamp 1656715967
 transform 1 0 32318 0 1 4265
 box -38 -48 498 592
 use sky130_fd_sc_hd__inv_16  sky130_fd_sc_hd__inv_16_0
-timestamp 1655322987
+timestamp 1656715967
 transform 1 0 45672 0 1 4049
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_16  sky130_fd_sc_hd__inv_16_1
-timestamp 1655322987
+timestamp 1656715967
 transform 1 0 47602 0 1 4049
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_16  sky130_fd_sc_hd__inv_16_2
-timestamp 1655322987
+timestamp 1656715967
 transform 1 0 32866 0 1 4265
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_16  sky130_fd_sc_hd__inv_16_3
-timestamp 1655322987
+timestamp 1656715967
 transform 1 0 15530 0 1 3889
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_16  sky130_fd_sc_hd__inv_16_4
-timestamp 1655322987
+timestamp 1656715967
 transform 1 0 17460 0 1 3889
 box -38 -48 1510 592
 use unitcell2buf  unitcell2buf_0
-timestamp 1655348380
+timestamp 1656715967
 transform 1 0 977 0 1 1878
 box -574 -1185 1322 1192
 << labels >>
@@ -2550,4 +2550,8 @@ flabel metal2 s 58950 22 58995 1168 1 FreeSans 2000 0 0 0 C[62]
 port 67 nsew
 flabel metal2 s 60827 0 60883 1486 1 FreeSans 2000 0 0 0 C[63]
 port 68 nsew
+<< properties >>
+string GDS_END 8954852
+string GDS_FILE /scratch/users/lsammaro/OpenPUF/mag/design_merged.gds
+string GDS_START 8889676
 << end >>

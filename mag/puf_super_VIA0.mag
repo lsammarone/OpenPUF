@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1655323538
+timestamp 1656715967
 << metal4 >>
 rect -155 139 155 155
 rect -155 -139 -139 139
@@ -13,4 +13,8 @@ rect -155 139 155 155
 rect -155 -139 -139 139
 rect 139 -139 155 139
 rect -155 -155 155 -139
+<< properties >>
+string GDS_END 9299212
+string GDS_FILE /scratch/users/lsammaro/OpenPUF/mag/design_merged.gds
+string GDS_START 9298824
 << end >>

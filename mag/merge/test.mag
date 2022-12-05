@@ -1,0 +1,12 @@
+magic
+tech sky130A
+timestamp 1655819483
+use bgr_gen7  bgr_gen7_0
+timestamp 1655819483
+transform 1 0 42796 0 1 230
+box 0 0 27278 26418
+use bgr_top  bgr_top_0
+timestamp 1655819483
+transform 1 0 -16 0 1 -3
+box 0 0 29256 28288
+<< end >>

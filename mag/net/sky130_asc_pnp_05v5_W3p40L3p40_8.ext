@@ -1,0 +1,73 @@
+timestamp 1655502738
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__pnp_05v5 a2=area
+port "VGND" 29 120 -30 180 30 m1
+port "VPWR" 28 120 1850 180 1910 m1
+port "Emitter" 25 660 1010 900 1140 m1
+port "xm1/Emitter" 22 674 896 922 1000 li
+port "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Emitter" 19 2014 896 2262 1000 li
+port "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_1/Emitter" 16 3354 896 3602 1000 li
+port "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_2/Emitter" 13 4694 896 4942 1000 li
+port "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_3/Emitter" 10 6034 896 6282 1000 li
+port "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_4/Emitter" 7 7374 896 7622 1000 li
+port "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_5/Emitter" 4 8714 896 8962 1000 li
+port "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_6/Emitter" 1 10054 896 10302 1000 li
+port "Base" 26 310 1372 550 1412 m1
+port "xm1/Base" 24 710 1372 828 1412 li
+port "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Base" 21 2050 1372 2168 1412 li
+port "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_1/Base" 18 3390 1372 3508 1412 li
+port "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_2/Base" 15 4730 1372 4848 1412 li
+port "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_3/Base" 12 6070 1372 6188 1412 li
+port "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_4/Base" 9 7410 1372 7528 1412 li
+port "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_5/Base" 6 8750 1372 8868 1412 li
+port "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_6/Base" 3 10090 1372 10208 1412 li
+port "Collector" 27 146 1524 386 1564 m1
+port "xm1/Collector" 23 733 1522 834 1571 li
+port "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Collector" 20 2073 1522 2174 1571 li
+port "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_1/Collector" 17 3413 1522 3514 1571 li
+port "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_2/Collector" 14 4753 1522 4854 1571 li
+port "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_3/Collector" 11 6093 1522 6194 1571 li
+port "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_4/Collector" 8 7433 1522 7534 1571 li
+port "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_5/Collector" 5 8773 1522 8874 1571 li
+port "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_6/Collector" 2 10113 1522 10214 1571 li
+node "VGND" 0 0 120 -30 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VPWR" 0 0 120 1850 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "Emitter" 0 0 660 1010 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "Emitter" "xm1/Emitter"
+equiv "Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Emitter"
+equiv "Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_1/Emitter"
+equiv "Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_2/Emitter"
+equiv "Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_3/Emitter"
+equiv "Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_4/Emitter"
+equiv "Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_5/Emitter"
+equiv "Emitter" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_6/Emitter"
+node "Base" 0 0 310 1372 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "Base" "xm1/Base"
+equiv "Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Base"
+equiv "Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_1/Base"
+equiv "Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_2/Base"
+equiv "Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_3/Base"
+equiv "Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_4/Base"
+equiv "Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_5/Base"
+equiv "Base" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_6/Base"
+substrate "Collector" 0 0 146 1524 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "Collector" "xm1/Collector"
+equiv "Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Collector"
+equiv "Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_1/Collector"
+equiv "Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_2/Collector"
+equiv "Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_3/Collector"
+equiv "Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_4/Collector"
+equiv "Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_5/Collector"
+equiv "Collector" "sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_6/Collector"
+device msubckt sky130_fd_pr__pnp_05v5 9653 423 9654 424 "None" "Base" 0 0 "Emitter" 800 0 "Collector" 800 0
+device msubckt sky130_fd_pr__pnp_05v5 8313 423 8314 424 "None" "Base" 0 0 "Emitter" 800 0 "Collector" 800 0
+device msubckt sky130_fd_pr__pnp_05v5 6973 423 6974 424 "None" "Base" 0 0 "Emitter" 800 0 "Collector" 800 0
+device msubckt sky130_fd_pr__pnp_05v5 5633 423 5634 424 "None" "Base" 0 0 "Emitter" 800 0 "Collector" 800 0
+device msubckt sky130_fd_pr__pnp_05v5 4293 423 4294 424 "None" "Base" 0 0 "Emitter" 800 0 "Collector" 800 0
+device msubckt sky130_fd_pr__pnp_05v5 2953 423 2954 424 "None" "Base" 0 0 "Emitter" 800 0 "Collector" 800 0
+device msubckt sky130_fd_pr__pnp_05v5 1613 423 1614 424 "None" "Base" 0 0 "Emitter" 800 0 "Collector" 800 0
+device msubckt sky130_fd_pr__pnp_05v5 273 423 274 424 "None" "Base" 0 0 "Emitter" 800 0 "Collector" 800 0

@@ -1,0 +1,14 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1656729169
+<< metal4 >>
+rect -4500 3000 4500 3057
+rect -4500 -3057 4500 -3000
+<< rmetal4 >>
+rect -4500 -3000 4500 3000
+<< properties >>
+string gencell sky130_fd_pr__res_generic_m4
+string library sky130
+string parameters w 45 l 30 m 1 nx 1 wmin 0.30 lmin 0.30 rho 0.047 val 31.333m dummy 0 dw 0.0 term 0.0 roverlap 0
+<< end >>

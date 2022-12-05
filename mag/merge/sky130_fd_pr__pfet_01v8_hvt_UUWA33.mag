@@ -1,0 +1,104 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1656729169
+<< error_p >>
+rect -109 -200 109 200
+<< nwell >>
+rect -109 -200 109 200
+<< pmoshvt >>
+rect -15 -100 15 100
+<< pdiff >>
+rect -73 85 -15 100
+rect -73 51 -61 85
+rect -27 51 -15 85
+rect -73 17 -15 51
+rect -73 -17 -61 17
+rect -27 -17 -15 17
+rect -73 -51 -15 -17
+rect -73 -85 -61 -51
+rect -27 -85 -15 -51
+rect -73 -100 -15 -85
+rect 15 85 73 100
+rect 15 51 27 85
+rect 61 51 73 85
+rect 15 17 73 51
+rect 15 -17 27 17
+rect 61 -17 73 17
+rect 15 -51 73 -17
+rect 15 -85 27 -51
+rect 61 -85 73 -51
+rect 15 -100 73 -85
+<< pdiffc >>
+rect -61 51 -27 85
+rect -61 -17 -27 17
+rect -61 -85 -27 -51
+rect 27 51 61 85
+rect 27 -17 61 17
+rect 27 -85 61 -51
+<< poly >>
+rect -33 181 33 197
+rect -33 147 -17 181
+rect 17 147 33 181
+rect -33 131 33 147
+rect -15 100 15 131
+rect -15 -131 15 -100
+rect -33 -147 33 -131
+rect -33 -181 -17 -147
+rect 17 -181 33 -147
+rect -33 -197 33 -181
+<< polycont >>
+rect -17 147 17 181
+rect -17 -181 17 -147
+<< locali >>
+rect -33 147 -17 181
+rect 17 147 33 181
+rect -61 85 -27 104
+rect -61 17 -27 19
+rect -61 -19 -27 -17
+rect -61 -104 -27 -85
+rect 27 85 61 104
+rect 27 17 61 19
+rect 27 -19 61 -17
+rect 27 -104 61 -85
+rect -33 -181 -17 -147
+rect 17 -181 33 -147
+<< viali >>
+rect -17 147 17 181
+rect -61 51 -27 53
+rect -61 19 -27 51
+rect -61 -51 -27 -19
+rect -61 -53 -27 -51
+rect 27 51 61 53
+rect 27 19 61 51
+rect 27 -51 61 -19
+rect 27 -53 61 -51
+rect -17 -181 17 -147
+<< metal1 >>
+rect -29 181 29 187
+rect -29 147 -17 181
+rect 17 147 29 181
+rect -29 141 29 147
+rect -67 53 -21 100
+rect -67 19 -61 53
+rect -27 19 -21 53
+rect -67 -19 -21 19
+rect -67 -53 -61 -19
+rect -27 -53 -21 -19
+rect -67 -100 -21 -53
+rect 21 53 67 100
+rect 21 19 27 53
+rect 61 19 67 53
+rect 21 -19 67 19
+rect 21 -53 27 -19
+rect 61 -53 67 -19
+rect 21 -100 67 -53
+rect -29 -147 29 -141
+rect -29 -181 -17 -147
+rect 17 -181 29 -147
+rect -29 -187 29 -181
+<< properties >>
+string GDS_END 9920366
+string GDS_FILE /scratch/users/lsammaro/OpenPUF/mag/merge/design_merged.gds
+string GDS_START 9914410
+<< end >>

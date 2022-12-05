@@ -1,17 +1,20 @@
 magic
 tech sky130A
-magscale 1 2
-timestamp 1655322987
+timestamp 1656715967
 << metal4 >>
-rect -1000 438 1000 571
-rect -1000 -438 -918 438
-rect 918 -438 1000 438
-rect -1000 -571 1000 -438
+rect -500 299 500 364
+rect -500 -299 -459 299
+rect 459 -299 500 299
+rect -500 -364 500 -299
 << via4 >>
-rect -918 -438 918 438
+rect -459 -299 459 299
 << metal5 >>
-rect -1000 438 1000 571
-rect -1000 -438 -918 438
-rect 918 -438 1000 438
-rect -1000 -571 1000 -438
+rect -500 299 500 364
+rect -500 -299 -459 299
+rect 459 -299 500 299
+rect -500 -364 500 -299
+<< properties >>
+string GDS_END 9363658
+string GDS_FILE /scratch/users/lsammaro/OpenPUF/mag/design_merged.gds
+string GDS_START 9361990
 << end >>

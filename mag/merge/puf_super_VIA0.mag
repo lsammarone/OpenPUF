@@ -1,0 +1,20 @@
+magic
+tech sky130A
+timestamp 1656729169
+<< metal4 >>
+rect -155 139 155 155
+rect -155 -139 -139 139
+rect 139 -139 155 139
+rect -155 -155 155 -139
+<< via4 >>
+rect -139 -139 139 139
+<< metal5 >>
+rect -155 139 155 155
+rect -155 -139 -139 139
+rect 139 -139 155 139
+rect -155 -155 155 -139
+<< properties >>
+string GDS_END 9299212
+string GDS_FILE /scratch/users/lsammaro/OpenPUF/mag/merge/design_merged.gds
+string GDS_START 9298824
+<< end >>

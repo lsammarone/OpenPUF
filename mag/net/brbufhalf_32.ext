@@ -1,4 +1,4 @@
-timestamp 1655435843
+timestamp 1655762910
 version 8.3
 tech sky130A
 style ngspice()
@@ -6,20 +6,20 @@ scale 1000 1 500000
 resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
 use unitcell2buf_32 unitcell2buf_32_11 1 0 -1090 0 1 3712
 use unitcell2buf_32 unitcell2buf_32_12 1 0 798 0 1 3712
-use sky130_fd_sc_hd__inv_16 sky130_fd_sc_hd__inv_16_3 1 0 2112 0 -1 5400
 use unitcell2buf_32 unitcell2buf_32_10 1 0 2686 0 1 3712
-use sky130_fd_sc_hd__inv_16 sky130_fd_sc_hd__inv_16_2 1 0 3994 0 -1 5398
+use sky130_fd_sc_hd__inv_16 sky130_fd_sc_hd__inv_16_3 1 0 2112 0 -1 5400
 use unitcell2buf_32 unitcell2buf_32_9 1 0 4574 0 1 3712
+use sky130_fd_sc_hd__inv_16 sky130_fd_sc_hd__inv_16_2 1 0 3994 0 -1 5398
 use unitcell2buf_32 unitcell2buf_32_8 1 0 6462 0 1 3712
 use unitcell2buf_32 unitcell2buf_32_7 1 0 8350 0 1 3712
 use unitcell2bufcut_32 unitcell2bufcut_32_1 1 0 10238 0 1 3712
 use unitcell2buf_32 unitcell2buf_32_6 1 0 12120 0 1 3712
 use unitcell2buf_32 unitcell2buf_32_5 1 0 14008 0 1 3712
 use unitcell2buf_32 unitcell2buf_32_4 1 0 15896 0 1 3712
-use sky130_fd_sc_hd__inv_16 sky130_fd_sc_hd__inv_16_1 1 0 17210 0 -1 5400
 use unitcell2buf_32 unitcell2buf_32_3 1 0 17784 0 1 3712
-use sky130_fd_sc_hd__inv_16 sky130_fd_sc_hd__inv_16_0 1 0 19092 0 -1 5398
+use sky130_fd_sc_hd__inv_16 sky130_fd_sc_hd__inv_16_1 1 0 17210 0 -1 5400
 use unitcell2buf_32 unitcell2buf_32_2 1 0 19672 0 1 3712
+use sky130_fd_sc_hd__inv_16 sky130_fd_sc_hd__inv_16_0 1 0 19092 0 -1 5398
 use unitcell2buf_32 unitcell2buf_32_1 1 0 21560 0 1 3712
 use unitcell2buf_32 unitcell2buf_32_0 1 0 23448 0 1 3712
 use unitcell2bufcut_32 unitcell2bufcut_32_0 1 0 25336 0 1 3712
@@ -43,9 +43,9 @@ merge "unitcell2buf_32_1/RESET" "unitcell2buf_32_1/sky130_fd_sc_hd__nor2_1_0/A"
 merge "unitcell2buf_32_1/sky130_fd_sc_hd__nor2_1_0/A" "sky130_fd_sc_hd__inv_16_0/Y"
 merge "sky130_fd_sc_hd__inv_16_0/Y" "unitcell2buf_32_2/RESET"
 merge "unitcell2buf_32_2/RESET" "unitcell2buf_32_3/RESET"
-merge "unitcell2buf_32_3/RESET" "unitcell2buf_32_3/sky130_fd_sc_hd__nor2_1_0/A"
-merge "unitcell2buf_32_3/sky130_fd_sc_hd__nor2_1_0/A" "sky130_fd_sc_hd__inv_16_1/Y"
-merge "sky130_fd_sc_hd__inv_16_1/Y" "unitcell2buf_32_4/RESET"
+merge "unitcell2buf_32_3/RESET" "sky130_fd_sc_hd__inv_16_1/Y"
+merge "sky130_fd_sc_hd__inv_16_1/Y" "unitcell2buf_32_3/sky130_fd_sc_hd__nor2_1_0/A"
+merge "unitcell2buf_32_3/sky130_fd_sc_hd__nor2_1_0/A" "unitcell2buf_32_4/RESET"
 merge "unitcell2buf_32_4/RESET" "unitcell2buf_32_4/sky130_fd_sc_hd__nor2_1_0/A"
 merge "unitcell2buf_32_4/sky130_fd_sc_hd__nor2_1_0/A" "unitcell2buf_32_5/RESET"
 merge "unitcell2buf_32_5/RESET" "unitcell2buf_32_6/RESET"
@@ -71,27 +71,62 @@ merge "unitcell2buf_32_9/VSUBS" "unitcell2buf_32_10/VSUBS"
 merge "unitcell2buf_32_10/VSUBS" "unitcell2buf_32_12/VSUBS"
 merge "unitcell2buf_32_12/VSUBS" "unitcell2buf_32_11/VSUBS"
 merge "unitcell2buf_32_11/VSUBS" "VSUBS"
+merge "unitcell2buf_32_8/VDD" "unitcell2buf_32_8/sky130_fd_sc_hd__nor2_1_0/VPB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "unitcell2buf_32_8/sky130_fd_sc_hd__nor2_1_0/VPB" "unitcell2buf_32_9/sky130_fd_sc_hd__nor2_1_1/VPB"
+merge "unitcell2buf_32_9/sky130_fd_sc_hd__nor2_1_1/VPB" "sky130_fd_sc_hd__inv_16_2/VPWR"
+merge "sky130_fd_sc_hd__inv_16_2/VPWR" "sky130_fd_sc_hd__inv_16_2/VPB"
+merge "sky130_fd_sc_hd__inv_16_2/VPB" "unitcell2buf_32_9/VDD"
+merge "unitcell2buf_32_9/VDD" "unitcell2buf_32_9/sky130_fd_sc_hd__nor2_1_0/VPB"
+merge "unitcell2buf_32_9/sky130_fd_sc_hd__nor2_1_0/VPB" "w_4170_4722#"
+merge "w_4170_4722#" "sky130_fd_sc_hd__inv_16_3/VPWR"
+merge "sky130_fd_sc_hd__inv_16_3/VPWR" "unitcell2buf_32_10/VDD"
+merge "unitcell2buf_32_10/VDD" "unitcell2buf_32_10/sky130_fd_sc_hd__nor2_1_0/VPWR"
+merge "unitcell2buf_32_10/sky130_fd_sc_hd__nor2_1_0/VPWR" "unitcell2buf_32_12/sky130_fd_sc_hd__nor2_1_1/VPWR"
+merge "unitcell2buf_32_12/sky130_fd_sc_hd__nor2_1_1/VPWR" "unitcell2buf_32_10/sky130_fd_sc_hd__nor2_1_1/VPB"
+merge "unitcell2buf_32_10/sky130_fd_sc_hd__nor2_1_1/VPB" "sky130_fd_sc_hd__inv_16_3/VPB"
+merge "sky130_fd_sc_hd__inv_16_3/VPB" "unitcell2buf_32_10/sky130_fd_sc_hd__nor2_1_0/VPB"
+merge "unitcell2buf_32_10/sky130_fd_sc_hd__nor2_1_0/VPB" "w_2282_4742#"
 merge "unitcell2buf_32_4/IN" "unitcell2buf_32_5/OUT" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "unitcell2bufcut_32_0/sky130_fd_sc_hd__inv_1_1/w_n38_261#" "unitcell2buf_32_0/sky130_fd_sc_hd__buf_1_0/VPB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "unitcell2buf_32_0/VDD" "unitcell2buf_32_0/sky130_fd_sc_hd__nor2_1_0/VPWR" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "unitcell2buf_32_0/sky130_fd_sc_hd__nor2_1_0/VPWR" "unitcell2buf_32_1/VDD"
+merge "unitcell2buf_32_1/VDD" "unitcell2buf_32_1/sky130_fd_sc_hd__nor2_1_0/VPB"
+merge "unitcell2buf_32_1/sky130_fd_sc_hd__nor2_1_0/VPB" "sky130_fd_sc_hd__inv_16_0/VPWR"
+merge "sky130_fd_sc_hd__inv_16_0/VPWR" "sky130_fd_sc_hd__inv_16_0/VPB"
+merge "sky130_fd_sc_hd__inv_16_0/VPB" "unitcell2buf_32_2/sky130_fd_sc_hd__nor2_1_0/VPB"
+merge "unitcell2buf_32_2/sky130_fd_sc_hd__nor2_1_0/VPB" "w_19268_4740#"
+merge "w_19268_4740#" "unitcell2buf_32_2/VDD"
+merge "unitcell2buf_32_2/VDD" "sky130_fd_sc_hd__inv_16_1/VPWR"
+merge "sky130_fd_sc_hd__inv_16_1/VPWR" "unitcell2buf_32_3/sky130_fd_sc_hd__nor2_1_1/VPB"
+merge "unitcell2buf_32_3/sky130_fd_sc_hd__nor2_1_1/VPB" "sky130_fd_sc_hd__inv_16_1/VPB"
+merge "sky130_fd_sc_hd__inv_16_1/VPB" "unitcell2buf_32_3/sky130_fd_sc_hd__nor2_1_0/VPB"
+merge "unitcell2buf_32_3/sky130_fd_sc_hd__nor2_1_0/VPB" "w_17380_4740#"
+merge "w_17380_4740#" "unitcell2buf_32_3/VDD"
+merge "unitcell2buf_32_3/VDD" "unitcell2buf_32_3/sky130_fd_sc_hd__nor2_1_0/VPWR"
+merge "unitcell2buf_32_3/sky130_fd_sc_hd__nor2_1_0/VPWR" "unitcell2buf_32_4/VDD"
+merge "unitcell2buf_32_4/VDD" "unitcell2buf_32_4/sky130_fd_sc_hd__nor2_1_0/VPB"
+merge "unitcell2buf_32_4/sky130_fd_sc_hd__nor2_1_0/VPB" "unitcell2buf_32_5/VDD"
+merge "unitcell2buf_32_5/VDD" "unitcell2buf_32_5/sky130_fd_sc_hd__nor2_1_0/VPWR"
+merge "unitcell2buf_32_5/sky130_fd_sc_hd__nor2_1_0/VPWR" "unitcell2buf_32_6/sky130_fd_sc_hd__nor2_1_1/VPB"
 merge "unitcell2bufcut_32_1/IN" "unitcell2buf_32_7/OUT" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "unitcell2buf_32_7/IN" "unitcell2buf_32_8/OUT" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "unitcell2bufcut_32_1/li_n150_662#" "unitcell2bufcut_32_1/sky130_fd_sc_hd__nor2_1_1/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "unitcell2bufcut_32_1/sky130_fd_sc_hd__nor2_1_1/A" "unitcell2buf_32_7/RESET"
+merge "unitcell2bufcut_32_1/li_n150_662#" "unitcell2bufcut_32_1/sky130_fd_sc_hd__nor2_1_0/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "unitcell2bufcut_32_1/sky130_fd_sc_hd__nor2_1_0/A" "unitcell2buf_32_7/RESET"
 merge "unitcell2buf_32_7/RESET" "unitcell2buf_32_8/RESET"
 merge "unitcell2buf_32_8/RESET" "unitcell2buf_32_8/sky130_fd_sc_hd__nor2_1_0/A"
 merge "unitcell2buf_32_8/sky130_fd_sc_hd__nor2_1_0/A" "unitcell2buf_32_9/RESET"
-merge "unitcell2buf_32_9/RESET" "unitcell2buf_32_9/sky130_fd_sc_hd__nor2_1_1/A"
-merge "unitcell2buf_32_9/sky130_fd_sc_hd__nor2_1_1/A" "sky130_fd_sc_hd__inv_16_2/Y"
-merge "sky130_fd_sc_hd__inv_16_2/Y" "unitcell2buf_32_10/RESET"
-merge "unitcell2buf_32_10/RESET" "sky130_fd_sc_hd__inv_16_3/Y"
-merge "sky130_fd_sc_hd__inv_16_3/Y" "unitcell2buf_32_12/RESET"
+merge "unitcell2buf_32_9/RESET" "sky130_fd_sc_hd__inv_16_2/Y"
+merge "sky130_fd_sc_hd__inv_16_2/Y" "unitcell2buf_32_9/sky130_fd_sc_hd__nor2_1_0/A"
+merge "unitcell2buf_32_9/sky130_fd_sc_hd__nor2_1_0/A" "sky130_fd_sc_hd__inv_16_3/Y"
+merge "sky130_fd_sc_hd__inv_16_3/Y" "unitcell2buf_32_10/RESET"
+merge "unitcell2buf_32_10/RESET" "unitcell2buf_32_12/RESET"
 merge "unitcell2buf_32_12/RESET" "unitcell2buf_32_12/sky130_fd_sc_hd__nor2_1_0/A"
 merge "unitcell2buf_32_12/sky130_fd_sc_hd__nor2_1_0/A" "unitcell2buf_32_11/RESET"
 merge "unitcell2buf_32_11/RESET" "li_2245_4973#"
 merge "unitcell2buf_32_6/VDD" "unitcell2buf_32_6/sky130_fd_sc_hd__nor2_1_0/VPWR" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "unitcell2buf_32_6/sky130_fd_sc_hd__nor2_1_0/VPWR" "unitcell2bufcut_32_1/VDD"
-merge "unitcell2bufcut_32_1/VDD" "unitcell2bufcut_32_1/sky130_fd_sc_hd__nor2_1_1/VPB"
-merge "unitcell2bufcut_32_1/sky130_fd_sc_hd__nor2_1_1/VPB" "unitcell2buf_32_7/VDD"
+merge "unitcell2bufcut_32_1/VDD" "unitcell2bufcut_32_1/sky130_fd_sc_hd__nor2_1_0/VPB"
+merge "unitcell2bufcut_32_1/sky130_fd_sc_hd__nor2_1_0/VPB" "unitcell2buf_32_7/VDD"
 merge "unitcell2buf_32_7/VDD" "unitcell2buf_32_7/sky130_fd_sc_hd__nor2_1_0/VPWR"
 merge "unitcell2buf_32_7/sky130_fd_sc_hd__nor2_1_0/VPWR" "unitcell2buf_32_8/sky130_fd_sc_hd__nor2_1_1/VPWR"
 merge "unitcell2bufcut_32_0/VSS" "unitcell2buf_32_0/VSS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -110,45 +145,10 @@ merge "unitcell2buf_32_10/VSS" "unitcell2buf_32_12/VSS"
 merge "unitcell2buf_32_12/VSS" "unitcell2buf_32_11/VSS"
 merge "sky130_fd_sc_hd__inv_16_0/A" "sky130_fd_sc_hd__inv_16_1/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "sky130_fd_sc_hd__inv_16_1/A" "li_17606_5144#"
-merge "unitcell2buf_32_0/VDD" "unitcell2buf_32_0/sky130_fd_sc_hd__nor2_1_0/VPWR" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "unitcell2buf_32_0/sky130_fd_sc_hd__nor2_1_0/VPWR" "unitcell2buf_32_1/VDD"
-merge "unitcell2buf_32_1/VDD" "unitcell2buf_32_1/sky130_fd_sc_hd__nor2_1_1/VPB"
-merge "unitcell2buf_32_1/sky130_fd_sc_hd__nor2_1_1/VPB" "unitcell2buf_32_2/sky130_fd_sc_hd__nor2_1_1/VPB"
-merge "unitcell2buf_32_2/sky130_fd_sc_hd__nor2_1_1/VPB" "unitcell2buf_32_2/sky130_fd_sc_hd__nor2_1_0/VPB"
-merge "unitcell2buf_32_2/sky130_fd_sc_hd__nor2_1_0/VPB" "sky130_fd_sc_hd__inv_16_0/VPB"
-merge "sky130_fd_sc_hd__inv_16_0/VPB" "w_19268_4740#"
-merge "w_19268_4740#" "unitcell2buf_32_2/VDD"
-merge "unitcell2buf_32_2/VDD" "sky130_fd_sc_hd__inv_16_0/VPWR"
-merge "sky130_fd_sc_hd__inv_16_0/VPWR" "unitcell2buf_32_3/sky130_fd_sc_hd__nor2_1_1/VPB"
-merge "unitcell2buf_32_3/sky130_fd_sc_hd__nor2_1_1/VPB" "unitcell2buf_32_3/sky130_fd_sc_hd__nor2_1_0/VPB"
-merge "unitcell2buf_32_3/sky130_fd_sc_hd__nor2_1_0/VPB" "sky130_fd_sc_hd__inv_16_1/VPB"
-merge "sky130_fd_sc_hd__inv_16_1/VPB" "w_17380_4740#"
-merge "w_17380_4740#" "unitcell2buf_32_3/VDD"
-merge "unitcell2buf_32_3/VDD" "unitcell2buf_32_3/sky130_fd_sc_hd__nor2_1_0/VPWR"
-merge "unitcell2buf_32_3/sky130_fd_sc_hd__nor2_1_0/VPWR" "sky130_fd_sc_hd__inv_16_1/VPWR"
-merge "sky130_fd_sc_hd__inv_16_1/VPWR" "unitcell2buf_32_4/VDD"
-merge "unitcell2buf_32_4/VDD" "unitcell2buf_32_4/sky130_fd_sc_hd__nor2_1_1/VPB"
-merge "unitcell2buf_32_4/sky130_fd_sc_hd__nor2_1_1/VPB" "unitcell2buf_32_5/VDD"
-merge "unitcell2buf_32_5/VDD" "unitcell2buf_32_5/sky130_fd_sc_hd__nor2_1_0/VPWR"
-merge "unitcell2buf_32_5/sky130_fd_sc_hd__nor2_1_0/VPWR" "unitcell2buf_32_6/sky130_fd_sc_hd__nor2_1_1/VPB"
 merge "unitcell2buf_32_0/sky130_fd_sc_hd__inv_1_1/w_n38_261#" "unitcell2buf_32_1/sky130_fd_sc_hd__buf_1_0/VPB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "unitcell2buf_32_10/sky130_fd_sc_hd__inv_1_1/w_n38_261#" "unitcell2buf_32_12/sky130_fd_sc_hd__buf_1_0/VPB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "unitcell2buf_32_7/sky130_fd_sc_hd__inv_1_1/w_n38_261#" "unitcell2buf_32_8/sky130_fd_sc_hd__buf_1_0/VPB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "unitcell2buf_32_1/sky130_fd_sc_hd__inv_1_1/w_n38_261#" "unitcell2buf_32_2/sky130_fd_sc_hd__buf_1_0/VPB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "unitcell2buf_32_8/VDD" "unitcell2buf_32_8/sky130_fd_sc_hd__nor2_1_0/VPB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "unitcell2buf_32_8/sky130_fd_sc_hd__nor2_1_0/VPB" "unitcell2buf_32_9/VDD"
-merge "unitcell2buf_32_9/VDD" "unitcell2buf_32_9/sky130_fd_sc_hd__nor2_1_1/VPB"
-merge "unitcell2buf_32_9/sky130_fd_sc_hd__nor2_1_1/VPB" "sky130_fd_sc_hd__inv_16_2/VPB"
-merge "sky130_fd_sc_hd__inv_16_2/VPB" "w_4170_4722#"
-merge "w_4170_4722#" "sky130_fd_sc_hd__inv_16_2/VPWR"
-merge "sky130_fd_sc_hd__inv_16_2/VPWR" "unitcell2buf_32_10/sky130_fd_sc_hd__nor2_1_1/VPB"
-merge "unitcell2buf_32_10/sky130_fd_sc_hd__nor2_1_1/VPB" "unitcell2buf_32_10/sky130_fd_sc_hd__nor2_1_0/VPB"
-merge "unitcell2buf_32_10/sky130_fd_sc_hd__nor2_1_0/VPB" "sky130_fd_sc_hd__inv_16_3/VPB"
-merge "sky130_fd_sc_hd__inv_16_3/VPB" "w_2282_4742#"
-merge "w_2282_4742#" "unitcell2buf_32_10/VDD"
-merge "unitcell2buf_32_10/VDD" "unitcell2buf_32_10/sky130_fd_sc_hd__nor2_1_0/VPWR"
-merge "unitcell2buf_32_10/sky130_fd_sc_hd__nor2_1_0/VPWR" "sky130_fd_sc_hd__inv_16_3/VPWR"
-merge "sky130_fd_sc_hd__inv_16_3/VPWR" "unitcell2buf_32_12/sky130_fd_sc_hd__nor2_1_1/VPWR"
 merge "unitcell2buf_32_12/sky130_fd_sc_hd__inv_1_1/w_n38_261#" "unitcell2buf_32_11/sky130_fd_sc_hd__buf_1_0/VPB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "unitcell2buf_32_5/sky130_fd_sc_hd__inv_1_1/w_n38_261#" "unitcell2buf_32_6/sky130_fd_sc_hd__buf_1_0/VPB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "unitcell2bufcut_32_0/IN" "unitcell2buf_32_0/OUT" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

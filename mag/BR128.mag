@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1655348380
+timestamp 1656715967
 << nwell >>
 rect 31039 9642 31151 9963
 rect 31318 9642 31407 9963
@@ -2445,39 +2445,39 @@ rect 51342 193 51461 257
 rect 51525 193 51590 257
 rect 50972 38 51590 193
 use BR128half  BR128half_0
-timestamp 1655348380
+timestamp 1656715967
 transform 1 0 1238 0 1 12369
 box -430 -58 60412 7443
 use BR128half_bottom  BR128half_bottom_0
-timestamp 1655348380
+timestamp 1656715967
 transform -1 0 61449 0 1 138
 box -430 -58 60604 7443
 use sky130_fd_sc_hd__buf_2  sky130_fd_sc_hd__buf_2_0
-timestamp 1655322987
+timestamp 1656715967
 transform 1 0 28089 0 1 9381
 box -38 -48 406 592
 use sky130_fd_sc_hd__inv_8  sky130_fd_sc_hd__inv_8_0
-timestamp 1655322987
+timestamp 1656715967
 transform 1 0 28625 0 1 9381
 box -38 -48 866 592
 use sky130_fd_sc_hd__inv_16  sky130_fd_sc_hd__inv_16_0
-timestamp 1655322987
+timestamp 1656715967
 transform 1 0 31445 0 1 9381
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_16  sky130_fd_sc_hd__inv_16_1
-timestamp 1655322987
+timestamp 1656715967
 transform 1 0 29529 0 1 9381
 box -38 -48 1510 592
 use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_0
-timestamp 1655323538
+timestamp 1656715967
 transform 1 0 28457 0 1 9381
 box -38 -48 130 592
 use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_1
-timestamp 1655323538
+timestamp 1656715967
 transform 1 0 31188 0 1 9381
 box -38 -48 130 592
 use unitcell2buf  unitcell2buf_0
-timestamp 1655348380
+timestamp 1656715967
 transform 1 0 62216 0 1 13553
 box -574 -1185 1322 1192
 << labels >>
@@ -2757,4 +2757,8 @@ flabel metal2 s 2857 0 2913 930 1 FreeSans 2000 0 0 0 C[94]
 port 131 nsew
 flabel metal1 s 63486 13150 64108 13226 1 FreeSans 4000 0 0 0 OUT
 port 132 nsew
+<< properties >>
+string GDS_END 9034196
+string GDS_FILE /scratch/users/lsammaro/OpenPUF/mag/design_merged.gds
+string GDS_START 8954890
 << end >>
